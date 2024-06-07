@@ -1,0 +1,17 @@
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.exe
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.deps.json
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.runtimeconfig.json
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.dll
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.pdb
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.Form1.resources
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.GenerateResource.cache
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfoInputs.cache
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfo.cs
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.sourcelink.json
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.dll
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\refint\front-end-kpl.dll
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.pdb
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.genruntimeconfig.cache
+D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\ref\front-end-kpl.dll
