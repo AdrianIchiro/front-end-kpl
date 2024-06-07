@@ -1,3 +1,5 @@
+using frontEnd.view;
+
 namespace front_end_kpl
 {
     internal static class Program
@@ -10,8 +12,9 @@ namespace front_end_kpl
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            AppoimentManagement appoimentManagement = new AppoimentManagement();
+            
+            Application.Run(appoimentManagement);
         }
     }
 }
