@@ -12,10 +12,11 @@ namespace AppointmentApp
         public string TimeEnd { get; set; }
         public int Status { get; set; }
         public bool IsCompleted { get; set; }
-        public int Capacity { get; set; }
-        public int Room { get; set; }
+        public int sapacity { get; set; }
+        public String Room { get; set; }
         public string Doctor { get; set; }
-        public DateTime date { get; set; }  
+        public DateTime date { get; set; }
+        public string speciaLization {  get; set; }
     }
 
     public class AppointmentService
