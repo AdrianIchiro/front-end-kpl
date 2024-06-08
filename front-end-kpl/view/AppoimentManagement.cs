@@ -14,12 +14,14 @@ namespace frontEnd.view
 {
     public partial class AppoimentManagement : Form
     {
-       
+
         private readonly string _apiUrl = "https://localhost:7264/api/Appoiment";
         private readonly HttpClient _httpClient = new HttpClient();
 
         public AppoimentManagement()
         {
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             InitializeComponent();
             _ = LoadAppointmentsAsync();
         }
@@ -57,7 +59,7 @@ namespace frontEnd.view
             }
         }
 
-      
+
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
