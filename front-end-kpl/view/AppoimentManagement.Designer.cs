@@ -38,6 +38,10 @@
             RoomName = new DataGridViewTextBoxColumn();
             Doctor = new DataGridViewTextBoxColumn();
             Date = new DataGridViewTextBoxColumn();
+            label2 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -45,17 +49,21 @@
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date });
-            dataGridView1.Location = new Point(607, 269);
+            dataGridView1.GridColor = SystemColors.Control;
+            dataGridView1.Location = new Point(33, 313);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 28;
-            dataGridView1.Size = new Size(642, 464);
+            dataGridView1.Size = new Size(855, 300);
             dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             // 
             // AppoimentId
             // 
@@ -129,11 +137,55 @@
             Date.ReadOnly = true;
             Date.Width = 150;
             // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(273, 126);
+            label2.Name = "label2";
+            label2.Size = new Size(417, 48);
+            label2.TabIndex = 1;
+            label2.Text = "Appoiment Management";
+            label2.Click += label2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(37, 258);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 46);
+            button1.TabIndex = 2;
+            button1.Text = "Add";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(155, 258);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 46);
+            button2.TabIndex = 3;
+            button2.Text = "Delete";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(273, 258);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 46);
+            button3.TabIndex = 4;
+            button3.Text = "Update";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // AppoimentManagement
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1299, 746);
+            ClientSize = new Size(932, 663);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label2);
             Controls.Add(dataGridView1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "AppoimentManagement";
@@ -141,6 +193,7 @@
             Load += AppoimentManagement_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -155,5 +208,10 @@
         private DataGridViewTextBoxColumn RoomName;
         private DataGridViewTextBoxColumn Doctor;
         private DataGridViewTextBoxColumn Date;
+        private Label label1;
+        private Label label2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
