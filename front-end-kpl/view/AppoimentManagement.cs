@@ -14,20 +14,25 @@ namespace frontEnd.view
 {
     public partial class AppoimentManagement : Form
     {
+        private int rows =
+            -1;
 
         private readonly string _apiUrl = "https://localhost:7264/api/Appoiment";
         private readonly HttpClient _httpClient = new HttpClient();
 
         public AppoimentManagement()
         {
-            this.StartPosition = FormStartPosition.CenterScreen;
+
 
             InitializeComponent();
             _ = LoadAppointmentsAsync();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void AppoimentManagement_Load(object sender, EventArgs e)
         {
+
 
         }
         private async Task LoadAppointmentsAsync()
@@ -63,9 +68,44 @@ namespace frontEnd.view
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
+
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
             if (e.RowIndex >= 0) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
             {
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+                this.rows = e.RowIndex;
+
+                // Dapatkan data dari baris yang dipilih
+
+            }
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+            if (this.rows >= 0) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
+            {
+                DataGridViewRow selectedRow = dataGridView1.Rows[this.rows];
 
                 // Dapatkan data dari baris yang dipilih
                 int appointmentId = Convert.ToInt32(selectedRow.Cells["AppoimentId"].Value);
@@ -75,7 +115,18 @@ namespace frontEnd.view
                 // Tampilkan pesan dengan data yang diperoleh
                 MessageBox.Show($"Appointment ID: {appointmentId}, Time Start: {timeStart}, Time End: {timeEnd}");
             }
+        }
 
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
+            {
+                DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
+                this.rows = e.RowIndex;
+
+                // Dapatkan data dari baris yang dipilih
+
+            }
         }
     }
 }
