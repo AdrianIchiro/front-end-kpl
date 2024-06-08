@@ -28,140 +28,190 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.AppoimentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TimeStart = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TimeEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Completed = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Capacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RoomName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Doctor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            dataGridView1 = new DataGridView();
+            AppoimentId = new DataGridViewTextBoxColumn();
+            TimeStart = new DataGridViewTextBoxColumn();
+            TimeEnd = new DataGridViewTextBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
+            Completed = new DataGridViewTextBoxColumn();
+            Capacity = new DataGridViewTextBoxColumn();
+            RoomName = new DataGridViewTextBoxColumn();
+            Doctor = new DataGridViewTextBoxColumn();
+            Date = new DataGridViewTextBoxColumn();
+            label2 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.AppoimentId,
-            this.TimeStart,
-            this.TimeEnd,
-            this.Status,
-            this.Completed,
-            this.Capacity,
-            this.RoomName,
-            this.Doctor,
-            this.Date});
-            this.dataGridView1.Location = new System.Drawing.Point(110, 304);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(955, 371);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date });
+            dataGridView1.GridColor = SystemColors.Control;
+            dataGridView1.Location = new Point(33, 313);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.RowTemplate.Height = 28;
+            dataGridView1.Size = new Size(855, 300);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             // 
             // AppoimentId
             // 
-            this.AppoimentId.HeaderText = "AppoimentI d";
-            this.AppoimentId.MinimumWidth = 8;
-            this.AppoimentId.Name = "AppoimentId";
-            this.AppoimentId.ReadOnly = true;
-            this.AppoimentId.Width = 150;
+            AppoimentId.HeaderText = "AppoimentI d";
+            AppoimentId.MinimumWidth = 8;
+            AppoimentId.Name = "AppoimentId";
+            AppoimentId.ReadOnly = true;
+            AppoimentId.Width = 150;
             // 
             // TimeStart
             // 
-            this.TimeStart.HeaderText = "Time Start";
-            this.TimeStart.MinimumWidth = 8;
-            this.TimeStart.Name = "TimeStart";
-            this.TimeStart.ReadOnly = true;
-            this.TimeStart.Width = 150;
+            TimeStart.HeaderText = "Time Start";
+            TimeStart.MinimumWidth = 8;
+            TimeStart.Name = "TimeStart";
+            TimeStart.ReadOnly = true;
+            TimeStart.Width = 150;
             // 
             // TimeEnd
             // 
-            this.TimeEnd.HeaderText = "Time End";
-            this.TimeEnd.MinimumWidth = 8;
-            this.TimeEnd.Name = "TimeEnd";
-            this.TimeEnd.ReadOnly = true;
-            this.TimeEnd.Width = 150;
+            TimeEnd.HeaderText = "Time End";
+            TimeEnd.MinimumWidth = 8;
+            TimeEnd.Name = "TimeEnd";
+            TimeEnd.ReadOnly = true;
+            TimeEnd.Width = 150;
             // 
             // Status
             // 
-            this.Status.HeaderText = "Status";
-            this.Status.MinimumWidth = 8;
-            this.Status.Name = "Status";
-            this.Status.ReadOnly = true;
-            this.Status.Width = 150;
+            Status.HeaderText = "Status";
+            Status.MinimumWidth = 8;
+            Status.Name = "Status";
+            Status.ReadOnly = true;
+            Status.Width = 150;
             // 
             // Completed
             // 
-            this.Completed.HeaderText = "Completed";
-            this.Completed.MinimumWidth = 8;
-            this.Completed.Name = "Completed";
-            this.Completed.ReadOnly = true;
-            this.Completed.Width = 150;
+            Completed.HeaderText = "Completed";
+            Completed.MinimumWidth = 8;
+            Completed.Name = "Completed";
+            Completed.ReadOnly = true;
+            Completed.Width = 150;
             // 
             // Capacity
             // 
-            this.Capacity.HeaderText = "Capacity";
-            this.Capacity.MinimumWidth = 8;
-            this.Capacity.Name = "Capacity";
-            this.Capacity.ReadOnly = true;
-            this.Capacity.Width = 150;
+            Capacity.HeaderText = "Capacity";
+            Capacity.MinimumWidth = 8;
+            Capacity.Name = "Capacity";
+            Capacity.ReadOnly = true;
+            Capacity.Width = 150;
             // 
             // RoomName
             // 
-            this.RoomName.HeaderText = "Room Name";
-            this.RoomName.MinimumWidth = 8;
-            this.RoomName.Name = "RoomName";
-            this.RoomName.ReadOnly = true;
-            this.RoomName.Width = 150;
+            RoomName.HeaderText = "Room Name";
+            RoomName.MinimumWidth = 8;
+            RoomName.Name = "RoomName";
+            RoomName.ReadOnly = true;
+            RoomName.Width = 150;
             // 
             // Doctor
             // 
-            this.Doctor.HeaderText = "Doctor";
-            this.Doctor.MinimumWidth = 8;
-            this.Doctor.Name = "Doctor";
-            this.Doctor.ReadOnly = true;
-            this.Doctor.Width = 150;
+            Doctor.HeaderText = "Doctor";
+            Doctor.MinimumWidth = 8;
+            Doctor.Name = "Doctor";
+            Doctor.ReadOnly = true;
+            Doctor.Width = 150;
             // 
             // Date
             // 
-            this.Date.HeaderText = "Date";
-            this.Date.MinimumWidth = 8;
-            this.Date.Name = "Date";
-            this.Date.ReadOnly = true;
-            this.Date.Width = 150;
+            Date.HeaderText = "Date";
+            Date.MinimumWidth = 8;
+            Date.Name = "Date";
+            Date.ReadOnly = true;
+            Date.Width = 150;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(273, 126);
+            label2.Name = "label2";
+            label2.Size = new Size(417, 48);
+            label2.TabIndex = 1;
+            label2.Text = "Appoiment Management";
+            label2.Click += label2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(37, 258);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 46);
+            button1.TabIndex = 2;
+            button1.Text = "Add";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(155, 258);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 46);
+            button2.TabIndex = 3;
+            button2.Text = "Delete";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(273, 258);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 46);
+            button3.TabIndex = 4;
+            button3.Text = "Update";
+            button3.UseVisualStyleBackColor = true;
             // 
             // AppoimentManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1195, 700);
-            this.Controls.Add(this.dataGridView1);
-            this.Name = "AppoimentManagement";
-            this.Text = "AppoimentManagement";
-            this.Load += new System.EventHandler(this.AppoimentManagement_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(932, 663);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label2);
+            Controls.Add(dataGridView1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "AppoimentManagement";
+            Text = "AppoimentManagement";
+            Load += AppoimentManagement_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AppoimentId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TimeStart;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TimeEnd;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Completed;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Capacity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RoomName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Doctor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Date;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn AppoimentId;
+        private DataGridViewTextBoxColumn TimeStart;
+        private DataGridViewTextBoxColumn TimeEnd;
+        private DataGridViewTextBoxColumn Status;
+        private DataGridViewTextBoxColumn Completed;
+        private DataGridViewTextBoxColumn Capacity;
+        private DataGridViewTextBoxColumn RoomName;
+        private DataGridViewTextBoxColumn Doctor;
+        private DataGridViewTextBoxColumn Date;
+        private Label label1;
+        private Label label2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
