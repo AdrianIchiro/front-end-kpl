@@ -35,7 +35,12 @@
             label3 = new Label();
             textBox3 = new TextBox();
             button1 = new Button();
-            listView1 = new ListView();
+            dataGridView1 = new DataGridView();
+            AppoimentId = new DataGridViewTextBoxColumn();
+            Time = new DataGridViewTextBoxColumn();
+            Patient = new DataGridViewTextBoxColumn();
+            PatientId = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -96,20 +101,43 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // listView1
+            // dataGridView1
             // 
-            listView1.Location = new Point(120, 61);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(219, 330);
-            listView1.TabIndex = 8;
-            listView1.UseCompatibleStateImageBehavior = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, Time, Patient, PatientId });
+            dataGridView1.Location = new Point(75, 101);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(342, 191);
+            dataGridView1.TabIndex = 8;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // AppoimentId
+            // 
+            AppoimentId.HeaderText = "Appoiment Id";
+            AppoimentId.Name = "AppoimentId";
+            // 
+            // Time
+            // 
+            Time.HeaderText = "Time";
+            Time.Name = "Time";
+            // 
+            // Patient
+            // 
+            Patient.HeaderText = "PatientName";
+            Patient.Name = "Patient";
+            // 
+            // PatientId
+            // 
+            PatientId.HeaderText = "Patiend Id";
+            PatientId.Name = "PatientId";
             // 
             // MedicalCheckupForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(listView1);
+            Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(textBox3);
@@ -119,6 +147,7 @@
             Controls.Add(textBox1);
             Name = "MedicalCheckupForm";
             Text = "MedicalCheckupForm";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -131,6 +160,10 @@
         private Label label3;
         private TextBox textBox3;
         private Button button1;
-        private ListView listView1;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn AppoimentId;
+        private DataGridViewTextBoxColumn Time;
+        private DataGridViewTextBoxColumn Patient;
+        private DataGridViewTextBoxColumn PatientId;
     }
 }

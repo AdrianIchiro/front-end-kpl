@@ -1,17 +1,11 @@
-using AppointmentApp;
-using frontEnd.view;
-<<<<<<< HEAD
 using front_end_kpl.view;
-namespace front_end_kpl
-=======
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frontEnd
->>>>>>> c67254def3c1ba76678262be742b0d14caef14a9
+namespace front_end_kpl
 {
     static class Program
     {
@@ -23,15 +17,11 @@ namespace frontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            AppoimentManagement appoimentManagement = new AppoimentManagement();
-<<<<<<< HEAD
+
+ 
             MedicalCheckupForm medicalCheckupForm = new MedicalCheckupForm();
+            medicalCheckupForm.GetAppoimentPatient(1);
             Application.Run(medicalCheckupForm);
-=======
-            //  _ = form2.LoadAppointmentsAsync(); // Memanggil metode LoadAppointmentsAsync
-          
-            Application.Run(appoimentManagement);
->>>>>>> c67254def3c1ba76678262be742b0d14caef14a9
         }
     }
 }
