@@ -224,10 +224,8 @@ namespace frontEnd.view
                 comboBox1.Items.Add(doctor.firstName);
             }
         }
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
+
 
         private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {

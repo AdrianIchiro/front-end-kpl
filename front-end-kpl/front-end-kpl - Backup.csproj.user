@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+<<<<<<< HEAD
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\AppoimentManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\MedicalCheckupForm.cs">
+=======
+    <Compile Update="Views\Form1.cs">
+>>>>>>> 9ad295c157ff79e29d126a6621125a69e5c720bf
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "r9c+IX5IQVMBJl0BP796hvL2oh+vdUn1DYZI5no55nRZ1qcIkcck6HJ1TiYEYalqnoWCaWGmPliiVHuXoA6RAA==",
+  "dgSpecHash": "5XIALzC9+kUoAgBih5VtDr2QK4zKWb+97cIQKtSIs1X2WsN0hzACQaforS7/oUtg40NY3m+Yl5oaeVxqXUotdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+  "projectFilePath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rinda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Kuliah\\front-end-kpl\\front-end-kpl\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
