@@ -19,3 +19,34 @@ D:\tugas besar kpl\Ver 2 front end\front-end-kpl\front-end-kpl\obj\Debug\net7.0-
 D:\tugas besar kpl\Ver 2 front end\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.csproj.GenerateResource.cache
 D:\tugas besar kpl\Ver 2 front end\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.csproj.CopyComplete
 D:\tugas besar kpl\Ver 2 front end\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\front-end-kpl.exe
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\front-end-kpl.deps.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\front-end-kpl.runtimeconfig.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.csproj.AssemblyReference.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.Form1.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.AddAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.AddDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.AddPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\frontEnd.view.AppoimentManagement.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.HalamanAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.HalamanDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.HalamanPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.Login.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.Register.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front_end_kpl.view.Room.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.csproj.GenerateResource.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.AssemblyInfoInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.AssemblyInfo.cs
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.sourcelink.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-en.39784A27.Up2Date
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\refint\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\front-end-kpl.genruntimeconfig.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows\ref\front-end-kpl.dll

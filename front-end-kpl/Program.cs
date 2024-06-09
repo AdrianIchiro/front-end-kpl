@@ -20,10 +20,9 @@ namespace frontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Login login = new Login();
-            //  _ = form2.LoadAppointmentsAsync(); // Memanggil metode LoadAppointmentsAsync
-          
-            Application.Run(login);
+            
+            Room room = new Room();
+            Application.Run(room);
         }
     }
 }
