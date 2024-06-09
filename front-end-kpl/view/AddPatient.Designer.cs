@@ -45,6 +45,11 @@
             textBox6 = new TextBox();
             dateTimePicker1 = new DateTimePicker();
             button1 = new Button();
+            label9 = new Label();
+            label10 = new Label();
+            comboBox1 = new ComboBox();
+            comboBox2 = new ComboBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // panel1
@@ -179,7 +184,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(452, 368);
+            button1.Location = new Point(449, 446);
             button1.Name = "button1";
             button1.Size = new Size(159, 55);
             button1.TabIndex = 16;
@@ -187,11 +192,62 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(233, 334);
+            label9.Name = "label9";
+            label9.Size = new Size(45, 15);
+            label9.TabIndex = 17;
+            label9.Text = "Gender";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(608, 334);
+            label10.Name = "label10";
+            label10.Size = new Size(61, 15);
+            label10.TabIndex = 18;
+            label10.Text = "Bloodtype";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Male", "Female" });
+            comboBox1.Location = new Point(233, 352);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(165, 23);
+            comboBox1.TabIndex = 19;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "A", "B", "AB", "O" });
+            comboBox2.Location = new Point(608, 352);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(165, 23);
+            comboBox2.TabIndex = 20;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(204, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 41);
+            button2.TabIndex = 21;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // AddPatient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(941, 604);
+            Controls.Add(button2);
+            Controls.Add(comboBox2);
+            Controls.Add(comboBox1);
+            Controls.Add(label10);
+            Controls.Add(label9);
             Controls.Add(button1);
             Controls.Add(dateTimePicker1);
             Controls.Add(textBox6);
@@ -234,5 +290,10 @@
         private TextBox textBox6;
         private DateTimePicker dateTimePicker1;
         private Button button1;
+        private Label label9;
+        private Label label10;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
+        private Button button2;
     }
 }

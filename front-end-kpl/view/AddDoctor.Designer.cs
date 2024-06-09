@@ -47,6 +47,7 @@
             textBox5 = new TextBox();
             textBox6 = new TextBox();
             comboBox1 = new ComboBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // panel1
@@ -144,7 +145,7 @@
             // 
             button1.Location = new Point(401, 326);
             button1.Name = "button1";
-            button1.Size = new Size(100, 31);
+            button1.Size = new Size(100, 45);
             button1.TabIndex = 10;
             button1.Text = "Add Doctor";
             button1.UseVisualStyleBackColor = true;
@@ -202,16 +203,28 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(561, 273);
+            comboBox1.Items.AddRange(new object[] { "1", "2" });
+            comboBox1.Location = new Point(563, 273);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(202, 23);
+            comboBox1.Size = new Size(200, 23);
             comboBox1.TabIndex = 18;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(206, 13);
+            button2.Name = "button2";
+            button2.Size = new Size(49, 34);
+            button2.TabIndex = 19;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // AddDoctor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(comboBox1);
             Controls.Add(textBox6);
             Controls.Add(textBox5);
@@ -258,5 +271,6 @@
         private TextBox textBox5;
         private TextBox textBox6;
         private ComboBox comboBox1;
+        private Button button2;
     }
 }

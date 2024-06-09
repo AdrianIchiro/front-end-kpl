@@ -41,6 +41,7 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // panel1
@@ -151,11 +152,22 @@
             textBox5.Size = new Size(147, 23);
             textBox5.TabIndex = 12;
             // 
+            // button2
+            // 
+            button2.Location = new Point(206, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(45, 30);
+            button2.TabIndex = 13;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // AddAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(813, 519);
+            Controls.Add(button2);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -190,5 +202,6 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private TextBox textBox5;
+        private Button button2;
     }
 }

@@ -17,6 +17,24 @@
     <Compile Update="view\AppoimentManagement.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="view\DeleteAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\DeleteDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\DeletePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\EditAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\EditDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\EditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="view\HalamanAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

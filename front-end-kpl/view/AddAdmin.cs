@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace front_end_kpl.view
 {
@@ -48,22 +49,50 @@ namespace front_end_kpl.view
 
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine(response.IsSuccessStatusCode);
-            } else
+                MessageBox.Show("Admin added successfully!");
+            }
+            else
             {
-                MessageBox.Show("Data salah");
+                MessageBox.Show("Failed to add admin. Please check the data and try again");
             }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Register();
+
+            try
+            {
+                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                    string.IsNullOrWhiteSpace(textBox2.Text) ||
+                    string.IsNullOrWhiteSpace(textBox3.Text) ||
+                    string.IsNullOrWhiteSpace(textBox4.Text) ||
+                    string.IsNullOrWhiteSpace(textBox5.Text))
+                {
+                    MessageBox.Show("None of the fields may be empty");
+                    return;
+                }
+
+                Register();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+            private void button2_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin admin = new HalamanAdmin();
+
+            admin.Show();
+
+            this.Close();
         }
     }
 
 
 
-   
-    
+
+
 }
