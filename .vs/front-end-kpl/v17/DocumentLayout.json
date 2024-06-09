@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,39 +75,35 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,23 +111,23 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\appoimentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editpatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\editdoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -127,16 +139,12 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\fetchadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\postappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\postappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\postappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\skool tugas\\semester 4\\konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\addadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -185,75 +193,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 131,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\Login.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "MyAppoiment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\MyAppoiment.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\MyAppoiment.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\MyAppoiment.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\MyAppoiment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:07:59.715Z",
+              "WhenOpened": "2024-06-09T10:16:26.67Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAArwFQAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Register.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Register.Designer.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAEwAkBAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:21:54.687Z",
+              "WhenOpened": "2024-06-09T10:16:01.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Login.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:32:39.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditPatient.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\EditPatient.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAEwFgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:58:10.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Program.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Program.cs",
-              "RelativeToolTip": "front-end-kpl\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:04:40.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "EditPatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
@@ -265,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
@@ -277,7 +246,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "HalamanDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:41:45.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HalamanPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T16:20:59.487Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HalamanAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:40:15.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AddPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:44:38.643Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:07:59.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
@@ -290,43 +319,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HalamanDoctor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs [Design]",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeToolTip": "front-end-kpl\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:41:45.62Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HalamanAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\HalamanAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:40:15.969Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-08T14:04:40.05Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "EditPatient.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditPatient.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAEwFgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:58:10.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Login.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:32:39.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAArwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:21:54.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AddDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:09:44.149Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-08T14:09:44.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AddAdmin.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.cs",
@@ -334,12 +387,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAvwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:39:39.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T16:39:39.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AddPatient.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.cs",
@@ -353,30 +405,17 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AddPatient.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\AddPatient.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:44:38.643Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "AddAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:30:21.846Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-08T16:30:21.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "EditAdmin.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
@@ -384,36 +423,33 @@
               "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAvwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:48:43.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T07:48:43.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "EditAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:23:01.336Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T06:23:01.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "DeletePatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeletePatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeletePatient.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeletePatient.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeletePatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:53:06.778Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T05:53:06.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "DeleteAdmin.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
@@ -421,24 +457,22 @@
               "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAvwCIAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:05:46.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:05:46.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "DeleteAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:52:43.88Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T05:52:43.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "DeleteDoctor.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteDoctor.cs",
@@ -446,24 +480,22 @@
               "RelativeToolTip": "front-end-kpl\\view\\DeleteDoctor.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAMwCAAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:04:24.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:04:24.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "DeleteDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteDoctor.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeleteDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeleteDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:52:56.734Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T05:52:56.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "DeletePatient.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\DeletePatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeletePatient.cs",
@@ -471,24 +503,22 @@
               "RelativeToolTip": "front-end-kpl\\view\\DeletePatient.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAvwC4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:20:17.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:20:17.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "AppoimentManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AppoimentManagement.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AppoimentManagement.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AppoimentManagement.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\AppoimentManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:04:40.316Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-08T14:04:40.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "EditDoctor.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
@@ -496,24 +526,22 @@
               "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAAvwG0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:39:46.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:39:46.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "EditDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:23:14.37Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T06:23:14.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "HalamanAdmin.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
@@ -526,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "EditPatient.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditPatient.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.Designer.cs",
@@ -539,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "EditDoctor.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.Designer.cs",
@@ -547,12 +575,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.Designer.cs",
               "ViewState": "AQIAAOQAAAAAAAAAAAAEwPQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:05:19.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T07:05:19.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "RoomApp.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
@@ -560,12 +587,11 @@
               "RelativeToolTip": "front-end-kpl\\utils\\RoomApp.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:50:50.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T05:50:50.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "PostAppointment.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\PostAppointment.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\PostAppointment.cs",
@@ -573,12 +599,11 @@
               "RelativeToolTip": "front-end-kpl\\utils\\PostAppointment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:50:47.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T05:50:47.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "fetchAdmin.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\fetchAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\fetchAdmin.cs",
@@ -586,12 +611,11 @@
               "RelativeToolTip": "front-end-kpl\\utils\\fetchAdmin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:04:40.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:04:40.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "AppointmentApp.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\utils\\AppointmentApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\AppointmentApp.cs",
@@ -599,24 +623,11 @@
               "RelativeToolTip": "front-end-kpl\\utils\\AppointmentApp.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:04:40.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:04:40.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "HalamanPatient.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanPatient.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\HalamanPatient.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:20:59.487Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AddAdmin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.Designer.cs",
@@ -624,12 +635,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.Designer.cs",
               "ViewState": "AQIAAGIAAAAAAAAAAAAEwHMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:41:48.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T16:41:48.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "AddDoctor.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.Designer.cs",
@@ -637,12 +647,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.Designer.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAEwHMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:34:43.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:34:43.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "AddPatient.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AddPatient.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.Designer.cs",
@@ -655,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\Login.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.Designer.cs",
@@ -663,12 +672,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\Login.Designer.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAEwGAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:35:58.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:35:58.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "ApplicationConfiguration.g.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\AppData\\Local\\Temp\\.vsdbgsrc\\98143c2c936be7b02b8fd62bcb58429982da0af3\\ApplicationConfiguration.g.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\kevin\\AppData\\Local\\Temp\\.vsdbgsrc\\98143c2c936be7b02b8fd62bcb58429982da0af3\\ApplicationConfiguration.g.cs",
@@ -680,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "AppoimentManagement.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\view\\AppoimentManagement.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AppoimentManagement.cs",
@@ -688,12 +696,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\AppoimentManagement.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAYwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:04:39.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:04:39.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\Form1.Designer.cs",
@@ -705,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "front-end-kpl.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
               "RelativeDocumentMoniker": "front-end-kpl\\front-end-kpl.csproj",
@@ -717,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\Form1.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\Form1.cs",
@@ -728,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "front-end-kpl",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
               "RelativeDocumentMoniker": "front-end-kpl\\front-end-kpl.csproj",
