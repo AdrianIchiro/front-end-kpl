@@ -191,8 +191,6 @@ namespace frontEnd.view
             }
         }
 
-<<<<<<< HEAD
-=======
         private void FillComboBox()
         {
 
@@ -226,13 +224,8 @@ namespace frontEnd.view
                 comboBox1.Items.Add(doctor.firstName);
             }
         }
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-<<<<<<< HEAD
-=======
+
 
         private void dataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
@@ -338,6 +331,5 @@ namespace frontEnd.view
 
 
         }
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
     }
 }

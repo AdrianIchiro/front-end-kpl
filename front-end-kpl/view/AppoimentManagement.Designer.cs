@@ -70,34 +70,20 @@
             dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
+
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date });
             dataGridView1.GridColor = SystemColors.Control;
             dataGridView1.Location = new Point(23, 188);
             dataGridView1.Margin = new Padding(2, 2, 2, 2);
-=======
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Specialization, Date });
-            dataGridView1.GridColor = SystemColors.ActiveCaption;
-            dataGridView1.Location = new Point(11, 444);
-            dataGridView1.Margin = new Padding(2);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 28;
-<<<<<<< HEAD
             dataGridView1.Size = new Size(598, 180);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellClick += dataGridView1_CellClick;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-=======
-            dataGridView1.Size = new Size(1451, 363);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellClick += dataGridView1_CellClick;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            dataGridView1.CellPainting += dataGridView1_CellPainting;
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             dataGridView1.Paint += dataGridView1_Paint;
             // 
@@ -185,11 +171,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-<<<<<<< HEAD
             label2.Location = new Point(191, 76);
-=======
-            label2.Location = new Point(530, 30);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(283, 32);
@@ -199,17 +181,10 @@
             // 
             // button1
             // 
-<<<<<<< HEAD
             button1.Location = new Point(26, 155);
             button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
             button1.Size = new Size(78, 28);
-=======
-            button1.Location = new Point(314, 396);
-            button1.Margin = new Padding(2);
-            button1.Name = "button1";
-            button1.Size = new Size(132, 44);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             button1.TabIndex = 2;
             button1.Text = "Update";
             button1.UseVisualStyleBackColor = true;
@@ -217,34 +192,21 @@
             // 
             // button2
             // 
-<<<<<<< HEAD
             button2.Location = new Point(108, 155);
             button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
             button2.Size = new Size(78, 28);
-=======
-            button2.Location = new Point(162, 396);
-            button2.Margin = new Padding(2);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 44);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             button2.TabIndex = 3;
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-<<<<<<< HEAD
+
             button3.Location = new Point(191, 155);
             button3.Margin = new Padding(2, 2, 2, 2);
             button3.Name = "button3";
             button3.Size = new Size(78, 28);
-=======
-            button3.Location = new Point(11, 396);
-            button3.Margin = new Padding(2);
-            button3.Name = "button3";
-            button3.Size = new Size(132, 44);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             button3.TabIndex = 4;
             button3.Text = "Add";
             button3.UseVisualStyleBackColor = true;
@@ -387,36 +349,12 @@
             // AppoimentManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-<<<<<<< HEAD
             ClientSize = new Size(652, 398);
-=======
-            ClientSize = new Size(1473, 818);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label1);
-            Controls.Add(numericUpDown1);
-            Controls.Add(comboBox6);
-            Controls.Add(comboBox5);
-            Controls.Add(comboBox4);
-            Controls.Add(comboBox3);
-            Controls.Add(comboBox2);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(comboBox1);
-            Controls.Add(panel1);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
-<<<<<<< HEAD
             Margin = new Padding(2, 2, 2, 2);
-=======
-            Margin = new Padding(2);
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             Name = "AppoimentManagement";
             Text = "AppoimentManagement";
             Load += AppoimentManagement_Load;

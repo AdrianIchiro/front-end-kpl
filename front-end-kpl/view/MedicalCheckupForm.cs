@@ -15,6 +15,7 @@ namespace front_end_kpl.view
 {
     public partial class MedicalCheckupForm : Form
     {
+        private int patientId;
         public MedicalCheckupForm()
         {
             InitializeComponent();
@@ -45,20 +46,30 @@ namespace front_end_kpl.view
                 result = result,
             };
 
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => { return true; };
+
             var jsonContent = JsonSerializer.Serialize(checkUpData);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-            HttpResponseMessage response = await new HttpClient().PostAsync($"https://localhost:7264/api/MedicalCheckUp?appoimentId={appoimentid}&patientId={patientid}&doctorId={doctorid}", content);
-            Console.WriteLine(response.IsSuccessStatusCode);
+            try
+            {
+                HttpResponseMessage response = await new HttpClient(handler).PostAsync($"https://localhost:7264/api/MedicalCheckUp?appoimentId={appoimentid}&patientId={patientid}&doctorId={doctorid}", content);
+                Console.WriteLine(response.IsSuccessStatusCode);
 
-            if (response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("data berhasil di masukan");
+                }
+                else
+                {
+                    MessageBox.Show("data tidak berhasil dimasukan");
+                }
+            } catch (Exception ex) 
             {
-                Console.WriteLine("Medical check-up data posted successfully.");
+                MessageBox.Show($"Error: {ex.Message}");
             }
-            else
-            {
-                Console.WriteLine($"Failed to post medical check-up data. Status code: {response.StatusCode}");
-            }
+            
         }
 
         public async Task GetAppoimentPatient(int id)
@@ -94,21 +105,27 @@ namespace front_end_kpl.view
 
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                PostMedicalCheckUp(textBox1.Text, textBox3.Text, textBox2.Text, 1, 1, 3);
+                await PostMedicalCheckUp(textBox1.Text, textBox3.Text, textBox2.Text, 1, this.patientId, 1);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                MessageBox.Show($"Error: {ex.Message}");
             }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
+                this.patientId = Convert.ToInt32(row.Cells["PatientId"].Value);
+
+            }
         }
     }
 }

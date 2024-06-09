@@ -1,26 +1,10 @@
 {
   "runtimeTarget": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "name": ".NETCoreApp,Version=v8.0/",
-=======
     "name": ".NETCoreApp,Version=v8.0",
->>>>>>> 9ad295c157ff79e29d126a6621125a69e5c720bf
-=======
-    "name": ".NETCoreApp,Version=v8.0",
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ".NETCoreApp,Version=v8.0": {},
-    ".NETCoreApp,Version=v8.0/": {}
-=======
-    ".NETCoreApp,Version=v8.0": {}
->>>>>>> 9ad295c157ff79e29d126a6621125a69e5c720bf
-=======
     ".NETCoreApp,Version=v8.0": {
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
@@ -31,7 +15,6 @@
         }
       }
     }
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
   },
   "libraries": {
     "Newtonsoft.Json/13.0.3": {

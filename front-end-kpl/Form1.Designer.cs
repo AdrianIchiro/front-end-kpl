@@ -2,11 +2,7 @@
 
 namespace front_end_kpl
 {
-<<<<<<< HEAD
-    partial class Form1 : Form
-=======
     partial class Specialization
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,7 +30,6 @@ namespace front_end_kpl
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
@@ -48,7 +43,7 @@ namespace front_end_kpl
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450); // Ukuran panel disesuaikan dengan ukuran Form
             this.panel1.TabIndex = 0;
-=======
+
             panel1 = new Panel();
             label1 = new Label();
             label2 = new Label();
@@ -73,7 +68,6 @@ namespace front_end_kpl
             panel1.Name = "panel1";
             panel1.Size = new Size(801, 127);
             panel1.TabIndex = 0;
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             // 
             // label1
             // 
@@ -166,7 +160,6 @@ namespace front_end_kpl
             // 
             // dataGridView1
             // 
-<<<<<<< HEAD
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -176,7 +169,6 @@ namespace front_end_kpl
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(760, 410); // Ukuran disesuaikan agar sesuai dengan panel
             this.dataGridView1.TabIndex = 0;
-=======
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(121, 474);
             dataGridView1.Name = "dataGridView1";
@@ -184,11 +176,9 @@ namespace front_end_kpl
             dataGridView1.Size = new Size(513, 269);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
             // 
             // Specialization
             // 
-<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -198,7 +188,6 @@ namespace front_end_kpl
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-=======
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 755);
@@ -221,16 +210,14 @@ namespace front_end_kpl
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
         }
 
         #endregion
 
-<<<<<<< HEAD
+
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
-=======
-        private Panel panel1;
+
         private Label label1;
         private Label label2;
         private Label label3;
@@ -241,7 +228,5 @@ namespace front_end_kpl
         private Button btn_Tambah;
         private Button btn_Update;
         private Button btn_Delete;
-        private DataGridView dataGridView1;
->>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
     }
 }
