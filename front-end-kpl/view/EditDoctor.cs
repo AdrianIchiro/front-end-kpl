@@ -8,51 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace front_end_kpl.view
 {
-
-    public partial class Register : Form
+    public partial class EditDoctor : Form
     {
-        public Register()
+        public EditDoctor()
         {
             InitializeComponent();
-        }
-        public async Task Registration(string gender, string bloodtype)
-        {
-            // Get the DateTime value from the DateTimePicker
-            DateTime birthDate = dateTimePicker1.Value;
-
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
-            var checkdata = new UploadData
-            {
-                firstName = textBox1.Text,
-                lastName = textBox2.Text,
-                address = textBox3.Text,
-                birthDate = formattedBirthDate,
-                phoneNumber = textBox4.Text,
-                email = textBox5.Text,
-                password = textBox6.Text,
-            };
-
-            var jsonContent = JsonSerializer.Serialize(checkdata);
-            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
-            HttpResponseMessage response = await new HttpClient().PostAsync($"https://localhost:7264/api/Patients?gender={gender}&bloodtype={bloodtype}", content);
-
-            if (response.IsSuccessStatusCode)
-            {
-                MessageBox.Show("Registration successfull!");
-            }
-            else
-            {
-                MessageBox.Show("Failed to add patient. Please check the data and try again");
-            }
-
-
-
         }
 
         public class UploadData
@@ -63,30 +27,71 @@ namespace front_end_kpl.view
             public string birthDate { get; set; }
             public string phoneNumber { get; set; }
             public string email { get; set; }
-            public string password { get; set; }
+
+        }
+
+        public async Task Edit(int id, int specID)
+        {
+            // Get the DateTime value from the DateTimePicker
+            DateTime birthDate = dateTimePicker1.Value;
+
+            // Convert the DateTime to a string with a specific format
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
+
+
+            var checkdata = new UploadData
+            {
+
+                firstName = textBox2.Text,
+                lastName = textBox3.Text,
+                address = textBox5.Text,
+                birthDate = formattedBirthDate,
+                phoneNumber = textBox6.Text,
+                email = textBox4.Text,
+            };
+
+            var jsonContent = JsonSerializer.Serialize(checkdata);
+            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await new HttpClient().PutAsync($"https://localhost:7264/api/Doctor/{id}?specializationId={specID}", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("Doctor updated successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Failed to edit doctor. Please check the ID and try again.");
+            }
+
+
+
+        }
+
+
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string gender = comboBox1.Text;
-            string bloodtype = comboBox2.Text;
-
-            if (string.IsNullOrEmpty(gender))
+            if (!int.TryParse(textBox1.Text, out int id))
             {
-                MessageBox.Show("Invalid Gender");
+                MessageBox.Show("Please enter a valid Doctor ID.");
                 return;
             }
 
-            if (string.IsNullOrEmpty(bloodtype))
+            if (!int.TryParse(textBox8.Text, out int specID))
             {
-                MessageBox.Show("Invalid Bloodtype");
+                MessageBox.Show("Please enter a valid Specialization ID.");
                 return;
             }
 
             try
             {
-                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                if (
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
                     string.IsNullOrWhiteSpace(textBox4.Text) ||
@@ -97,15 +102,7 @@ namespace front_end_kpl.view
                     return;
                 }
 
-
-
-
-                Registration(gender, bloodtype);
-
-                Login login = new Login();
-                login.Show();
-
-                this.Close();
+                Edit(id, specID);
             }
             catch (Exception ex)
             {
@@ -115,20 +112,13 @@ namespace front_end_kpl.view
 
             
 
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-        }
+            HalamanAdmin admin = new HalamanAdmin();
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            Login login = new Login();
-
-            login.Show();
+            admin.Show();
 
             this.Close();
         }

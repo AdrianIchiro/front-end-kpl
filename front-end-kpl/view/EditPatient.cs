@@ -7,53 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Text.Json;
+using System.Reflection;
 
 namespace front_end_kpl.view
 {
-
-    public partial class Register : Form
+    public partial class EditPatient : Form
     {
-        public Register()
+        public EditPatient()
         {
             InitializeComponent();
         }
-        public async Task Registration(string gender, string bloodtype)
-        {
-            // Get the DateTime value from the DateTimePicker
-            DateTime birthDate = dateTimePicker1.Value;
 
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
-            var checkdata = new UploadData
-            {
-                firstName = textBox1.Text,
-                lastName = textBox2.Text,
-                address = textBox3.Text,
-                birthDate = formattedBirthDate,
-                phoneNumber = textBox4.Text,
-                email = textBox5.Text,
-                password = textBox6.Text,
-            };
-
-            var jsonContent = JsonSerializer.Serialize(checkdata);
-            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
-            HttpResponseMessage response = await new HttpClient().PostAsync($"https://localhost:7264/api/Patients?gender={gender}&bloodtype={bloodtype}", content);
-
-            if (response.IsSuccessStatusCode)
-            {
-                MessageBox.Show("Registration successfull!");
-            }
-            else
-            {
-                MessageBox.Show("Failed to add patient. Please check the data and try again");
-            }
-
-
-
-        }
 
         public class UploadData
         {
@@ -63,7 +29,49 @@ namespace front_end_kpl.view
             public string birthDate { get; set; }
             public string phoneNumber { get; set; }
             public string email { get; set; }
-            public string password { get; set; }
+
+        }
+
+        public async Task Edit(int id, string gender, string bloodtype)
+        {
+            // Get the DateTime value from the DateTimePicker
+            DateTime birthDate = dateTimePicker1.Value;
+
+            // Convert the DateTime to a string with a specific format
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
+
+            var checkdata = new UploadData
+            {
+                firstName = textBox2.Text,
+                lastName = textBox3.Text,
+                address = textBox4.Text,
+                birthDate = formattedBirthDate,
+                phoneNumber = textBox6.Text,
+                email = textBox7.Text,
+            };
+
+            var jsonContent = JsonSerializer.Serialize(checkdata);
+            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await new HttpClient().PutAsync($"https://localhost:7264/api/Patients/{id}?gender={gender}&bloodtype={bloodtype}", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("Patient updated successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Failed to edit patient. Please check the ID and try again");
+            }
+
+
+
+        }
+
+
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
@@ -71,6 +79,12 @@ namespace front_end_kpl.view
         {
             string gender = comboBox1.Text;
             string bloodtype = comboBox2.Text;
+
+            if (!int.TryParse(textBox1.Text, out int id))
+            {
+                MessageBox.Show("Please enter a valid Patient ID");
+                return;
+            }
 
             if (string.IsNullOrEmpty(gender))
             {
@@ -86,49 +100,33 @@ namespace front_end_kpl.view
 
             try
             {
-                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                if (
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
                     string.IsNullOrWhiteSpace(textBox4.Text) ||
-                    string.IsNullOrWhiteSpace(textBox5.Text) ||
-                    string.IsNullOrWhiteSpace(textBox6.Text))
+                    string.IsNullOrWhiteSpace(textBox6.Text) ||
+                    string.IsNullOrWhiteSpace(textBox7.Text))
                 {
                     MessageBox.Show("None of the fields may be empty");
                     return;
                 }
 
-
-
-
-                Registration(gender, bloodtype);
-
-                Login login = new Login();
-                login.Show();
-
-                this.Close();
+                Edit(id, gender, bloodtype);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
 
-
             
-
-
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-        }
+            HalamanAdmin admin = new HalamanAdmin();
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            Login login = new Login();
-
-            login.Show();
+            admin.Show();
 
             this.Close();
         }

@@ -40,7 +40,7 @@ namespace front_end_kpl.view
                 lastName = textBox2.Text,
                 address = textBox5.Text,
                 birthDate = formattedBirthDate,
-               phoneNumber = textBox4.Text,
+                phoneNumber = textBox4.Text,
                 email = textBox3.Text,
                 password = textBox6.Text,
             };
@@ -52,15 +52,15 @@ namespace front_end_kpl.view
 
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine(response.IsSuccessStatusCode);
+                MessageBox.Show("Doctor added successfully!");
             }
             else
             {
-                MessageBox.Show("nama dan password salah");
+                MessageBox.Show("Failed to add doctor. Please check the data and try again");
             }
 
 
-            
+
         }
 
         public class UploadData
@@ -82,7 +82,40 @@ namespace front_end_kpl.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Register(1);
+
+            try
+            {
+                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                    string.IsNullOrWhiteSpace(textBox2.Text) ||
+                    string.IsNullOrWhiteSpace(textBox3.Text) ||
+                    string.IsNullOrWhiteSpace(textBox4.Text) ||
+                    string.IsNullOrWhiteSpace(textBox5.Text) ||
+                    string.IsNullOrWhiteSpace(textBox6.Text))
+                {
+                    MessageBox.Show("None of the fields may be empty");
+                    return;
+                }
+
+
+                if (!int.TryParse(comboBox1.Text, out int specID))
+                {
+                    MessageBox.Show("Invalid Specialisation ID");
+                }
+
+                Register(specID);
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin admin = new HalamanAdmin();
+
+            admin.Show();
+
+            this.Close();
         }
     }
 }

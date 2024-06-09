@@ -52,20 +52,30 @@ namespace front_end_kpl.view
 
             var jsonContent = JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+
+            if (string.IsNullOrEmpty(role))
+            {
+                MessageBox.Show("Invalid role");
+                return;
+            }
+
+
             if (role.Equals("Admin"))
             {
-                 response = await new HttpClient().PostAsync("https://localhost:7264/api/Admin/login", content);
-            } else if (role.Equals("Doctor"))
+                response = await new HttpClient().PostAsync("https://localhost:7264/api/Admin/login", content);
+            }
+            else if (role.Equals("Doctor"))
             {
-                 response = await new HttpClient().PostAsync("https://localhost:7264/api/Doctor/login", content);
+                response = await new HttpClient().PostAsync("https://localhost:7264/api/Doctor/login", content);
             }
             else if (role.Equals("Patient"))
             {
-                 response = await new HttpClient().PostAsync("https://localhost:7264/api/Patients/login", content);
+                response = await new HttpClient().PostAsync("https://localhost:7264/api/Patients/login", content);
             }
             else
             {
-                 response = new HttpResponseMessage
+                response = new HttpResponseMessage
                 {
                     StatusCode = HttpStatusCode.BadRequest,
                     Content = new StringContent("Invalid role specified")
@@ -81,32 +91,42 @@ namespace front_end_kpl.view
                     HalamanAdmin halamanAdmin = new HalamanAdmin();
                     halamanAdmin.Show();
                     this.Hide();
-                } else if (role.Equals("Doctor"))
+                }
+                else if (role.Equals("Doctor"))
                 {
                     MessageBox.Show("Welcome Doctor " + textBox1.Text);
                     HalamanDoctor halamanDoctor = new HalamanDoctor();
                     halamanDoctor.Show();
                     this.Hide();
                 }
-                else if(role.Equals("Patient"))
+                else if (role.Equals("Patient"))
                 {
                     MessageBox.Show("Welcome " + textBox1.Text);
                     HalamanPatient halamanPatient = new HalamanPatient();
                     halamanPatient.Show();
                     this.Hide();
-                } else
+                }
+                else
                 {
                     MessageBox.Show("nama dan password salah");
                 }
 
 
-            } else
+            }
+            else
             {
                 MessageBox.Show("nama dan password salah");
             }
 
-            
 
+
+        }
+
+        private void Register_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Hide();
         }
     }
 }

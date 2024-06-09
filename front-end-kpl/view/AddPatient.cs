@@ -46,11 +46,11 @@ namespace front_end_kpl.view
 
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine(response.IsSuccessStatusCode);
+                MessageBox.Show("Patient added successfully!");
             }
             else
             {
-                MessageBox.Show("data salah");
+                MessageBox.Show("Failed to add patient. Please check the data and try again");
             }
 
 
@@ -71,7 +71,55 @@ namespace front_end_kpl.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Register("Male", "B");
+            string gender = comboBox1.Text;
+            string bloodtype = comboBox2.Text;
+
+            if (string.IsNullOrEmpty(gender))
+            {
+                MessageBox.Show("Invalid Gender");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(bloodtype))
+            {
+                MessageBox.Show("Invalid Bloodtype");
+                return;
+            }
+
+            try
+            {
+                if (string.IsNullOrWhiteSpace(textBox1.Text) ||
+                    string.IsNullOrWhiteSpace(textBox2.Text) ||
+                    string.IsNullOrWhiteSpace(textBox3.Text) ||
+                    string.IsNullOrWhiteSpace(textBox4.Text) ||
+                    string.IsNullOrWhiteSpace(textBox5.Text) ||
+                    string.IsNullOrWhiteSpace(textBox6.Text))
+                {
+                    MessageBox.Show("None of the fields may be empty");
+                    return;
+                }
+
+
+             
+
+                Register(gender, bloodtype);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin admin = new HalamanAdmin();
+
+            admin.Show();
+
+            this.Close();
         }
     }
 }
