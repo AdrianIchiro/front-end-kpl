@@ -102,5 +102,17 @@ namespace front_end_kpl.view
             login.Show();
             this.Close();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            RoomGUI room = new RoomGUI();
+            room.Show();
+            this.Close();
+        }
     }
 }

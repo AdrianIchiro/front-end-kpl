@@ -18,16 +18,8 @@ namespace front_end_kpl
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-
-            
-           
-            
-            
-
-            //MyAppoiment myAppoiment = new MyAppoiment(doctor);
-            //Application.Run(myAppoiment);
-            Login login = new Login();
-            Application.Run(login);
+            RoomGUI room = new view.RoomGUI();
+            Application.Run(room);
         }
     }
 }
