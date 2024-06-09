@@ -37,8 +37,8 @@
             Capacity = new DataGridViewTextBoxColumn();
             RoomName = new DataGridViewTextBoxColumn();
             Doctor = new DataGridViewTextBoxColumn();
-            Specialization = new DataGridViewTextBoxColumn();
             Date = new DataGridViewTextBoxColumn();
+            Specialization = new DataGridViewTextBoxColumn();
             label2 = new Label();
             button1 = new Button();
             button2 = new Button();
@@ -70,20 +70,20 @@
             dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date });
-            dataGridView1.GridColor = SystemColors.Control;
-            dataGridView1.Location = new Point(23, 188);
-            dataGridView1.Margin = new Padding(2, 2, 2, 2);
+            dataGridView1.GridColor = SystemColors.ActiveCaption;
+            dataGridView1.Location = new Point(11, 444);
+            dataGridView1.Margin = new Padding(2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 28;
-            dataGridView1.Size = new Size(598, 180);
+            dataGridView1.Size = new Size(1337, 363);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellClick += dataGridView1_CellClick;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.CellPainting += dataGridView1_CellPainting;
             dataGridView1.RowHeaderMouseClick += dataGridView1_RowHeaderMouseClick;
             dataGridView1.Paint += dataGridView1_Paint;
             // 
@@ -151,12 +151,6 @@
             Doctor.ReadOnly = true;
             Doctor.Width = 150;
             // 
-            // Specialization
-            // 
-            Specialization.HeaderText = "Specialization";
-            Specialization.Name = "Specialization";
-            Specialization.ReadOnly = true;
-            // 
             // Date
             // 
             Date.HeaderText = "Date";
@@ -165,13 +159,19 @@
             Date.ReadOnly = true;
             Date.Width = 150;
             // 
+            // Specialization
+            // 
+            Specialization.HeaderText = "Specialization";
+            Specialization.Name = "Specialization";
+            Specialization.ReadOnly = true;
+            // 
             // label2
             // 
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(191, 76);
+            label2.Location = new Point(530, 30);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(283, 32);
@@ -181,10 +181,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(26, 155);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Location = new Point(314, 396);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(78, 28);
+            button1.Size = new Size(132, 44);
             button1.TabIndex = 2;
             button1.Text = "Update";
             button1.UseVisualStyleBackColor = true;
@@ -192,21 +192,20 @@
             // 
             // button2
             // 
-            button2.Location = new Point(108, 155);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Location = new Point(162, 396);
+            button2.Margin = new Padding(2);
             button2.Name = "button2";
-            button2.Size = new Size(78, 28);
+            button2.Size = new Size(132, 44);
             button2.TabIndex = 3;
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-
-            button3.Location = new Point(191, 155);
-            button3.Margin = new Padding(2, 2, 2, 2);
+            button3.Location = new Point(11, 396);
+            button3.Margin = new Padding(2);
             button3.Name = "button3";
-            button3.Size = new Size(78, 28);
+            button3.Size = new Size(132, 44);
             button3.TabIndex = 4;
             button3.Text = "Add";
             button3.UseVisualStyleBackColor = true;
@@ -219,7 +218,7 @@
             panel1.Controls.Add(label2);
             panel1.Location = new Point(0, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1473, 100);
+            panel1.Size = new Size(1359, 100);
             panel1.TabIndex = 5;
             // 
             // comboBox1
@@ -349,12 +348,28 @@
             // AppoimentManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
-            ClientSize = new Size(652, 398);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1359, 818);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label1);
+            Controls.Add(numericUpDown1);
+            Controls.Add(comboBox6);
+            Controls.Add(comboBox5);
+            Controls.Add(comboBox4);
+            Controls.Add(comboBox3);
+            Controls.Add(comboBox2);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(comboBox1);
+            Controls.Add(panel1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "AppoimentManagement";
             Text = "AppoimentManagement";
             Load += AppoimentManagement_Load;

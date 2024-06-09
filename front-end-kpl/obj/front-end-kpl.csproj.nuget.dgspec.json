@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
+    "D:\\tugas besar kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
+    "D:\\tugas besar kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "projectUniqueName": "D:\\tugas besar kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
         "projectName": "front-end-kpl",
-        "projectPath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\obj\\",
+        "projectPath": "D:\\tugas besar kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "D:\\tugas besar kpl\\front-end-kpl\\front-end-kpl\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net7.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +47,8 @@
         }
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows7.0",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -69,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

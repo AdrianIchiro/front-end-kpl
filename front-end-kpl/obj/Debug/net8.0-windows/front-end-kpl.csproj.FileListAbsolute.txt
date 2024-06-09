@@ -69,3 +69,34 @@ D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\refint\front-end-
 D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.pdb
 D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.genruntimeconfig.cache
 D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\ref\front-end-kpl.dll
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.exe
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.deps.json
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.dll
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.pdb
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.Login.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-en.39784A27.Up2Date
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.dll
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\refint\front-end-kpl.dll
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.pdb
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\ref\front-end-kpl.dll

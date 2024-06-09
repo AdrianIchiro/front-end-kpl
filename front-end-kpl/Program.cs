@@ -1,4 +1,5 @@
 using front_end_kpl.view;
+using frontEnd.view;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +17,11 @@ namespace front_end_kpl
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
- 
-            MedicalCheckupForm medicalCheckupForm = new MedicalCheckupForm();
-            medicalCheckupForm.GetAppoimentPatient(1);
-            Application.Run(medicalCheckupForm);
+
+            AppoimentManagement appoimentManagement
+
+                = new AppoimentManagement();
+            Application.Run(appoimentManagement);
         }
     }
 }
