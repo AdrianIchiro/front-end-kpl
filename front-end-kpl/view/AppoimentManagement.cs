@@ -168,7 +168,7 @@ namespace frontEnd.view
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
+            if (e.RowIndex >= 0) 
             {
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
                 this.rows = e.RowIndex;
@@ -188,7 +188,7 @@ namespace frontEnd.view
 
 
 
-                // Dapatkan data dari baris yang dipilih
+               
 
             }
         }

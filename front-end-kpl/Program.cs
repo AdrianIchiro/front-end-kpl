@@ -21,15 +21,8 @@ namespace front_end_kpl
 
             
            
-
-            Doctor doctor = new Doctor();
-            doctor.id = 2;
-            doctor.firstName = "kevin";
-            doctor.lastName = "Albany";
-            doctor.specialization = "string";
-            doctor.address = "bogor";
-            doctor.phoneNumber = "082367837542";
-            doctor.email = "kevin.junaidi@gmail.com";
+            
+            
 
             //MyAppoiment myAppoiment = new MyAppoiment(doctor);
             //Application.Run(myAppoiment);

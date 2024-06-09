@@ -18,6 +18,7 @@ namespace AppointmentApp
         public DateTime date { get; set; }
         public string speciaLization {  get; set; }
         public int DoctorId { get; set; }
+        public string specialization { get; set; }  
     }
 
     public class AppointmentService

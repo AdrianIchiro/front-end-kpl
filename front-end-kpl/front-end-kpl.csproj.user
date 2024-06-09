@@ -35,7 +35,7 @@
     <Compile Update="view\EditPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="view\BookAppoiment.cs">
+    <Compile Update="view\BookAppoimentPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="view\HalamanAdmin.cs">

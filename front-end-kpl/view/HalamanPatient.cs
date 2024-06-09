@@ -16,7 +16,14 @@ namespace front_end_kpl.view
         public HalamanPatient(Patient patient)
         {
             InitializeComponent();
-            this.Patient = patient; 
+            this.Patient = patient;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BookAppoimentPage bookAppoimentPage = new BookAppoimentPage(Patient);
+            bookAppoimentPage.Show();
+            this.Close();
         }
     }
 }

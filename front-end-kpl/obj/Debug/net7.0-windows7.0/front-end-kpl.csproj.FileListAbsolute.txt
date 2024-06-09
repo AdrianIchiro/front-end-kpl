@@ -137,4 +137,4 @@ D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\
 D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
 D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
 D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
-D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoiment.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
