@@ -16,5 +16,10 @@ namespace front_end_kpl.view
         {
             InitializeComponent();
         }
+
+        private void Register_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

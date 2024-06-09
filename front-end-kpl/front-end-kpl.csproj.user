@@ -32,6 +32,9 @@
     <Compile Update="view\MedicalCheckupForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="view\MyAppoiment.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="view\Register.cs">
       <SubType>Form</SubType>
     </Compile>
