@@ -300,6 +300,7 @@ namespace frontEnd.view
             {
                 try
                 {
+                    
 
                     string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                     string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
@@ -316,9 +317,11 @@ namespace frontEnd.view
                     addAppointmentData.status = 0;
                     int doctorId = doctors[comboBox1.SelectedIndex].id;
                     int roomId = rooms[comboBox6.SelectedIndex].roomId;
-
+                   
+                    
 
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
+                    
                     dataGridView1.ClearSelection();
                     LoadAppointmentsAsync();
 
