@@ -53,6 +53,9 @@
     <Compile Update="view\MyAppoiment.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="view\MyAppoimentPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="view\Register.cs">
       <SubType>Form</SubType>
     </Compile>

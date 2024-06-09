@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -54,6 +55,26 @@ namespace AppointmentApp
             }
 
             return appointments;
+        }
+
+        public async Task<Appointment> GetAppointmentAsyncInternal(int appointmentId)
+        {
+          
+            var requestUrl = $"https://localhost:7264/api/Appoiment/{appointmentId}";
+
+            
+            var response = await _httpClient.GetAsync(requestUrl);
+
+            
+            response.EnsureSuccessStatusCode();
+
+           
+            var content = await response.Content.ReadAsStringAsync();
+
+            
+            var appointment = JsonConvert.DeserializeObject<Appointment>(content);
+
+            return appointment;
         }
     }
 }

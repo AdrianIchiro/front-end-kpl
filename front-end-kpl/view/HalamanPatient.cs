@@ -25,5 +25,12 @@ namespace front_end_kpl.view
             bookAppoimentPage.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MyAppoimentPatient myAppoimentPatient = new MyAppoimentPatient(Patient);
+            myAppoimentPatient.Show();  
+            this.Close();
+        }
     }
 }
