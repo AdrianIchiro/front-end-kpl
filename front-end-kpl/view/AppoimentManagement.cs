@@ -72,7 +72,7 @@ namespace frontEnd.view
 
                     foreach (var appointment in appointments)
                     {
-                        dataGridView1.Rows.Add(appointment.AppoimentId, appointment.TimeStart, appointment.TimeEnd, appointment.Status, appointment.IsCompleted, appointment.sapacity, appointment.Room, appointment.Doctor, appointment.speciaLization, appointment.date);
+                        dataGridView1.Rows.Add(appointment.AppoimentId, appointment.TimeStart, appointment.TimeEnd, appointment.Status, appointment.IsCompleted, appointment.sapacity, appointment.room, appointment.Doctor, appointment.date);
                     }
                 }
                 else
@@ -124,14 +124,14 @@ namespace frontEnd.view
 
         private async void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            
-           
+
+
 
         }
 
         private async void button1_Click_1(object sender, EventArgs e)
         {
-            if (this.rows< 0 || comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
+            if (this.rows < 0 || comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                            || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
                            || comboBox6.SelectedItem == null || numericUpDown1.Value == null) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
             {
@@ -295,7 +295,9 @@ namespace frontEnd.view
             {
                 // ComboBox tidak memiliki item yang dipilih
                 MessageBox.Show("all fields must be filled in ");
-            } else {
+            }
+            else
+            {
                 try
                 {
 
@@ -315,7 +317,7 @@ namespace frontEnd.view
                     int doctorId = doctors[comboBox1.SelectedIndex].id;
                     int roomId = rooms[comboBox6.SelectedIndex].roomId;
 
-                   
+
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
                     dataGridView1.ClearSelection();
                     LoadAppointmentsAsync();
@@ -327,9 +329,9 @@ namespace frontEnd.view
                     MessageBox.Show(message);
                 }
             }
-           
-            
-            
+
+
+
 
 
         }

@@ -37,8 +37,8 @@
             Capacity = new DataGridViewTextBoxColumn();
             RoomName = new DataGridViewTextBoxColumn();
             Doctor = new DataGridViewTextBoxColumn();
-            Specialization = new DataGridViewTextBoxColumn();
             Date = new DataGridViewTextBoxColumn();
+            Specialization = new DataGridViewTextBoxColumn();
             label2 = new Label();
             button1 = new Button();
             button2 = new Button();
@@ -70,7 +70,7 @@
             dataGridView1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Specialization, Date });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date });
             dataGridView1.GridColor = SystemColors.ActiveCaption;
             dataGridView1.Location = new Point(11, 444);
             dataGridView1.Margin = new Padding(2);
@@ -79,7 +79,7 @@
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 28;
-            dataGridView1.Size = new Size(1451, 363);
+            dataGridView1.Size = new Size(1337, 363);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
@@ -151,12 +151,6 @@
             Doctor.ReadOnly = true;
             Doctor.Width = 150;
             // 
-            // Specialization
-            // 
-            Specialization.HeaderText = "Specialization";
-            Specialization.Name = "Specialization";
-            Specialization.ReadOnly = true;
-            // 
             // Date
             // 
             Date.HeaderText = "Date";
@@ -164,6 +158,12 @@
             Date.Name = "Date";
             Date.ReadOnly = true;
             Date.Width = 150;
+            // 
+            // Specialization
+            // 
+            Specialization.HeaderText = "Specialization";
+            Specialization.Name = "Specialization";
+            Specialization.ReadOnly = true;
             // 
             // label2
             // 
@@ -218,7 +218,7 @@
             panel1.Controls.Add(label2);
             panel1.Location = new Point(0, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1473, 100);
+            panel1.Size = new Size(1359, 100);
             panel1.TabIndex = 5;
             // 
             // comboBox1
@@ -349,7 +349,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1473, 818);
+            ClientSize = new Size(1359, 818);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);

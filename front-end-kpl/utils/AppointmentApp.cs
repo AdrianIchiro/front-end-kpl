@@ -13,7 +13,7 @@ namespace AppointmentApp
         public int Status { get; set; }
         public bool IsCompleted { get; set; }
         public int sapacity { get; set; }
-        public String Room { get; set; }
+        public String room { get; set; }
         public string Doctor { get; set; }
         public DateTime date { get; set; }
         public string speciaLization {  get; set; }
