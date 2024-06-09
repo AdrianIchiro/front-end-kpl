@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using front_end_kpl.view;
+
 
 namespace frontEnd
 {
@@ -18,10 +20,10 @@ namespace frontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            AppoimentManagement appoimentManagement = new AppoimentManagement();
+            Login login = new Login();
             //  _ = form2.LoadAppointmentsAsync(); // Memanggil metode LoadAppointmentsAsync
           
-            Application.Run(appoimentManagement);
+            Application.Run(login);
         }
     }
 }
