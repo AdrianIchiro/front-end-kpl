@@ -14,9 +14,11 @@ namespace front_end_kpl.view
 {
     public partial class EditDoctor : Form
     {
-        public EditDoctor()
+        Admin admin;
+        public EditDoctor(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
 
         public class UploadData
@@ -116,9 +118,9 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
 
-            admin.Show();
+            halamanAdmin.Show();
 
             this.Close();
         }

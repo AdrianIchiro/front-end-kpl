@@ -99,3 +99,41 @@ C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources

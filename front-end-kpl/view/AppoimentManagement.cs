@@ -1,5 +1,6 @@
 ﻿using AppointmentApp;
 using front_end_kpl.utils;
+using front_end_kpl.view;
 using System.Drawing.Drawing2D;
 
 namespace frontEnd.view
@@ -9,6 +10,7 @@ namespace frontEnd.view
         List<Room> rooms;
         List<Doctor> doctors;
         List<Appointment> appointments;
+        Admin admin;
         private int rows =
             -1;
         private int appoimentId = -1;
@@ -16,7 +18,7 @@ namespace frontEnd.view
         private readonly string _apiUrl = "https://localhost:7264/api/Appoiment";
         private readonly HttpClient _httpClient = new HttpClient();
 
-        public AppoimentManagement()
+        public AppoimentManagement(Admin admin)
         {
 
 
@@ -25,7 +27,7 @@ namespace frontEnd.view
             FillComboBox();
             LoadRoomsAsync();
             LoadDoctorssAsync();
-
+            this.admin = admin;
             _ = LoadAppointmentsAsync();
             this.StartPosition = FormStartPosition.CenterScreen;
 
@@ -291,7 +293,7 @@ namespace frontEnd.view
         {
             if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                 || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
-                || comboBox6.SelectedItem == null || numericUpDown1.Value == null)
+                || comboBox6.SelectedItem == null )
             {
                 // ComboBox tidak memiliki item yang dipilih
                 MessageBox.Show("all fields must be filled in ");
@@ -300,7 +302,7 @@ namespace frontEnd.view
             {
                 try
                 {
-                    
+
 
                     string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                     string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
@@ -317,12 +319,13 @@ namespace frontEnd.view
                     addAppointmentData.status = 0;
                     int doctorId = doctors[comboBox1.SelectedIndex].id;
                     int roomId = rooms[comboBox6.SelectedIndex].roomId;
-                   
-                    
+
+
 
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
-                    
+
                     dataGridView1.ClearSelection();
+                    MessageBox.Show("Appointment added successfully!"); 
                     LoadAppointmentsAsync();
 
                 }
@@ -337,6 +340,13 @@ namespace frontEnd.view
 
 
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
+            this.Hide();
         }
     }
 }

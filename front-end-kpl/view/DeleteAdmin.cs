@@ -14,9 +14,11 @@ namespace front_end_kpl.view
 {
     public partial class DeleteAdmin : Form
     {
-        public DeleteAdmin()
+        Admin admin;
+        public DeleteAdmin(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
 
         public async Task Delete(string id)
@@ -57,9 +59,9 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
 
-            admin.Show();
+            halamanAdmin.Show();
 
             this.Close();
         }

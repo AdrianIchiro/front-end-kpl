@@ -17,8 +17,32 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.Net;
+using front_end_kpl.utils;
 namespace front_end_kpl.view
 {
+
+    public class Admin
+    {
+        public int adminId { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }  
+        public string phoneNumber { get; set; } 
+        public string email { get; set; }   
+    }
+
+    public class Patient
+    {
+        public int patientId { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string address { get; set; }
+
+        public DateOnly birthDate { get; set; }
+        public string phoneNumber { get; set; }
+        public string email { get; set; }
+    }
+
+
     public partial class Login : Form
     {
         //Automata.automata.State state = Automata.automata.State.LOGIN, nextPosisi;
@@ -84,25 +108,30 @@ namespace front_end_kpl.view
 
             if (response.IsSuccessStatusCode)
             {
+                string responseContent = await response.Content.ReadAsStringAsync();
 
                 if (role.Equals("Admin"))
                 {
-                    MessageBox.Show("Welcome " + textBox1.Text);
-                    HalamanAdmin halamanAdmin = new HalamanAdmin();
+                    Admin admin = JsonSerializer.Deserialize<Admin>(responseContent);
+                    MessageBox.Show("Welcome " + admin.firstName);
+                    HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
                     halamanAdmin.Show();
                     this.Hide();
                 }
                 else if (role.Equals("Doctor"))
                 {
-                    MessageBox.Show("Welcome Doctor " + textBox1.Text);
-                    HalamanDoctor halamanDoctor = new HalamanDoctor();
+                    
+                    Doctor  doctor = JsonSerializer.Deserialize<Doctor>(responseContent);
+                    MessageBox.Show("Welcome Doctor " + doctor.firstName);
+                    HalamanDoctor halamanDoctor = new HalamanDoctor(doctor);
                     halamanDoctor.Show();
                     this.Hide();
                 }
                 else if (role.Equals("Patient"))
                 {
-                    MessageBox.Show("Welcome " + textBox1.Text);
-                    HalamanPatient halamanPatient = new HalamanPatient();
+                    Patient patient = JsonSerializer.Deserialize<Patient>(responseContent); 
+                    MessageBox.Show("Welcome " + patient.firstName);
+                    HalamanPatient halamanPatient = new HalamanPatient(patient);
                     halamanPatient.Show();
                     this.Hide();
                 }

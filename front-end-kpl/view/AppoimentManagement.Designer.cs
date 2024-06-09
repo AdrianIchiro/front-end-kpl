@@ -58,6 +58,7 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
@@ -345,11 +346,23 @@
             label7.TabIndex = 19;
             label7.Text = "Capacity";
             // 
+            // button4
+            // 
+            button4.Location = new Point(459, 396);
+            button4.Margin = new Padding(2);
+            button4.Name = "button4";
+            button4.Size = new Size(132, 44);
+            button4.TabIndex = 20;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // AppoimentManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1359, 818);
+            Controls.Add(button4);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -413,5 +426,6 @@
         private DataGridViewTextBoxColumn Doctor;
         private DataGridViewTextBoxColumn Specialization;
         private DataGridViewTextBoxColumn Date;
+        private Button button4;
     }
 }

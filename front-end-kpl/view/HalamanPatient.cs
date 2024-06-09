@@ -12,9 +12,11 @@ namespace front_end_kpl.view
 {
     public partial class HalamanPatient : Form
     {
-        public HalamanPatient()
+        Patient Patient;
+        public HalamanPatient(Patient patient)
         {
             InitializeComponent();
+            this.Patient = patient; 
         }
     }
 }

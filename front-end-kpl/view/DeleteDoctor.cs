@@ -12,6 +12,7 @@ namespace front_end_kpl.view
 {
     public partial class DeleteDoctor : Form
     {
+        Admin admin;
         public DeleteDoctor()
         {
             InitializeComponent();
@@ -53,9 +54,9 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
+            HalamanAdmin halmanaAdmin = new HalamanAdmin(admin);
 
-            admin.Show();
+            halmanaAdmin.Show();
 
             this.Close();
         }

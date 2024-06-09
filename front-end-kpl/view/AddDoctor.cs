@@ -20,9 +20,11 @@ namespace front_end_kpl.view
 {
     public partial class AddDoctor : Form
     {
-        public AddDoctor()
+        Admin admin;
+        public AddDoctor(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
 
 
@@ -111,9 +113,9 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
+            HalamanAdmin HalamanAdmin = new HalamanAdmin(admin);
 
-            admin.Show();
+            HalamanAdmin.Show();
 
             this.Close();
         }
