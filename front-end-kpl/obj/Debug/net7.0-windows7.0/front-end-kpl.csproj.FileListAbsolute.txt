@@ -180,3 +180,44 @@ D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\f
 D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
 D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
 D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
