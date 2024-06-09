@@ -18,7 +18,7 @@ namespace front_end_kpl.view
         public HalamanAdmin(Admin admin)
         {
             InitializeComponent();
-            this.admin = admin; 
+            this.admin = admin;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -88,6 +88,18 @@ namespace front_end_kpl.view
         {
             AppoimentManagement appoimentManagement = new AppoimentManagement(admin);
             appoimentManagement.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
             this.Close();
         }
     }
