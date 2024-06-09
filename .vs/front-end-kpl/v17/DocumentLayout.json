@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\model\\specializationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\model\\specializationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\service\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\service\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\onedrive\\documents\\project\\kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\front-end-kpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "front-end-kpl",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+              "RelativeDocumentMoniker": "front-end-kpl\\front-end-kpl.csproj",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+              "RelativeToolTip": "front-end-kpl\\front-end-kpl.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T07:22:48.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpecializationService.cs",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Service\\SpecializationService.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Service\\SpecializationService.cs",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Service\\SpecializationService.cs",
+              "RelativeToolTip": "front-end-kpl\\Service\\SpecializationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:26:02.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpecializationModel.cs",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Model\\SpecializationModel.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Model\\SpecializationModel.cs",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Model\\SpecializationModel.cs",
+              "RelativeToolTip": "front-end-kpl\\Model\\SpecializationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:23:09.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Form1.cs",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.cs",
+              "RelativeToolTip": "front-end-kpl\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:20:37.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\Form1.Designer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAtwJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:51:27.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Form1.cs",
+              "ToolTip": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\Form1.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:48:18.4Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
