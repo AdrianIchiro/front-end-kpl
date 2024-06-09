@@ -39,7 +39,7 @@ public class PostAppointment
         
        
         var AddAppoiment = appointment;
-        MessageBox.Show(AddAppoiment.sapacity.ToString());
+        
         var jsonContent = JsonSerializer.Serialize(AddAppoiment);
         var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
         HttpResponseMessage response = await _client.PostAsync($"https://localhost:7264/api/Appoiment?doctorId={doctorid}&roomId={roomid}", content);

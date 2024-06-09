@@ -37,6 +37,7 @@
             ClientSize = new Size(904, 543);
             Name = "Register";
             Text = "Register";
+            Load += Register_Load;
             ResumeLayout(false);
         }
 
