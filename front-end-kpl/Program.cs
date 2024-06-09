@@ -1,29 +1,17 @@
-using AppointmentApp;
-using frontEnd.view;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using front_end_kpl.view;
-
-
-namespace frontEnd
+namespace front_end_kpl
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        ///  The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Login login = new Login();
-            //  _ = form2.LoadAppointmentsAsync(); // Memanggil metode LoadAppointmentsAsync
-          
-            Application.Run(login);
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Specialization());
         }
     }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mLeeON+IOiYD9FlaVbb5R6yxT7gtMOcRQRFETlSMS6ynIR/p/a2vyV5PpEQ3yS58C7atAVo+VNy/P7cl2h0TpQ==",
+  "dgSpecHash": "r9c+IX5IQVMBJl0BP796hvL2oh+vdUn1DYZI5no55nRZ1qcIkcck6HJ1TiYEYalqnoWCaWGmPliiVHuXoA6RAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+  "projectFilePath": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\rinda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

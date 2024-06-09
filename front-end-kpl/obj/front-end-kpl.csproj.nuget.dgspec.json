@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
+    "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
+    "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "projectUniqueName": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
         "projectName": "front-end-kpl",
-        "projectPath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\obj\\",
+        "projectPath": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "packagesPath": "C:\\Users\\rinda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rinda\\OneDrive\\Documents\\Project\\KPL\\front-end-kpl\\front-end-kpl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rinda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
