@@ -16,6 +16,15 @@ public class AddAppointmentData
  
 }
 
+public class EditAppoment {
+    public string timeStart { get; set; }
+    public string timeEnd { get; set; }
+    public int status { get; set; }
+    public int sapacity { get; set; }
+    public bool isComplete { get; set; }
+    public string date { get; set; }
+}
+
 public class PostAppointment
 {
     private readonly HttpClient _client;
@@ -27,7 +36,10 @@ public class PostAppointment
 
     public async Task CreateAppointmentAsync(AddAppointmentData appointment, int doctorid, int roomid)
     {
+        
+       
         var AddAppoiment = appointment;
+        MessageBox.Show(AddAppoiment.sapacity.ToString());
         var jsonContent = JsonSerializer.Serialize(AddAppoiment);
         var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
         HttpResponseMessage response = await _client.PostAsync($"https://localhost:7264/api/Appoiment?doctorId={doctorid}&roomId={roomid}", content);
@@ -40,6 +52,30 @@ public class PostAppointment
         else
         {
             Console.WriteLine($"Failed to post Appoiment data. Status code: {response.StatusCode}");
+        }
+    }
+    public async Task EditAppointmentAsync(EditAppoment appointment, int doctorId, int roomId, int appoimentId)
+    {
+        try
+        {
+            var jsonContent = JsonSerializer.Serialize(appointment);
+            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await _client.PutAsync($"https://localhost:7264/api/Appoiment/{appoimentId}?doctorID={doctorId}&roomID={roomId}", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Appointment data updated successfully.");
+                MessageBox.Show("Appointment data updated successfully.");
+            }
+            else
+            {
+                Console.WriteLine($"Failed to update appointment data. Status code: {response.StatusCode}");
+                MessageBox.Show("Appointment data failed to update.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while editing appointment data: {ex.Message}");
         }
     }
 }

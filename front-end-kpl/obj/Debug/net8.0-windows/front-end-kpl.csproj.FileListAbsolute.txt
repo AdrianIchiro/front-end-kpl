@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.exe
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.deps.json
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.runtimeconfig.json
@@ -15,3 +16,25 @@ D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.pdb
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.genruntimeconfig.cache
 D:\Tugas\Tugas Kuliah\Semester 4\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\ref\front-end-kpl.dll
+=======
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.exe
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.deps.json
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.runtimeconfig.json
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.dll
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\front-end-kpl.pdb
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.GenerateResource.cache
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfoInputs.cache
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.AssemblyInfo.cs
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.CoreCompileInputs.cache
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.sourcelink.json
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.dll
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\refint\front-end-kpl.dll
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.pdb
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.genruntimeconfig.cache
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\ref\front-end-kpl.dll
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-end-kpl.csproj.AssemblyReference.cache
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front_end_kpl.Specialization.resources
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\rinda\OneDrive\Documents\Project\KPL\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows\front-en.39784A27.Up2Date
+>>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31

@@ -5,7 +5,35 @@
     <Compile Update="view\AppoimentManagement.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="view\MedicalCheckupForm.cs">
+=======
+    <Compile Update="view\AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\AppoimentManagement.cs">
+>>>>>>> cc51ae77958e7cbe714ba018ee5844b7cf332c31
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\HalamanAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\HalamanDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\HalamanPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\Register.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
