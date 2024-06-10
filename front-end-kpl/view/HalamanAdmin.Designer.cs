@@ -254,7 +254,7 @@
             // button12
             // 
             button12.Location = new Point(861, 670);
-            button12.Margin = new Padding(4, 4, 4, 4);
+            button12.Margin = new Padding(4);
             button12.Name = "button12";
             button12.Size = new Size(270, 86);
             button12.TabIndex = 16;
@@ -282,6 +282,7 @@
             button13.TabIndex = 18;
             button13.Text = "Specialization Management";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // HalamanAdmin
             // 

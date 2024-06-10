@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\bookappoimentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\bookappoimentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\bookappoimentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -63,19 +67,19 @@
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\myappoimentpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\myappoimentpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\myappoimentpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\rinda\\downloads\\front-end-kpl\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -143,6 +147,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HalamanAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAhwHwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:34:16.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Specialization.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Specialization.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Specialization.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddDoctor.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
@@ -163,120 +180,110 @@
               "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAjwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:57:14.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:57:14.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\AddAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:56:12.488Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:56:12.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AddDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:56:10.109Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:56:10.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BookAppoimentPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\BookAppoimentPage.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\BookAppoimentPage.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\BookAppoimentPage.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\BookAppoimentPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:56:03.243Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:56:03.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Register.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:55:12.969Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:55:12.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MyAppoimentPatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MyAppoimentPatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\MyAppoimentPatient.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MyAppoimentPatient.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\MyAppoimentPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:54:50.247Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:54:50.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MyAppoiment.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MyAppoiment.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\MyAppoiment.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MyAppoiment.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\MyAppoiment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:54:47.158Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:54:47.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MedicalCheckupForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\MedicalCheckupForm.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:54:44.35Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:54:44.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HalamanPatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanPatient.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanPatient.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\HalamanPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:57.76Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:57.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "HalamanDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:55.31Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:55.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "HalamanAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\HalamanAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
@@ -288,67 +295,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EditPatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditPatient.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\EditPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:19.767Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:19.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EditDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:14.682Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:14.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EditAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:12.144Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:12.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DeleteDoctor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeleteDoctor.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteDoctor.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeleteDoctor.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeleteDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:10.37Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:10.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DeletePatient.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeletePatient.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeletePatient.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeletePatient.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeletePatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:08.005Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:09:08.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DeleteAdmin.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
@@ -356,24 +358,22 @@
               "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwC4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:00.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:09:00.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DeleteAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\DeleteAdmin.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:08:56.184Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-10T00:08:56.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SpecializationService.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\SpecializationService.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\SpecializationService.cs",
@@ -385,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PostAppointment.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\PostAppointment.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\PostAppointment.cs",
@@ -397,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "fetchAdmin.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\fetchAdmin.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\fetchAdmin.cs",
@@ -409,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DoctorApp.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\DoctorApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\DoctorApp.cs",
@@ -421,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BookAppoiment.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\BookAppoiment.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\BookAppoiment.cs",
@@ -433,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AppointmentApp.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\AppointmentApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\AppointmentApp.cs",
@@ -445,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "AppoimetPatientsApp.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\AppoimetPatientsApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\AppoimetPatientsApp.cs",
@@ -457,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
@@ -469,31 +469,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Specialization.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Specialization.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Specialization.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Specialization.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\Specialization.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:49:05.106Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T23:49:05.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Room.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
               "ToolTip": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Room.cs [Design]",
               "RelativeToolTip": "front-end-kpl\\view\\Room.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:47:52.691Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T17:47:52.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\Program.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
@@ -505,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
@@ -513,12 +511,11 @@
               "RelativeToolTip": "front-end-kpl\\view\\Room.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAawBkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:47:55.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T17:47:55.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RoomApp.cs",
               "DocumentMoniker": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
               "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
