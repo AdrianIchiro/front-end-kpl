@@ -117,7 +117,9 @@ namespace front_end_kpl.view
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            Specialization specialization = new Specialization();
+            specialization.Show();
+            this.Close();
         }
     }
 }
