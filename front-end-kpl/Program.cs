@@ -18,8 +18,11 @@ namespace front_end_kpl
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            RoomGUI room = new view.RoomGUI();
-            Application.Run(room);
+            /**RoomGUI room = new view.RoomGUI();
+            Application.Run(room); **/
+
+            Login login = new Login();
+            Application.Run(login);
         }
     }
 }
