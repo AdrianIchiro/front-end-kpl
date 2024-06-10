@@ -23,10 +23,27 @@ namespace front_end_kpl.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MyAppoiment myAppoiment = new MyAppoiment(doctor);  
+            MyAppoiment myAppoiment = new MyAppoiment(doctor);
             myAppoiment.Show();
             this.Hide();
-            
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

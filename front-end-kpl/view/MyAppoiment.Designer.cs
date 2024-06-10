@@ -41,6 +41,7 @@
             Specialization = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             label2 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -54,13 +55,14 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, TimeStart, TimeEnd, Status, Completed, Capacity, RoomName, Doctor, Date, Specialization });
             dataGridView1.GridColor = SystemColors.ActiveCaption;
-            dataGridView1.Location = new Point(16, 585);
+            dataGridView1.Location = new Point(12, 319);
+            dataGridView1.Margin = new Padding(2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 28;
-            dataGridView1.Size = new Size(1884, 605);
+            dataGridView1.Size = new Size(1319, 300);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -149,10 +151,9 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = SystemColors.HotTrack;
             panel1.Controls.Add(label2);
-            panel1.Location = new Point(-9, 2);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(-6, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1916, 158);
+            panel1.Size = new Size(1341, 95);
             panel1.TabIndex = 6;
             // 
             // label2
@@ -161,21 +162,32 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(933, 48);
+            label2.Location = new Point(585, 34);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(289, 48);
+            label2.Size = new Size(174, 32);
             label2.TabIndex = 1;
-            label2.Text = "My Management";
+            label2.Text = "My Appoiment";
             label2.Click += label2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 267);
+            button1.Name = "button1";
+            button1.Size = new Size(100, 47);
+            button1.TabIndex = 7;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // MyAppoiment
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1924, 1050);
+            ClientSize = new Size(1347, 630);
+            Controls.Add(button1);
             Controls.Add(panel1);
             Controls.Add(dataGridView1);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "MyAppoiment";
             Text = "MyAppoiment";
             Load += MyAppoiment_Load;
@@ -200,5 +212,6 @@
         private Panel panel1;
         private Label label2;
         private DataGridViewTextBoxColumn Specialization;
+        private Button button1;
     }
 }

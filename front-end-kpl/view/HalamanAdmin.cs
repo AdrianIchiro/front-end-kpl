@@ -110,7 +110,7 @@ namespace front_end_kpl.view
 
         private void button12_Click(object sender, EventArgs e)
         {
-            RoomGUI room = new RoomGUI();
+            RoomGUI room = new RoomGUI(admin);
             room.Show();
             this.Close();
         }

@@ -13,6 +13,7 @@ namespace front_end_kpl.view
 {
     public partial class RoomGUI : Form
     {
+        private Admin admin;
         private RoomApp app;
 
         string id;
@@ -20,15 +21,16 @@ namespace front_end_kpl.view
         int floor;
         int number;
 
-        public RoomGUI()
+        public RoomGUI(Admin admin)
         {
             InitializeComponent();
             app = new RoomApp();
+            this.admin = admin;
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -103,6 +105,13 @@ namespace front_end_kpl.view
             SpinnerFloor.Value = 0;
             SpinnerNumber.Value = 0;
             SpinnerId.Value = 0;
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
+            this.Close();
         }
     }
 }

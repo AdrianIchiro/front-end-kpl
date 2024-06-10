@@ -148,7 +148,7 @@ namespace frontEnd.view
                 PostAppointment postAppointment = new PostAppointment();
                 EditAppoment editAppoment = new EditAppoment();
 
-                MessageBox.Show(this.appoimentId.ToString());
+                
                 editAppoment.timeStart = timeStart;
                 editAppoment.timeEnd = timeEnd;
                 string date = dateTimePicker1.Value.ToString("yyyy/MM/dd");
@@ -168,7 +168,7 @@ namespace frontEnd.view
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) 
+            if (e.RowIndex >= 0)
             {
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
                 this.rows = e.RowIndex;
@@ -188,7 +188,7 @@ namespace frontEnd.view
 
 
 
-               
+
 
             }
         }
@@ -293,7 +293,7 @@ namespace frontEnd.view
         {
             if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                 || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
-                || comboBox6.SelectedItem == null )
+                || comboBox6.SelectedItem == null)
             {
                 // ComboBox tidak memiliki item yang dipilih
                 MessageBox.Show("all fields must be filled in ");
@@ -325,7 +325,7 @@ namespace frontEnd.view
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
 
                     dataGridView1.ClearSelection();
-                    MessageBox.Show("Appointment added successfully!"); 
+                    MessageBox.Show("Appointment added successfully!");
                     LoadAppointmentsAsync();
 
                 }
@@ -347,6 +347,18 @@ namespace frontEnd.view
             HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
             halamanAdmin.Show();
             this.Hide();
+        }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            if (this.rows >=0)
+            {
+                AppointmentService appointmentService = new AppointmentService();
+                appointmentService.DeleteAppoiment(this.appoimentId);
+               
+                dataGridView1.ClearSelection();
+               await LoadAppointmentsAsync();
+            }
         }
     }
 }

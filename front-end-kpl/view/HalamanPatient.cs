@@ -29,7 +29,14 @@ namespace front_end_kpl.view
         private void button1_Click(object sender, EventArgs e)
         {
             MyAppoimentPatient myAppoimentPatient = new MyAppoimentPatient(Patient);
-            myAppoimentPatient.Show();  
+            myAppoimentPatient.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
             this.Close();
         }
     }

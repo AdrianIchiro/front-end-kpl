@@ -29,31 +29,86 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            label1 = new Label();
+            button2 = new Button();
+            label2 = new Label();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(55, 226);
+            button1.Location = new Point(287, 207);
             button1.Name = "button1";
-            button1.Size = new Size(119, 52);
+            button1.Size = new Size(169, 52);
             button1.TabIndex = 0;
-            button1.Text = "My Appoimet";
+            button1.Text = "My Appoiment";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(233, 17);
+            label1.Name = "label1";
+            label1.Size = new Size(308, 65);
+            label1.TabIndex = 0;
+            label1.Text = "Doctor Menu";
+            label1.Click += label1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(287, 357);
+            button2.Name = "button2";
+            button2.Size = new Size(169, 52);
+            button2.TabIndex = 1;
+            button2.Text = "Log Out";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(296, 163);
+            label2.Name = "label2";
+            label2.Size = new Size(160, 30);
+            label2.TabIndex = 2;
+            label2.Text = "My Appoiments";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.Highlight;
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(1, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(799, 99);
+            panel1.TabIndex = 3;
             // 
             // HalamanDoctor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
+            Controls.Add(label2);
+            Controls.Add(button2);
             Controls.Add(button1);
             Name = "HalamanDoctor";
             Text = "HalamanDoctor";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
+        private Label label1;
+        private Button button2;
+        private Label label2;
+        private Panel panel1;
     }
 }

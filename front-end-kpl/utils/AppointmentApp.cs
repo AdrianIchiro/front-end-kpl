@@ -76,5 +76,26 @@ namespace AppointmentApp
 
             return appointment;
         }
+
+        public async Task DeleteAppoiment(int id)
+        {
+
+            var client = new HttpClient();
+            string api = $"https://localhost:7264/api/Appoiment/{id}";
+
+            HttpResponseMessage response = await client.DeleteAsync(api);
+
+
+
+
+            if (response.IsSuccessStatusCode)
+            {
+                MessageBox.Show("Appoiment deleted successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Failed to delete Appoiment");
+            }
+        }
     }
 }

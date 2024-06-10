@@ -39,7 +39,11 @@
             Doctor = new DataGridViewTextBoxColumn();
             Date = new DataGridViewTextBoxColumn();
             Specialization = new DataGridViewTextBoxColumn();
+            button1 = new Button();
+            label2 = new Label();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
@@ -139,16 +143,53 @@
             Specialization.Name = "Specialization";
             Specialization.ReadOnly = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(45, 276);
+            button1.Name = "button1";
+            button1.Size = new Size(100, 47);
+            button1.TabIndex = 8;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(679, 31);
+            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(235, 32);
+            label2.TabIndex = 1;
+            label2.Text = "My book Appoiment";
+            // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = SystemColors.HotTrack;
+            panel1.Controls.Add(label2);
+            panel1.Location = new Point(1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1543, 95);
+            panel1.TabIndex = 9;
+            // 
             // MyAppoimentPatient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1544, 686);
+            Controls.Add(panel1);
+            Controls.Add(button1);
             Controls.Add(dataGridView1);
             Name = "MyAppoimentPatient";
             Text = "MyAppoimentPatient";
             Load += MyAppoimentPatient_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -165,5 +206,8 @@
         private DataGridViewTextBoxColumn Doctor;
         private DataGridViewTextBoxColumn Date;
         private DataGridViewTextBoxColumn Specialization;
+        private Button button1;
+        private Label label2;
+        private Panel panel1;
     }
 }

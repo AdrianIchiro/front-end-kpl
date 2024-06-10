@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace front_end_kpl.view
 {
-    
+
     public partial class MyAppoimentPatient : Form
     {
-        List<AppointmentPatient> MyAppoiment =  new List<AppointmentPatient>();
+        List<AppointmentPatient> MyAppoiment = new List<AppointmentPatient>();
         Patient patient;
 
         public MyAppoimentPatient(Patient patient)
@@ -27,7 +27,7 @@ namespace front_end_kpl.view
 
         private void MyAppoimentPatient_Load(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -35,8 +35,8 @@ namespace front_end_kpl.view
         {
             List<Appointment> appointments = new List<Appointment>();
             AppoimetPatientsApp appoimetPatientsApp = new AppoimetPatientsApp();
-            List<AppointmentPatient> appoimentPatients =await appoimetPatientsApp.FetchAppointmentsAsync();
-            AppointmentService appointmentService = new AppointmentService();   
+            List<AppointmentPatient> appoimentPatients = await appoimetPatientsApp.FetchAppointmentsAsync();
+            AppointmentService appointmentService = new AppointmentService();
             foreach (var appoimentPatient in appoimentPatients)
             {
                 if (appoimentPatient.patientId == patient.patientId)
@@ -45,10 +45,10 @@ namespace front_end_kpl.view
                 }
             }
 
-            for(int i = 0; i < MyAppoiment.Count; i++)
+            for (int i = 0; i < MyAppoiment.Count; i++)
             {
                 Appointment appointment = await appointmentService.GetAppointmentAsyncInternal(MyAppoiment[i].appoimentId);
-               appointments.Add(appointment);
+                appointments.Add(appointment);
             }
 
             foreach (var appointment in appointments)
@@ -56,6 +56,13 @@ namespace front_end_kpl.view
                 dataGridView1.Rows.Add(appointment.AppoimentId, appointment.TimeStart, appointment.TimeEnd, appointment.Status, appointment.IsCompleted, appointment.sapacity, appointment.room, appointment.Doctor, appointment.date);
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HalamanPatient halamanPatient = new HalamanPatient(patient);
+            halamanPatient.Show();
+            this.Close();
         }
     }
 }
