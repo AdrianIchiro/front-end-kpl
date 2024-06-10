@@ -33,12 +33,14 @@
             button2 = new Button();
             label2 = new Label();
             panel1 = new Panel();
+            button3 = new Button();
+            label3 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(287, 207);
+            button1.Location = new Point(287, 206);
             button1.Name = "button1";
             button1.Size = new Size(169, 52);
             button1.TabIndex = 0;
@@ -86,11 +88,33 @@
             panel1.Size = new Size(799, 99);
             panel1.TabIndex = 3;
             // 
+            // button3
+            // 
+            button3.Location = new Point(567, 206);
+            button3.Name = "button3";
+            button3.Size = new Size(169, 52);
+            button3.TabIndex = 4;
+            button3.Text = "Add MedicalCheckup";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(551, 163);
+            label3.Name = "label3";
+            label3.Size = new Size(210, 30);
+            label3.TabIndex = 5;
+            label3.Text = "Add MedicalCheckup";
+            // 
             // HalamanDoctor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(button3);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(button2);
@@ -110,5 +134,7 @@
         private Button button2;
         private Label label2;
         private Panel panel1;
+        private Button button3;
+        private Label label3;
     }
 }

@@ -45,5 +45,12 @@ namespace front_end_kpl.view
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MedicalCheckupForm medicalCheckup = new MedicalCheckupForm();
+            medicalCheckup.Show();
+            this.Close();
+        }
     }
 }

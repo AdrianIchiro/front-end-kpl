@@ -15,7 +15,6 @@ namespace front_end_kpl.utils
         public BookAppoiment()
         {
             _client = new HttpClient();
-           
         }
         public async void BookAppoimentPatient(int patientId, int appoimentId) 
         {

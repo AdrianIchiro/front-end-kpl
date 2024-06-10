@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rinda\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rinda\\OneDrive\\Desktop\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+      "projectUniqueName": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
       "projectName": "front-end-kpl",
-      "projectPath": "C:\\Users\\rinda\\OneDrive\\Desktop\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
-      "packagesPath": "C:\\Users\\rinda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rinda\\OneDrive\\Desktop\\front-end-kpl\\front-end-kpl\\obj\\",
+      "projectPath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rinda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -122,7 +122,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
