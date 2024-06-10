@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
             textBox2 = new TextBox();
@@ -40,20 +39,15 @@
             Time = new DataGridViewTextBoxColumn();
             Patient = new DataGridViewTextBoxColumn();
             PatientId = new DataGridViewTextBoxColumn();
+            dateTimePicker1 = new DateTimePicker();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(481, 101);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(226, 23);
-            textBox1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(486, 77);
+            label1.Location = new Point(532, 79);
             label1.Name = "label1";
             label1.Size = new Size(31, 15);
             label1.TabIndex = 2;
@@ -62,7 +56,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(486, 170);
+            label2.Location = new Point(532, 168);
             label2.Name = "label2";
             label2.Size = new Size(39, 15);
             label2.TabIndex = 4;
@@ -70,7 +64,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(481, 194);
+            textBox2.Location = new Point(527, 192);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(226, 23);
             textBox2.TabIndex = 3;
@@ -78,7 +72,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(486, 262);
+            label3.Location = new Point(532, 260);
             label3.Name = "label3";
             label3.Size = new Size(33, 15);
             label3.TabIndex = 6;
@@ -86,14 +80,14 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(481, 286);
+            textBox3.Location = new Point(527, 284);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(226, 23);
             textBox3.TabIndex = 5;
             // 
             // button1
             // 
-            button1.Location = new Point(552, 343);
+            button1.Location = new Point(598, 341);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 7;
@@ -105,10 +99,10 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, Time, Patient, PatientId });
-            dataGridView1.Location = new Point(75, 101);
+            dataGridView1.Location = new Point(172, 107);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(342, 191);
+            dataGridView1.Size = new Size(330, 191);
             dataGridView1.TabIndex = 8;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -132,11 +126,28 @@
             PatientId.HeaderText = "Patiend Id";
             PatientId.Name = "PatientId";
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(527, 107);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.Highlight;
+            panel1.Location = new Point(0, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(166, 458);
+            panel1.TabIndex = 10;
+            // 
             // MedicalCheckupForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
+            Controls.Add(dateTimePicker1);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(label3);
@@ -144,7 +155,6 @@
             Controls.Add(label2);
             Controls.Add(textBox2);
             Controls.Add(label1);
-            Controls.Add(textBox1);
             Name = "MedicalCheckupForm";
             Text = "MedicalCheckupForm";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -153,7 +163,6 @@
         }
 
         #endregion
-        private TextBox textBox1;
         private Label label1;
         private Label label2;
         private TextBox textBox2;
@@ -165,5 +174,7 @@
         private DataGridViewTextBoxColumn Time;
         private DataGridViewTextBoxColumn Patient;
         private DataGridViewTextBoxColumn PatientId;
+        private DateTimePicker dateTimePicker1;
+        private Panel panel1;
     }
 }
