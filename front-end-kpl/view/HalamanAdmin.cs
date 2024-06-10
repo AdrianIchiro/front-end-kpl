@@ -105,13 +105,20 @@ namespace front_end_kpl.view
 
         private void label6_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             RoomGUI room = new RoomGUI(admin);
             room.Show();
+            this.Close();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Specialization specialization = new Specialization();
+            specialization.Show();
             this.Close();
         }
     }
