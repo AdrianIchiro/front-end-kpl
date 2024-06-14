@@ -1,50 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Kuliah\\front-end-kpl\\",
+  "WorkspaceRootPath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\doctorapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\doctorapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\postmedicalcheckup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\postmedicalcheckup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\getappoimentpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\getappoimentpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\bookappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\bookappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#4\\front-end-kpl\\front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,169 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 131,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HalamanDoctor.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAMwDYAAAAFAAAA",
+              "Title": "RoomApp.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\RoomApp.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAqwKgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:46:08.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Program.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Program.cs",
-              "RelativeToolTip": "front-end-kpl\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:09:33.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAppoimentPatient.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\GetAppoimentPatient.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\GetAppoimentPatient.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\GetAppoimentPatient.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\GetAppoimentPatient.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:27:07.037Z",
+              "WhenOpened": "2024-06-14T11:23:16.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PostMedicalCheckup.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostMedicalCheckup.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\PostMedicalCheckup.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostMedicalCheckup.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\PostMedicalCheckup.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:53:55.687Z",
+              "Title": "Strings.resx",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
+              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.resx",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
+              "RelativeToolTip": "front-end-kpl\\Language\\Strings.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-14T09:23:27.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicalCheckupForm.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "Room.cs [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Room.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:43:20.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MedicalCheckupForm.cs [Design]",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\MedicalCheckupForm.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:54:44.35Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HalamanDoctor.cs [Design]",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\HalamanDoctor.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:55.31Z",
+              "WhenOpened": "2024-06-14T10:39:23.895Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Login.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAwwFQAAAANAAAA",
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Room.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAADwv6YAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:54:36.078Z",
+              "WhenOpened": "2024-06-14T09:26:51.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EditAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeToolTip": "front-end-kpl\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:12.144Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-14T10:37:14.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DoctorApp.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\DoctorApp.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\DoctorApp.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\DoctorApp.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\DoctorApp.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA8wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:07:39.957Z",
+              "Title": "Strings.id.resx",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
+              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.id.resx",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
+              "RelativeToolTip": "front-end-kpl\\Language\\Strings.id.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-14T09:23:45.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookAppoiment.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\BookAppoiment.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\BookAppoiment.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\BookAppoiment.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\BookAppoiment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "DocumentIndex": 5,
+              "Title": "Room.Designer.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.Designer.cs",
+              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#4\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Room.Designer.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAABoBAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:07:36.084Z",
+              "WhenOpened": "2024-06-14T08:54:48.505Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 450,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

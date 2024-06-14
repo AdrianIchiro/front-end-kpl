@@ -12,6 +12,11 @@
         },
         "runtime": {
           "front-end-kpl.dll": {}
+        },
+        "resources": {
+          "id/front-end-kpl.resources.dll": {
+            "locale": "id"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using front_end_kpl.utils;
+using System.Globalization;
+using System.Resources;
 
 namespace front_end_kpl.view
 {
@@ -15,22 +17,81 @@ namespace front_end_kpl.view
     {
         private Admin admin;
         private RoomApp app;
+        private ResourceManager rm;
 
         string id;
         string name;
         int floor;
         int number;
 
+
+
         public RoomGUI(Admin admin)
         {
             InitializeComponent();
             app = new RoomApp();
             this.admin = admin;
+            SetCulture("en");
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void SetCulture(string culture)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(culture);
+            rm = new ResourceManager("Language.Strings", typeof(Room).Assembly);
+            UpdateText();
+        }
+
+        private void UpdateText()
+        {
+            LableRoom.Text = rm.GetString("TitleRoom");
+            LableName.Text = rm.GetString("LableName");
+            LableFloor.Text = rm.GetString("LableFloor");
+            LableNumber.Text = rm.GetString("LableNumber");
+            btn_back.Text = rm.GetString("Back");
+            ButtonAdd.Text = rm.GetString("Add");
+            ButtonDelete.Text = rm.GetString("Delete");
+            ButtonUpdate.Text = rm.GetString("Update");
+            /*
+            TableRoom.Columns["ColumnRoomId"].HeaderText = rm.GetString("ColumnRoomId");
+            TableRoom.Columns["ColumnRoomName"].HeaderText = rm.GetString("ColumnRoomName");
+            TableRoom.Columns["ColumnRoomFLoor"].HeaderText = rm.GetString("ColumnRoomFloor");
+            TableRoom.Columns["ColumnRoomNumber"].HeaderText = rm.GetString("ColumnRoomNumber");
+            */
+            if (TableRoom.Columns.Count > 0)
+            {
+                TableRoom.Columns["ColumnRoomId"].HeaderText = rm.GetString("ColumnRoomId");
+                TableRoom.Columns["ColumnRoomName"].HeaderText = rm.GetString("ColumnRoomName");
+                TableRoom.Columns["ColumnRoomFloor"].HeaderText = rm.GetString("ColumnRoomFloor");
+                TableRoom.Columns["ColumnRoomNumber"].HeaderText = rm.GetString("ColumnRoomNumber");
+            }
+
+            if (Thread.CurrentThread.CurrentUICulture.Name == "en")
+            {
+                ButtonTranslate.Text = rm.GetString("English");
+            }
+            else
+            {
+                ButtonTranslate.Text = rm.GetString("Indonesia");
+            }
+
+        }
+
+        private void SwitchLanguage()
+        {
+            if (Thread.CurrentThread.CurrentUICulture.Name == "en")
+            {
+                SetCulture("id");
+            }
+            else
+            {
+                SetCulture("en");
+            }
+            UpdateText();
         }
 
 
@@ -90,6 +151,15 @@ namespace front_end_kpl.view
 
         private async void Room_Load(object sender, EventArgs e)
         {
+            TableRoom.AutoGenerateColumns = false;
+
+            TableRoom.Columns.Clear();
+
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomId", HeaderText = rm.GetString("ColumnRoomId"), DataPropertyName = "ID" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomName", HeaderText = rm.GetString("ColumnRoomName"), DataPropertyName = "Name" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomFloor", HeaderText = rm.GetString("ColumnRoomFloor"), DataPropertyName = "Floor" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomNumber", HeaderText = rm.GetString("ColumnRoomNumber"), DataPropertyName = "Number" });
+
             await LoadRooms();
         }
 
@@ -112,6 +182,11 @@ namespace front_end_kpl.view
             HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
             halamanAdmin.Show();
             this.Close();
+        }
+
+        private void ButtonTranslate_Click(object sender, EventArgs e)
+        {
+            SwitchLanguage();
         }
     }
 }
