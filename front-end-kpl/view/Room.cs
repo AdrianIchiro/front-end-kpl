@@ -42,7 +42,7 @@ namespace front_end_kpl.view
         private void SetCulture(string culture)
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(culture);
-            rm = new ResourceManager("Language.Strings", typeof(Room).Assembly);
+            rm = new ResourceManager("front_end_kpl.Language.Strings", typeof(Room).Assembly);
             UpdateText();
         }
 
@@ -56,12 +56,6 @@ namespace front_end_kpl.view
             ButtonAdd.Text = rm.GetString("Add");
             ButtonDelete.Text = rm.GetString("Delete");
             ButtonUpdate.Text = rm.GetString("Update");
-            /*
-            TableRoom.Columns["ColumnRoomId"].HeaderText = rm.GetString("ColumnRoomId");
-            TableRoom.Columns["ColumnRoomName"].HeaderText = rm.GetString("ColumnRoomName");
-            TableRoom.Columns["ColumnRoomFLoor"].HeaderText = rm.GetString("ColumnRoomFloor");
-            TableRoom.Columns["ColumnRoomNumber"].HeaderText = rm.GetString("ColumnRoomNumber");
-            */
             if (TableRoom.Columns.Count > 0)
             {
                 TableRoom.Columns["ColumnRoomId"].HeaderText = rm.GetString("ColumnRoomId");
@@ -155,10 +149,10 @@ namespace front_end_kpl.view
 
             TableRoom.Columns.Clear();
 
-            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomId", HeaderText = rm.GetString("ColumnRoomId"), DataPropertyName = "ID" });
-            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomName", HeaderText = rm.GetString("ColumnRoomName"), DataPropertyName = "Name" });
-            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomFloor", HeaderText = rm.GetString("ColumnRoomFloor"), DataPropertyName = "Floor" });
-            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomNumber", HeaderText = rm.GetString("ColumnRoomNumber"), DataPropertyName = "Number" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomId", HeaderText = rm.GetString("ColumnRoomId"), DataPropertyName = "roomId" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomName", HeaderText = rm.GetString("ColumnRoomName"), DataPropertyName = "roomName" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomFloor", HeaderText = rm.GetString("ColumnRoomFloor"), DataPropertyName = "roomFloor" });
+            TableRoom.Columns.Add(new DataGridViewTextBoxColumn { Name = "ColumnRoomNumber", HeaderText = rm.GetString("ColumnRoomNumber"), DataPropertyName = "roomNumber" });
 
             await LoadRooms();
         }
@@ -166,7 +160,16 @@ namespace front_end_kpl.view
         private async Task LoadRooms()
         {
             var rooms = await app.GetAllRoomsAsync();
-            TableRoom.DataSource = rooms;
+
+            if (rooms != null && rooms.Any())
+            {
+                TableRoom.DataSource = rooms;
+            }
+            else
+            {
+                MessageBox.Show("No rooms found.");
+                TableRoom.DataSource = null;
+            }
         }
 
         private void ClearFields()
