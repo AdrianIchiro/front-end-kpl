@@ -47,7 +47,8 @@ namespace front_end_kpl.view
             if (textBox3.Text == null || textBox2 == null)
             {
                 MessageBox.Show("isi field terlebih dahulu");
-            } else
+            }
+            else
             {
                 try
                 {
@@ -61,6 +62,11 @@ namespace front_end_kpl.view
                     MessageBox.Show($"Error: {ex.Message}");
                 }
             }
+        }
+
+        private void MedicalCheckupForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
