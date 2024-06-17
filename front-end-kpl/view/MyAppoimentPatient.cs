@@ -17,12 +17,15 @@ namespace front_end_kpl.view
     {
         List<AppointmentPatient> MyAppoiment = new List<AppointmentPatient>();
         Patient patient;
+        private AppointmentService appointmentService;   
 
         public MyAppoimentPatient(Patient patient)
         {
             InitializeComponent();
             this.patient = patient;
             AllMyAppoimentPatient();
+            AppointmentService.Initialize();
+            appointmentService = AppointmentService.Instance;
         }
 
         private void MyAppoimentPatient_Load(object sender, EventArgs e)
@@ -36,7 +39,7 @@ namespace front_end_kpl.view
             List<Appointment> appointments = new List<Appointment>();
             AppoimetPatientsApp appoimetPatientsApp = new AppoimetPatientsApp();
             List<AppointmentPatient> appoimentPatients = await appoimetPatientsApp.FetchAppointmentsAsync();
-            AppointmentService appointmentService = new AppointmentService();
+           
             foreach (var appoimentPatient in appoimentPatients)
             {
                 if (appoimentPatient.patientId == patient.patientId)

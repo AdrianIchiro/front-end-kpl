@@ -1,25 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace front_end_kpl.utils
 {
-
     public class BookAppoiment
     {
         private readonly HttpClient _client;
+        private static readonly Lazy<BookAppoiment> _instance = new Lazy<BookAppoiment>(() => new BookAppoiment());
 
-        public BookAppoiment()
+        private BookAppoiment()
         {
             _client = new HttpClient();
         }
-        public async void BookAppoimentPatient(int patientId, int appoimentId) 
+
+        public static BookAppoiment Instance => _instance.Value;
+
+        public async void BookAppoimentPatient(int patientId, int appoimentId)
         {
             HttpContent emptyContent = new StringContent(string.Empty);
-            HttpResponseMessage response = await _client.PostAsync($"https://localhost:7264/api/AppoimentPatien?appoiment={appoimentId}&patient={patientId}",emptyContent);
+            HttpResponseMessage response = await _client.PostAsync($"https://localhost:7264/api/AppoimentPatien?appoiment={appoimentId}&patient={patientId}", emptyContent);
             if (response.IsSuccessStatusCode)
             {
                 Console.WriteLine("Book Appoiment posted successfully.");
@@ -30,8 +30,4 @@ namespace front_end_kpl.utils
             }
         }
     }
-
-
-    
 }
-
