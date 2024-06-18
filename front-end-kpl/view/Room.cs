@@ -11,12 +11,18 @@ using front_end_kpl.utils;
 using System.Globalization;
 using System.Resources;
 
+// using globalization buat mengatur culture
+// culture (budaya) merujuk pada seperangkat aturan dan konvensi
+// yang terkait dengan bahasa, format tanggal dan waktu, format angka, dan berbagai elemen lain yang
+// berbeda antara satu budaya atau wilayah dengan yang lainnya.
+
 namespace front_end_kpl.view
 {
     public partial class RoomGUI : Form
     {
         private Admin admin;
         private RoomApp app;
+        // Untuk mengelola resource
         private ResourceManager rm;
 
         string id;
@@ -29,7 +35,9 @@ namespace front_end_kpl.view
         public RoomGUI(Admin admin)
         {
             InitializeComponent();
-            app = new RoomApp();
+            // mendapatkan instansi dari RoomApp
+            app = RoomApp.Instance;
+            //Menyimpan referensi admin sekarang
             this.admin = admin;
             SetCulture("en");
         }
@@ -39,6 +47,8 @@ namespace front_end_kpl.view
 
         }
 
+        // menginisialisasi resource dari resource lokal yang sesuai
+        // Untuk kelas ini memakai resource Strings sebagai defaultnya
         private void SetCulture(string culture)
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(culture);
@@ -46,6 +56,7 @@ namespace front_end_kpl.view
             UpdateText();
         }
 
+        // Buat mengubah teks pada komponen GUI sesuai dengan bahasa sekarang
         private void UpdateText()
         {
             LableRoom.Text = rm.GetString("TitleRoom");
@@ -66,15 +77,16 @@ namespace front_end_kpl.view
 
             if (Thread.CurrentThread.CurrentUICulture.Name == "en")
             {
-                ButtonTranslate.Text = rm.GetString("English");
+                ButtonTranslate.Text = rm.GetString("Language");
             }
             else
             {
-                ButtonTranslate.Text = rm.GetString("Indonesia");
+                ButtonTranslate.Text = rm.GetString("Language");
             }
 
         }
 
+        // Menukar bahasa
         private void SwitchLanguage()
         {
             if (Thread.CurrentThread.CurrentUICulture.Name == "en")
@@ -89,24 +101,30 @@ namespace front_end_kpl.view
         }
 
 
-        //Add Button
+        // Add Button
         private async void button1_Click(object sender, EventArgs e)
         {
             string name = TextBoxName.Text;
             int floor = (int)SpinnerFloor.Value;
             int number = (int)SpinnerNumber.Value;
 
+            if (name == "")
+            {
+                MessageBox.Show(rm.GetString("MNameEmpty"));
+                return;
+            }
+
             var createdRoom = await app.PostRoom(name, floor, number);
             if (createdRoom != null)
             {
-                MessageBox.Show("Room added successfully!");
+                MessageBox.Show(rm.GetString("MRoomAddedSucces"));
                 await LoadRooms();
             }
             ClearFields();
         }
 
 
-        //Delete button
+        // Delete button
         private async void button2_Click(object sender, EventArgs e)
         {
             int id = (int)SpinnerId.Value;
@@ -114,14 +132,14 @@ namespace front_end_kpl.view
             bool isComplete = await app.DeleteRoom(id);
             if (isComplete)
             {
-                MessageBox.Show("Room deleted successfully!");
+                MessageBox.Show(rm.GetString("MRoomDeletedSucces"));
                 await LoadRooms();
             }
             ClearFields();
         }
 
 
-        //Update Button
+        // Update Button
         private async void button3_Click(object sender, EventArgs e)
         {
             int id = (int)SpinnerId.Value;
@@ -129,10 +147,16 @@ namespace front_end_kpl.view
             int floor = (int)SpinnerFloor.Value;
             int number = (int)SpinnerNumber.Value;
 
+            if (name == "")
+            {
+                MessageBox.Show(rm.GetString("MNameEmpty"));
+                return;
+            }
+
             var updatedRoom = await app.UpdateRoom(id, name, floor, number);
             if (updatedRoom != null)
             {
-                MessageBox.Show("Room updated successfully!");
+                MessageBox.Show(rm.GetString("MRoomUpdatedSucces"));
             }
             await LoadRooms();
             ClearFields();
@@ -143,6 +167,7 @@ namespace front_end_kpl.view
 
         }
 
+        // Menangani event saat form dibuat
         private async void Room_Load(object sender, EventArgs e)
         {
             TableRoom.AutoGenerateColumns = false;
@@ -157,6 +182,7 @@ namespace front_end_kpl.view
             await LoadRooms();
         }
 
+        // Memuat data ruangan ke tabel
         private async Task LoadRooms()
         {
             var rooms = await app.GetAllRoomsAsync();
@@ -167,11 +193,12 @@ namespace front_end_kpl.view
             }
             else
             {
-                MessageBox.Show("No rooms found.");
+                MessageBox.Show(rm.GetString("MRoomNotFound"));
                 TableRoom.DataSource = null;
             }
         }
 
+        // Membersihkan tempat input
         private void ClearFields()
         {
             TextBoxName.Text = string.Empty;
@@ -180,6 +207,7 @@ namespace front_end_kpl.view
             SpinnerId.Value = 0;
         }
 
+        // Kembali ke menu admin
         private void btn_back_Click(object sender, EventArgs e)
         {
             HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
@@ -187,6 +215,7 @@ namespace front_end_kpl.view
             this.Close();
         }
 
+        // Melakukan event menukar bahasa
         private void ButtonTranslate_Click(object sender, EventArgs e)
         {
             SwitchLanguage();
