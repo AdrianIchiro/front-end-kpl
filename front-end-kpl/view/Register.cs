@@ -18,14 +18,14 @@ namespace front_end_kpl.view
         {
             InitializeComponent();
         }
+
         public async Task Registration(string gender, string bloodtype)
-        {
-            // Get the DateTime value from the DateTimePicker
+        { 
             DateTime birthDate = dateTimePicker1.Value;
+            // Merubah value datetime ke string dengan format yang ditentukan
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); 
 
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
+            //buat instance UploadData dengan user input
             var checkdata = new UploadData
             {
                 firstName = textBox1.Text,
@@ -37,11 +37,13 @@ namespace front_end_kpl.view
                 password = textBox6.Text,
             };
 
+            //Serialize data user ke json
             var jsonContent = JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = await new HttpClient().PostAsync($"https://localhost:7264/api/Patients?gender={gender}&bloodtype={bloodtype}", content);
 
+            //handling response
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Registration successfull!");
@@ -49,12 +51,11 @@ namespace front_end_kpl.view
             else
             {
                 MessageBox.Show("Failed to add patient. Please check the data and try again");
+                return;
             }
-
-
-
         }
 
+        //class untuk mengstore data user untuk registrasi
         public class UploadData
         {
             public string firstName { get; set; }
@@ -64,7 +65,6 @@ namespace front_end_kpl.view
             public string phoneNumber { get; set; }
             public string email { get; set; }
             public string password { get; set; }
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -72,6 +72,7 @@ namespace front_end_kpl.view
             string gender = comboBox1.Text;
             string bloodtype = comboBox2.Text;
 
+            //validasi gender dan bloodtype agar tidak null
             if (string.IsNullOrEmpty(gender))
             {
                 MessageBox.Show("Invalid Gender");
@@ -86,6 +87,7 @@ namespace front_end_kpl.view
 
             try
             {
+                //validasi semua field agar tidak null
                 if (string.IsNullOrWhiteSpace(textBox1.Text) ||
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
@@ -96,9 +98,6 @@ namespace front_end_kpl.view
                     MessageBox.Show("None of the fields may be empty");
                     return;
                 }
-
-
-
 
                 Registration(gender, bloodtype);
 
@@ -111,23 +110,11 @@ namespace front_end_kpl.view
             {
                 MessageBox.Show(ex.Message);
             }
-
-
-            
-
-
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
             Login login = new Login();
-
             login.Show();
 
             this.Close();

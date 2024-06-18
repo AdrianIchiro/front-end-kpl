@@ -17,17 +17,15 @@ namespace front_end_kpl.view
             InitializeComponent();
         }
 
-        public async Task Delete(string id)
+        public async Task DeleteDoctorByID(string id)
         {
-
+            //buat client baru yang connect ke api localhost
             var client = new HttpClient();
             string api = $"https://localhost:7264/api/Doctor/{id}";
 
             HttpResponseMessage response = await client.DeleteAsync(api);
 
-
-
-
+            //cek jika response sukses atau tidak, display pesan yang sesuai
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Doctor deleted successfully!");
@@ -42,19 +40,18 @@ namespace front_end_kpl.view
         {
             string id = textBox1.Text;
 
+            //cek jika doctor ID valid
             if (string.IsNullOrEmpty(id))
             {
                 MessageBox.Show("Please enter a valid Doctor ID");
                 return;
             }
-
-            Delete(id);
+            DeleteDoctorByID(id);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             HalamanAdmin admin = new HalamanAdmin();
-
             admin.Show();
 
             this.Close();

@@ -31,7 +31,7 @@ namespace front_end_kpl
             doctor.phoneNumber = "082367837542";
             doctor.email = "kevin.junaidi@gmail.com";
 
-            MyAppoiment myAppoiment = new MyAppoiment(doctor);
+            Login myAppoiment = new Login();
             Application.Run(myAppoiment);
         }
     }

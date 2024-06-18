@@ -25,15 +25,13 @@ namespace front_end_kpl.view
             InitializeComponent();
         }
 
-
-        public async Task Register(int specialisation)
+        public async Task RegisterNewDoctor(int specialisation)
         {
-            // Get the DateTime value from the DateTimePicker
             DateTime birthDate = dateTimePicker1.Value;
+            // Merubah value datetime ke string dengan format yang ditentukan
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd");
 
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
+            //Buat instance UploadData dengan user input
             var checkdata = new UploadData
             {
                 firstName = textBox1.Text,
@@ -45,11 +43,13 @@ namespace front_end_kpl.view
                 password = textBox6.Text,
             };
 
+            //Serialise data dokter ke JSON
             var jsonContent = JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = await new HttpClient().PostAsync($"https://localhost:7264/api/Doctor?specializationId={specialisation}", content);
 
+            //cek jika response sukses atau tidak, display pesan yang sesuai
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Doctor added successfully!");
@@ -58,11 +58,9 @@ namespace front_end_kpl.view
             {
                 MessageBox.Show("Failed to add doctor. Please check the data and try again");
             }
-
-
-
         }
 
+        //class untuk store data doktor inputtan user
         public class UploadData
         {
             public string firstName { get; set; }
@@ -82,9 +80,9 @@ namespace front_end_kpl.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             try
             {
+                //cek agar tidak ada textbox yang null
                 if (string.IsNullOrWhiteSpace(textBox1.Text) ||
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
@@ -96,13 +94,12 @@ namespace front_end_kpl.view
                     return;
                 }
 
-
+                //cek jika specialisastion id yang dipilih valid
                 if (!int.TryParse(comboBox1.Text, out int specID))
                 {
                     MessageBox.Show("Invalid Specialisation ID");
                 }
-
-                Register(specID);
+                RegisterNewDoctor(specID);
             }catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -112,7 +109,6 @@ namespace front_end_kpl.view
         private void button2_Click(object sender, EventArgs e)
         {
             HalamanAdmin admin = new HalamanAdmin();
-
             admin.Show();
 
             this.Close();
