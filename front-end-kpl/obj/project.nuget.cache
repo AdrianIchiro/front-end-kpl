@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pYAzNNb66uc=",
+  "dgSpecHash": "i5cL75ZiZV3v69mUsDQJlHeCeZEhyo7UIzmGjCfJrc7Qc0vyKFrjsPPvtVZOgbwUnF3kef8yapFZB6VN2WG0oQ==",
   "success": true,
-  "projectFilePath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adibf\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
