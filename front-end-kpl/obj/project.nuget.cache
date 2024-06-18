@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N0PCrJg9hCw=",
+  "dgSpecHash": "sIGjYN0+BdM+TIiKkmmTGphTZXBq+u5f7TnHNDdVGjnT9EuxXEuk8rBo7V9Bagcoo/jiJ+tTWcQR3iBMPDg1JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+  "projectFilePath": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rinda\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -17,10 +17,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.Net;
+using front_end_kpl.utils;
+using frontEnd;
+using Newtonsoft.Json;
 namespace front_end_kpl.view
 {
     public partial class Login : Form
     {
+        private Doctor doctor;
+        private Admin admin;
         //field untuk menstore credential user 
         string _email, _password, _role;
         //membuat enumuntuk mendefinisi role role user
@@ -75,7 +80,8 @@ namespace front_end_kpl.view
             HttpResponseMessage response = null;
 
             //serialize data authentikasi ke JSON
-            var jsonContent = JsonSerializer.Serialize(checkdata);
+
+            var jsonContent = System.Text.Json.JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             //cek jika role yang dipilih valid
@@ -86,13 +92,18 @@ namespace front_end_kpl.view
             }
 
             //kirim login request berdasarkan role yang dipilih, menggunakan automata
+
             switch (_currentRole)
             {
                 case UserRole.Admin:
                     response = await new HttpClient().PostAsync("https://localhost:7264/api/Admin/login", content);
+                    var json = await response.Content.ReadAsStringAsync();
+                    this.admin = JsonConvert.DeserializeObject<Admin>(json);
                     break;
                 case UserRole.Doctor:
                     response = await new HttpClient().PostAsync("https://localhost:7264/api/Doctor/login", content);
+                    var json2 = await response.Content.ReadAsStringAsync();
+                    this.doctor = JsonConvert.DeserializeObject<Doctor>(json2);
                     break;
                 case UserRole.Patient:
                     response = await new HttpClient().PostAsync("https://localhost:7264/api/Patients/login", content);
@@ -113,13 +124,13 @@ namespace front_end_kpl.view
                 {
                     case UserRole.Admin:
                         MessageBox.Show("Welcome " + textBox1.Text);
-                        HalamanAdmin halamanAdmin = new HalamanAdmin();
+                        HalamanAdmin halamanAdmin = new HalamanAdmin(this.admin);
                         halamanAdmin.Show();
                         this.Hide();
                         break;
                     case UserRole.Doctor:
                         MessageBox.Show("Welcome Doctor " + textBox1.Text);
-                        HalamanDoctor halamanDoctor = new HalamanDoctor();
+                        HalamanDoctor halamanDoctor = new HalamanDoctor(this.doctor);
                         halamanDoctor.Show();
                         this.Hide();
                         break;
