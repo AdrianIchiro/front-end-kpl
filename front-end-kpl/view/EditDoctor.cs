@@ -14,13 +14,12 @@ namespace front_end_kpl.view
 {
     public partial class EditDoctor : Form
     {
-        Admin admin;
-        public EditDoctor(Admin admin)
+        public EditDoctor()
         {
             InitializeComponent();
-            this.admin = admin;
         }
 
+        //class untuk store data dokter untuk diedit
         public class UploadData
         {
             public string firstName { get; set; }
@@ -29,18 +28,15 @@ namespace front_end_kpl.view
             public string birthDate { get; set; }
             public string phoneNumber { get; set; }
             public string email { get; set; }
-
         }
 
-        public async Task Edit(int id, int specID)
+        public async Task EditDoctorData(int id, int specID)
         {
-            // Get the DateTime value from the DateTimePicker
             DateTime birthDate = dateTimePicker1.Value;
+            // Merubah value datetime ke string dengan format yang ditentukan
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); 
 
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
-
+            //membuat instansi UploadData dengan user input
             var checkdata = new UploadData
             {
 
@@ -52,11 +48,13 @@ namespace front_end_kpl.view
                 email = textBox4.Text,
             };
 
+            //serialise data dokter ke JSON
             var jsonContent = JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = await new HttpClient().PutAsync($"https://localhost:7264/api/Doctor/{id}?specializationId={specID}", content);
 
+            //menghandal response
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Doctor updated successfully!");
@@ -65,26 +63,18 @@ namespace front_end_kpl.view
             {
                 MessageBox.Show("Failed to edit doctor. Please check the ID and try again.");
             }
-
-
-
-        }
-
-
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //valdasi doctor id agar berupa integer
             if (!int.TryParse(textBox1.Text, out int id))
             {
                 MessageBox.Show("Please enter a valid Doctor ID.");
                 return;
             }
 
+            //validasi specialist id agar berupa integer
             if (!int.TryParse(textBox8.Text, out int specID))
             {
                 MessageBox.Show("Please enter a valid Specialization ID.");
@@ -93,6 +83,7 @@ namespace front_end_kpl.view
 
             try
             {
+                //validasi semua textfield
                 if (
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
@@ -104,23 +95,18 @@ namespace front_end_kpl.view
                     return;
                 }
 
-                Edit(id, specID);
+                EditDoctorData(id, specID);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
-
-            
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
-
-            halamanAdmin.Show();
+            HalamanAdmin admin = new HalamanAdmin();
+            admin.Show();
 
             this.Close();
         }
