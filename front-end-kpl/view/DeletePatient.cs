@@ -12,24 +12,20 @@ namespace front_end_kpl.view
 {
     public partial class DeletePatient : Form
     {
-        Admin admin;
-        public DeletePatient(Admin admin)
+        public DeletePatient()
         {
             InitializeComponent();
-            this.admin = admin; 
         }
 
-        public async Task Delete(string id)
+        public async Task DeletePatientById(string id)
         {
-
+            //buat client baru yang connect ke api localhost
             var client = new HttpClient();
             string api = $"https://localhost:7264/api/Patients/{id}";
 
             HttpResponseMessage response = await client.DeleteAsync(api);
 
-
-
-
+            //cek jika response sukses atau tidak, display pesan yang sesuai
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Patient deleted successfully!");
@@ -44,20 +40,19 @@ namespace front_end_kpl.view
         {
             string id = textBox1.Text;
 
+            //cek jika patient ID valid
             if (string.IsNullOrEmpty(id))
             {
                 MessageBox.Show("Please enter a valid Patient ID");
                 return;
             }
-
-            Delete(id);
+            DeletePatientById(id);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
-
-            halamanAdmin.Show();
+            HalamanAdmin admin = new HalamanAdmin();
+            admin.Show();
 
             this.Close();
         }
