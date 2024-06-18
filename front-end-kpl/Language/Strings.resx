@@ -124,7 +124,7 @@
     <value>Back</value>
   </data>
   <data name="ColumnRoomFloor" xml:space="preserve">
-    <value>Floor</value>
+    <value>FLoor</value>
   </data>
   <data name="ColumnRoomId" xml:space="preserve">
     <value>Room ID</value>
@@ -146,30 +146,6 @@
   </data>
   <data name="LableNumber" xml:space="preserve">
     <value>Number</value>
-  </data>
-  <data name="Language" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="MNameEmpty" xml:space="preserve">
-    <value>Name Empty</value>
-  </data>
-  <data name="MRoomAddedSucces" xml:space="preserve">
-    <value>Room Added Successfuly</value>
-  </data>
-  <data name="MRoomDeletedSucces" xml:space="preserve">
-    <value>Room Deleted Successfully</value>
-  </data>
-  <data name="MRoomExist" xml:space="preserve">
-    <value>Room with this floor and number already exists</value>
-  </data>
-  <data name="MRoomNotExist" xml:space="preserve">
-    <value>Room with this id does not exists</value>
-  </data>
-  <data name="MRoomNotFound" xml:space="preserve">
-    <value>Room Not Found</value>
-  </data>
-  <data name="MRoomUpdatedSucces" xml:space="preserve">
-    <value>Room Updated Successfully</value>
   </data>
   <data name="TitleRoom" xml:space="preserve">
     <value>Room Management</value>
