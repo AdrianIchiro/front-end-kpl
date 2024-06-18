@@ -140,8 +140,8 @@ namespace front_end_kpl.view
                     }
                 }
 
-                BookAppoiment bookAppoiment = new BookAppoiment();
-                bookAppoiment.BookAppoimentPatient(patientId, appointmentId);
+                
+                BookAppoiment.Instance.BookAppoimentPatient(patientId, appointmentId);
 
                 MessageBox.Show("You have sucess booked this appointment");
 

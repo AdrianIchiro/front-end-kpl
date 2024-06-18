@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\Kuliah\\front-end-kpl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\postmedicalcheckup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\postmedicalcheckup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\postappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\postappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\appoimetpatientsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\appoimetpatientsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\appointmentapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\appointmentapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\utils\\bookappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\bookappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\front-end-kpl\\front-end-kpl\\http\\httpclientsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\http\\httpclientsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,21 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 131,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HttpClientSingleton.cs",
-              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Http\\HttpClientSingleton.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\Http\\HttpClientSingleton.cs",
-              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Http\\HttpClientSingleton.cs",
-              "RelativeToolTip": "front-end-kpl\\Http\\HttpClientSingleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T10:26:22.109Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -40,6 +59,123 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Program.cs",
+              "RelativeToolTip": "front-end-kpl\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:42.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpecializationService.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\SpecializationService.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\SpecializationService.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\SpecializationService.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\SpecializationService.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:32.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomApp.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\RoomApp.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:26.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostMedicalCheckup.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostMedicalCheckup.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\PostMedicalCheckup.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostMedicalCheckup.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\PostMedicalCheckup.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:24.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostAppointment.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostAppointment.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\PostAppointment.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\PostAppointment.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\PostAppointment.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:20.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppoimetPatientsApp.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\AppoimetPatientsApp.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\AppoimetPatientsApp.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\AppoimetPatientsApp.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\AppoimetPatientsApp.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:18.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentApp.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\AppointmentApp.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\AppointmentApp.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\AppointmentApp.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\AppointmentApp.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:13.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookAppoiment.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\BookAppoiment.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\utils\\BookAppoiment.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\utils\\BookAppoiment.cs",
+              "RelativeToolTip": "front-end-kpl\\utils\\BookAppoiment.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:48:10.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HttpClientSingleton.cs",
+              "DocumentMoniker": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Http\\HttpClientSingleton.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Http\\HttpClientSingleton.cs",
+              "ToolTip": "D:\\Kuliah\\front-end-kpl\\front-end-kpl\\Http\\HttpClientSingleton.cs",
+              "RelativeToolTip": "front-end-kpl\\Http\\HttpClientSingleton.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T10:26:22.109Z",
+              "EditorCaption": ""
             }
           ]
         },
