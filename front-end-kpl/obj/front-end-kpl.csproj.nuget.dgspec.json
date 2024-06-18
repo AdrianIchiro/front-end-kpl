@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
+    "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
+    "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "projectUniqueName": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
         "projectName": "front-end-kpl",
-        "projectPath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
-        "packagesPath": "C:\\Users\\adibf\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\obj\\",
+        "projectPath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+        "packagesPath": "C:\\Users\\rinda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adibf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rinda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
