@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="view\Specialization.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="view\AddAdmin.cs">
@@ -35,6 +35,9 @@
     <Compile Update="view\EditPatient.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="view\BookAppoimentPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="view\HalamanAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -44,16 +47,19 @@
     <Compile Update="view\HalamanPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="view\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="view\MedicalCheckupForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="view\MyAppoiment.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="view\MyAppoimentPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="view\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\Room.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -12,9 +12,32 @@ namespace front_end_kpl.view
 {
     public partial class HalamanPatient : Form
     {
-        public HalamanPatient()
+        Patient Patient;
+        public HalamanPatient(Patient patient)
         {
             InitializeComponent();
+            this.Patient = patient;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BookAppoimentPage bookAppoimentPage = new BookAppoimentPage(Patient);
+            bookAppoimentPage.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MyAppoimentPatient myAppoimentPatient = new MyAppoimentPatient(Patient);
+            myAppoimentPatient.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
         }
     }
 }

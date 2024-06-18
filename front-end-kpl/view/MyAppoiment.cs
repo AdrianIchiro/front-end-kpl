@@ -74,5 +74,12 @@ namespace front_end_kpl.view
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HalamanDoctor halamanDoctor = new HalamanDoctor(doctor);
+            halamanDoctor.Show();
+            this.Close();
+        }
     }
 }

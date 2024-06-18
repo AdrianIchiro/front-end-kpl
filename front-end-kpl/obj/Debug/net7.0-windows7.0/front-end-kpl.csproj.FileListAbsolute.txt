@@ -99,3 +99,342 @@ C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
 C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\tugas besar kpl\ver5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#2\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+C:\Users\rinda\Downloads\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\ver6\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.id.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#4\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.id.resources
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.exe
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.deps.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.runtimeconfig.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net7.0-windows7.0\Newtonsoft.Json.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Properties.Resources.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AddPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\frontEnd.view.AppoimentManagement.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeleteDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.DeletePatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.EditPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanAdmin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanDoctor.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.HalamanPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Admin.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoiment.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Register.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.RoomGUI.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Specialization.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.id.resources
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.GenerateResource.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.AssemblyInfo.cs
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.sourcelink.json
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\id\front-end-kpl.resources.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-en.39784A27.Up2Date
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\refint\front-end-kpl.dll
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
+D:\Kuliah\Tugas\MATKUL\Semester 4\Konstruksi Perangkat Lunak\TUBES\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll

@@ -1,11 +1,13 @@
 using front_end_kpl.Model;
-using front_end_kpl.Service;
+using front_end_kpl.utils;
+using front_end_kpl.view;
 using Newtonsoft.Json;
 
 namespace front_end_kpl
 {
     public partial class Specialization : Form
     {
+        Admin admin;
         SpecializationService service = new SpecializationService();
         string spcUrl = "https://localhost:7264/api/Specialization";
         public Specialization()
@@ -77,7 +79,7 @@ namespace front_end_kpl
             List<SpecializationModel> listSpecializationModel = await service.SpecializationsAsyncGet(spcUrl);
 
             dataGridView1.DataSource = listSpecializationModel;
-            
+
         }
 
         private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -101,7 +103,14 @@ namespace front_end_kpl
             tB_Name.Text = "";
             tB_Description.Text = "";
         }
-         
-        
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            HalamanAdmin HalamanAdmin = new HalamanAdmin(admin);
+
+            HalamanAdmin.Show();
+
+            this.Close();
+        }
     }
 }

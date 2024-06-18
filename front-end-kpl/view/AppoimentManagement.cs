@@ -1,5 +1,6 @@
 ﻿using AppointmentApp;
 using front_end_kpl.utils;
+using front_end_kpl.view;
 using System.Drawing.Drawing2D;
 
 namespace frontEnd.view
@@ -9,26 +10,34 @@ namespace frontEnd.view
         List<Room> rooms;
         List<Doctor> doctors;
         List<Appointment> appointments;
+        Admin admin;
         private int rows =
             -1;
         private int appoimentId = -1;
 
-        private readonly string _apiUrl = "https://localhost:7264/api/Appoiment";
-        private readonly HttpClient _httpClient = new HttpClient();
+        
+       
+        private readonly AppointmentService appointmentService;
+        private readonly PostAppointment postAppointment;
 
-        public AppoimentManagement()
+        public AppoimentManagement(Admin admin)
         {
 
 
             InitializeComponent();
+            AppointmentService.Initialize();
+            PostAppointment.Initialize();
+
+            appointmentService = AppointmentService.Instance;
+            postAppointment = PostAppointment.Instance;
             numericUpDown1.Maximum = 10000;
             FillComboBox();
             LoadRoomsAsync();
             LoadDoctorssAsync();
-
+            this.admin = admin;
             _ = LoadAppointmentsAsync();
             this.StartPosition = FormStartPosition.CenterScreen;
-
+             
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -60,12 +69,15 @@ namespace frontEnd.view
         {
             try
             {
-                var response = await _httpClient.GetAsync(_apiUrl);
+                
+               
 
-                if (response.IsSuccessStatusCode)
+                // Memanggil FetchAppointmentsAsync untuk mendapatkan daftar janji temu
+                var appointments = await appointmentService.FetchAppointmentsAsync();
+
+                // Memperbarui tampilan data grid jika berhasil mendapatkan daftar janji temu
+                if (appointments != null)
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-                    var appointments = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Appointment>>(content);
                     this.appointments = appointments;
 
                     dataGridView1.Rows.Clear();
@@ -77,7 +89,7 @@ namespace frontEnd.view
                 }
                 else
                 {
-                    MessageBox.Show($"Failed to fetch data. Status code: {response.StatusCode}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Failed to fetch appointments data.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
@@ -86,15 +98,14 @@ namespace frontEnd.view
             }
         }
 
+
         private async Task LoadRoomsAsync()
         {
-            RoomApp roomApp = new RoomApp();
-            List<Room> rooms = await roomApp.GetAllRoomsAsync();
+            List<Room> rooms = await RoomApp.Instance.GetAllRoomsAsync();
             this.rooms = rooms;
             foreach (Room room in rooms)
             {
                 comboBox6.Items.Add(room.roomName);
-
             }
         }
 
@@ -143,10 +154,10 @@ namespace frontEnd.view
                 string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                 string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
 
-                PostAppointment postAppointment = new PostAppointment();
-                EditAppoment editAppoment = new EditAppoment();
+                
+                AppomentData editAppoment = new AppomentData();
 
-                MessageBox.Show(this.appoimentId.ToString());
+                
                 editAppoment.timeStart = timeStart;
                 editAppoment.timeEnd = timeEnd;
                 string date = dateTimePicker1.Value.ToString("yyyy/MM/dd");
@@ -166,7 +177,7 @@ namespace frontEnd.view
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
+            if (e.RowIndex >= 0)
             {
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
                 this.rows = e.RowIndex;
@@ -186,7 +197,7 @@ namespace frontEnd.view
 
 
 
-                // Dapatkan data dari baris yang dipilih
+
 
             }
         }
@@ -291,7 +302,7 @@ namespace frontEnd.view
         {
             if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                 || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
-                || comboBox6.SelectedItem == null || numericUpDown1.Value == null)
+                || comboBox6.SelectedItem == null)
             {
                 // ComboBox tidak memiliki item yang dipilih
                 MessageBox.Show("all fields must be filled in ");
@@ -305,9 +316,9 @@ namespace frontEnd.view
                     string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                     string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
 
-                    PostAppointment postAppointment = new PostAppointment();
-                    AddAppointmentData addAppointmentData = new AddAppointmentData();
-                    addAppointmentData.appoimentId = 0;
+                    
+                    AppomentData addAppointmentData = new AppomentData();
+                   
                     addAppointmentData.timeStart = timeStart;
                     addAppointmentData.timeEnd = timeEnd;
                     string date = dateTimePicker1.Value.ToString("yyyy/MM/dd");
@@ -323,6 +334,7 @@ namespace frontEnd.view
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
 
                     dataGridView1.ClearSelection();
+                    MessageBox.Show("Appointment added successfully!");
                     LoadAppointmentsAsync();
 
                 }
@@ -339,9 +351,24 @@ namespace frontEnd.view
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
+            this.Hide();
+        }
 
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            if (this.rows >=0)
+            {
+                
+               
+                await appointmentService.DeleteAppoiment(this.appoimentId);
+
+                dataGridView1.ClearSelection();
+               await LoadAppointmentsAsync();
+            }
         }
     }
 }

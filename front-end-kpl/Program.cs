@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using front_end_kpl.view;
 
 namespace front_end_kpl
 {
@@ -18,21 +19,11 @@ namespace front_end_kpl
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            //RoomGUI room = new RoomGUI();
+            //Application.Run(room);
 
-            
-           
-
-            Doctor doctor = new Doctor();
-            doctor.id = 2;
-            doctor.firstName = "kevin";
-            doctor.lastName = "Albany";
-            doctor.specialization = "string";
-            doctor.address = "bogor";
-            doctor.phoneNumber = "082367837542";
-            doctor.email = "kevin.junaidi@gmail.com";
-
-            Login myAppoiment = new Login();
-            Application.Run(myAppoiment);
+            Login login = new Login();
+            Application.Run(login);
         }
     }
 }

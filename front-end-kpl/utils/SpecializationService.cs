@@ -6,7 +6,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using front_end_kpl.Model;
 
-namespace front_end_kpl.Service
+namespace front_end_kpl.utils
 {
     public class SpecializationService
     {
