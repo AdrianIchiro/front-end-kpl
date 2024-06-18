@@ -393,3 +393,7 @@ D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0
 D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.pdb
 D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front-end-kpl.genruntimeconfig.cache
 D:\tugas besar kpl\ver 7\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\ref\front-end-kpl.dll
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.AppoimentDoctorForm.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.view.Login.resources
+D:\Kuliah\front-end-kpl\front-end-kpl\obj\Debug\net7.0-windows7.0\front_end_kpl.Language.Strings.id.resources

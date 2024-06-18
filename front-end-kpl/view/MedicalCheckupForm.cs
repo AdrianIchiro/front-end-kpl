@@ -16,21 +16,30 @@ namespace front_end_kpl.view
 {
     public partial class MedicalCheckupForm : Form
     {
+        private int appoimentId;
         private int patientId;
+        private int doctorId;
+
+        private readonly PostMedicalCheckup _postMedicalCheckup;
+
+       
+        public MedicalCheckupForm(Doctor doctor, int appoimentId)
+        {
+            this.doctorId = doctor.id;
+            this.appoimentId = appoimentId;
+            InitializeComponent();
+            _postMedicalCheckup = PostMedicalCheckup.Instance;
+            loadData(appoimentId);
+        }
 
         private async void loadData(int id)
         {
-            List<GetAppoimentPatients> appoimentPatient = await new GetAppoimentPatient().GetAppoimentPatients(1);
+            List<GetAppoimentPatients> appoimentPatient = await new GetAppoimentPatient().GetAppoimentPatients(id);
             dataGridView1.Rows.Clear();
             foreach (var appoiment in appoimentPatient)
             {
                 dataGridView1.Rows.Add(appoiment.appoimentId, appoiment.appoiment, appoiment.patient, appoiment.patientId);
             }
-        }
-        public MedicalCheckupForm()
-        {
-            InitializeComponent();
-            loadData(1);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -55,7 +64,7 @@ namespace front_end_kpl.view
                     DateTime date = dateTimePicker1.Value;
                     MessageBox.Show(date.ToString("yyyy-mm-dd"));
                     MessageBox.Show(this.patientId.ToString());
-                    await new PostMedicalCheckup().PostMedicalCheckUp(date.ToString("yyyy-MM-dd"), textBox3.Text, textBox2.Text, 1, this.patientId, 1);
+                    await _postMedicalCheckup.PostMedicalCheckUp(date.ToString("yyyy-MM-dd"), textBox3.Text, textBox2.Text, this.doctorId, this.patientId, this.appoimentId);
                 }
                 catch (Exception ex)
                 {
