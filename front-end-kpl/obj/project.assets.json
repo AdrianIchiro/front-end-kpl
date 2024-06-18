@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\rinda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+      "projectUniqueName": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
       "projectName": "front-end-kpl",
-      "projectPath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\front-end-kpl\\front-end-kpl\\obj\\",
+      "projectPath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+      "packagesPath": "C:\\Users\\rinda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rinda\\Downloads\\front-end-kpl\\front-end-kpl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rinda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -75,6 +75,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -122,7 +123,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

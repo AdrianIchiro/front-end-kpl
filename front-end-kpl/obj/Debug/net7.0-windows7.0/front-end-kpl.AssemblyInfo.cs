@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("front-end-kpl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+986c050089e5cd22cf10f9f3f6da8c7b9a146dc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f94fdbad9839cee41e7c3aabb12620b6306282d")]
 [assembly: System.Reflection.AssemblyProductAttribute("front-end-kpl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("front-end-kpl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
