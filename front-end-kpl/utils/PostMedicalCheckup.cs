@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace front_end_kpl.utils
 {
@@ -14,9 +14,21 @@ namespace front_end_kpl.utils
         public string result { get; set; }
     }
 
-    
-    internal class PostMedicalCheckup
+    public class PostMedicalCheckup
     {
+        private static readonly Lazy<PostMedicalCheckup> _instance = new Lazy<PostMedicalCheckup>(() => new PostMedicalCheckup());
+        private readonly HttpClient _httpClient;
+
+        private PostMedicalCheckup()
+        {
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => { return true; };
+
+            _httpClient = new HttpClient(handler);
+        }
+
+        public static PostMedicalCheckup Instance => _instance.Value;
+
         public async Task PostMedicalCheckUp(string date, string note, string result, int doctorid, int patientid, int appoimentid)
         {
             var checkUpData = new MedicalCheckUpData
@@ -26,20 +38,17 @@ namespace front_end_kpl.utils
                 result = result,
             };
 
-            HttpClientHandler handler = new HttpClientHandler();
-            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => { return true; };
-
             var jsonContent = JsonSerializer.Serialize(checkUpData);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             try
             {
-                HttpResponseMessage response = await new HttpClient(handler).PostAsync($"https://localhost:7264/api/MedicalCheckUp?appoimentId={appoimentid}&patientID={patientid}&doctorId={doctorid}", content);
+                HttpResponseMessage response = await _httpClient.PostAsync($"https://localhost:7264/api/MedicalCheckUp?appoimentId={appoimentid}&patientID={patientid}&doctorId={doctorid}", content);
                 Console.WriteLine(response.IsSuccessStatusCode);
 
                 if (response.IsSuccessStatusCode)
                 {
-                    MessageBox.Show("data berhasil di masukan");
+                    MessageBox.Show("Data berhasil dimasukkan.");
                 }
                 else
                 {
@@ -51,7 +60,6 @@ namespace front_end_kpl.utils
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
-
         }
     }
 }

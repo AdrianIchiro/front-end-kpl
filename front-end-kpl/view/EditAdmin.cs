@@ -16,9 +16,11 @@ namespace front_end_kpl.view
 {
     public partial class EditAdmin : Form
     {
-        public EditAdmin()
+        Admin admin;
+        public EditAdmin(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin; 
         }
 
         public class UploadData
@@ -61,7 +63,7 @@ namespace front_end_kpl.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //validasi agar inputtan id berupa integer
+ //validasi agar inputtan id berupa integer
             if (!int.TryParse(textBox1.Text, out int id))
             {
                 MessageBox.Show("Please enter a valid Admin ID");
@@ -90,8 +92,8 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
 
             this.Close();
         }

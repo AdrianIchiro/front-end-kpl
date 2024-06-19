@@ -15,9 +15,11 @@ namespace front_end_kpl.view
 {
     public partial class AddPatient : Form
     {
-        public AddPatient()
+        Admin admin;
+        public AddPatient(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin; 
         }
 
         public async Task RegisterNewPatient(string gender, string bloodtype)
@@ -108,8 +110,8 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
 
             this.Close();
         }

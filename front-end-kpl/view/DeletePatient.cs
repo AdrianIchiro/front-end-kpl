@@ -12,9 +12,11 @@ namespace front_end_kpl.view
 {
     public partial class DeletePatient : Form
     {
-        public DeletePatient()
+        Admin admin;
+        public DeletePatient(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin; 
         }
 
         public async Task DeletePatientById(string id)
@@ -51,8 +53,8 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
 
             this.Close();
         }

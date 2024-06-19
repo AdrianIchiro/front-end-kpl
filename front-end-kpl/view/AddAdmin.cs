@@ -15,9 +15,11 @@ namespace front_end_kpl.view
 {
     public partial class AddAdmin : Form
     {
-        public AddAdmin()
+        Admin admin;
+        public AddAdmin(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
 
         //class untuk store data pasien inputtan user
@@ -56,7 +58,7 @@ namespace front_end_kpl.view
             else
             {
                 MessageBox.Show("Failed to add admin. Please check the data and try again");
-            } 
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,9 +84,9 @@ namespace front_end_kpl.view
         }
 
         private void button2_Click(object sender, EventArgs e)
-        { 
-        HalamanAdmin admin = new HalamanAdmin();
-        admin.Show();
+        {
+        HalamanAdmin page = new HalamanAdmin(admin);
+        page.Show();
 
         this.Close();
         }

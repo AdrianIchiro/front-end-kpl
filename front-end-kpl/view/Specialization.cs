@@ -17,20 +17,31 @@ namespace front_end_kpl
 
         private async void btn_Tambah_Click(object sender, EventArgs e)
         {
-
             try
             {
-                string name = tB_Name.Text;
-                string description = tB_Description.Text;
+                if (string.IsNullOrWhiteSpace(tB_SpecializationId.Text))
+                {
+                    MessageBox.Show("Specialization ID cannot be empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-                await service.PostSpecialization(name, description);
+                int specializationId = Convert.ToInt32(tB_SpecializationId.Text);
+                var updatedSpecialization = new SpecializationModel
+                {
+                    name = tB_Name.Text,
+                    description = tB_Description.Text
+                };
+
+                await service.UpdateSpecialization(specializationId, updatedSpecialization);
                 dataGridView1.DataSource = await service.SpecializationsAsyncGet(spcUrl);
                 ClearTextBoxes();
 
+                MessageBox.Show("Specialization Updated successfully.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"An error Specialization occurred: {ex.Message}");
+                MessageBox.Show("Data tidak ditemukan, silakan klik data yang ingin diupdate");
             }
         }
 
@@ -59,11 +70,18 @@ namespace front_end_kpl
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(tB_SpecializationId.Text))
+                {
+                    MessageBox.Show("Specialization ID cannot be empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 int specializationId = Convert.ToInt32(tB_SpecializationId.Text);
                 await service.DeleteSpecialization(specializationId);
                 dataGridView1.DataSource = await service.SpecializationsAsyncGet(spcUrl);
                 ClearTextBoxes();
+
+                MessageBox.Show("Specialization Deleted successfully.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (Exception ex)

@@ -18,12 +18,11 @@ namespace front_end_kpl.view
         {
             InitializeComponent();
         }
-
         public async Task Registration(string gender, string bloodtype)
-        { 
+        {
             DateTime birthDate = dateTimePicker1.Value;
             // Merubah value datetime ke string dengan format yang ditentukan
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); 
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd");
 
             //buat instance UploadData dengan user input
             var checkdata = new UploadData
@@ -65,6 +64,7 @@ namespace front_end_kpl.view
             public string phoneNumber { get; set; }
             public string email { get; set; }
             public string password { get; set; }
+
         }
 
         private void button1_Click(object sender, EventArgs e)

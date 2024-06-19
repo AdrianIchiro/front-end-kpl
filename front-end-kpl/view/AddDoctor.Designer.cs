@@ -1,4 +1,5 @@
-﻿namespace front_end_kpl.view
+﻿
+namespace front_end_kpl.view
 {
     partial class AddDoctor
     {
@@ -249,6 +250,8 @@
             ResumeLayout(false);
             PerformLayout();
         }
+
+        
 
         #endregion
 

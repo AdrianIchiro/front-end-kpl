@@ -14,9 +14,11 @@ namespace front_end_kpl.view
 {
     public partial class EditDoctor : Form
     {
-        public EditDoctor()
+        Admin admin;
+        public EditDoctor(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
 
         //class untuk store data dokter untuk diedit
@@ -34,7 +36,7 @@ namespace front_end_kpl.view
         {
             DateTime birthDate = dateTimePicker1.Value;
             // Merubah value datetime ke string dengan format yang ditentukan
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); 
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd");
 
             //membuat instansi UploadData dengan user input
             var checkdata = new UploadData
@@ -105,8 +107,8 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+            halamanAdmin.Show();
 
             this.Close();
         }

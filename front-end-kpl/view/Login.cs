@@ -17,8 +17,32 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.Net;
+using front_end_kpl.utils;
+using Newtonsoft.Json;
 namespace front_end_kpl.view
 {
+
+    public class Admin
+    {
+        public int adminId { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }  
+        public string phoneNumber { get; set; } 
+        public string email { get; set; }   
+    }
+
+    public class Patient
+    {
+        public int patientId { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string address { get; set; }
+        public DateOnly birthDate { get; set; }
+        public string phoneNumber { get; set; }
+        public string email { get; set; }
+    }
+
+
     public partial class Login : Form
     {
         //field untuk menstore credential user 
@@ -35,11 +59,10 @@ namespace front_end_kpl.view
         //class untuk mengstore data authentikasi user
         public class Authenticate
         {
-            public string Email { get; set; }
-            public string Password { get; set; }
+            public string email { get; set; }
+            public string password { get; set; }
         }
 
-        //digunakan untuk menseleksi role
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selected = (string)comboBox1.SelectedItem;
@@ -65,17 +88,23 @@ namespace front_end_kpl.view
 
         private async void button1_Click(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Email and password must be filled");
+            }
+
             //membuat instansi authentikasi menggunakan user input
             var checkdata = new Authenticate
             {
-                Email = textBox1.Text,
-                Password = textBox2.Text,
+                email = textBox1.Text,
+                password = textBox2.Text,
             };
 
             HttpResponseMessage response = null;
 
             //serialize data authentikasi ke JSON
-            var jsonContent = JsonSerializer.Serialize(checkdata);
+            var jsonContent = System.Text.Json.JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             //cek jika role yang dipilih valid
@@ -107,36 +136,48 @@ namespace front_end_kpl.view
             }
 
             //handle response
-            if (response != null && response.IsSuccessStatusCode)
+            if (response != null)
             {
-                switch (_currentRole)
+                string responseContent = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
                 {
-                    case UserRole.Admin:
-                        MessageBox.Show("Welcome " + textBox1.Text);
-                        HalamanAdmin halamanAdmin = new HalamanAdmin();
-                        halamanAdmin.Show();
-                        this.Hide();
-                        break;
-                    case UserRole.Doctor:
-                        MessageBox.Show("Welcome Doctor " + textBox1.Text);
-                        HalamanDoctor halamanDoctor = new HalamanDoctor();
-                        halamanDoctor.Show();
-                        this.Hide();
-                        break;
-                    case UserRole.Patient:
-                        MessageBox.Show("Welcome " + textBox1.Text);
-                        HalamanPatient halamanPatient = new HalamanPatient();
-                        halamanPatient.Show();
-                        this.Hide();
-                        break;
+                    switch (_currentRole)
+                    {
+                        case UserRole.Admin:
+                            Admin admin = System.Text.Json.JsonSerializer.Deserialize<Admin>(responseContent);
+                            MessageBox.Show("Welcome " + admin.firstName);
+                            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
+                            halamanAdmin.Show();
+                            this.Hide();
+                            break;
+                        case UserRole.Doctor:
+                            Doctor doctor = System.Text.Json.JsonSerializer.Deserialize<Doctor>(responseContent);
+                            MessageBox.Show("Welcome Doctor " + doctor.firstName);
+                            HalamanDoctor halamanDoctor = new HalamanDoctor(doctor);
+                            halamanDoctor.Show();
+                            this.Hide();
+                            break;
+                        case UserRole.Patient:
+                            Patient patient = System.Text.Json.JsonSerializer.Deserialize<Patient>(responseContent);
+                            MessageBox.Show("Welcome " + patient.firstName);
+                            HalamanPatient halamanPatient = new HalamanPatient(patient);
+                            halamanPatient.Show();
+                            this.Hide();
+                            break;
+                    }
                 }
-            } 
+                else
+                {
+                    MessageBox.Show("Invalid email or password. " + responseContent);
+                }
+            }
             else
             {
-                MessageBox.Show("nama atau password salah");
+                MessageBox.Show("Failed to get a response from the server.");
             }
         }
-           
+
         private void Register_Click(object sender, EventArgs e)
         {
             Register register = new Register();

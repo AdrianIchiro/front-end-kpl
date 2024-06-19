@@ -15,12 +15,14 @@ namespace front_end_kpl.view
 {
     public partial class EditPatient : Form
     {
-        public EditPatient()
+        Admin admin;
+        public EditPatient(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin; 
         }
 
-        //class untuk mengstore data pasien untuk di edit
+        //class untuk mengstore data pasien untuk di 
         public class UploadData
         {
             public string firstName { get; set; }
@@ -29,15 +31,13 @@ namespace front_end_kpl.view
             public string birthDate { get; set; }
             public string phoneNumber { get; set; }
             public string email { get; set; }
-
         }
 
-        //method untuk edit data pasien
         public async Task EditPatientData(int id, string gender, string bloodtype)
         {
             DateTime birthDate = dateTimePicker1.Value;
             // Merubah value datetime ke string dengan format yang ditentukan
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); 
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd");
 
             //membuat instance UploadData dengan user input
             var checkdata = new UploadData
@@ -116,8 +116,8 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin HalamanAdmin = new HalamanAdmin(admin);
+            HalamanAdmin.Show();
 
             this.Close();
         }

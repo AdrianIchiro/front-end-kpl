@@ -20,10 +20,13 @@ namespace front_end_kpl.view
 {
     public partial class AddDoctor : Form
     {
-        public AddDoctor()
+        Admin admin;
+        public AddDoctor(Admin admin)
         {
             InitializeComponent();
+            this.admin = admin;
         }
+
 
         public async Task RegisterNewDoctor(int specialisation)
         {
@@ -60,7 +63,6 @@ namespace front_end_kpl.view
             }
         }
 
-        //class untuk store data doktor inputtan user
         public class UploadData
         {
             public string firstName { get; set; }
@@ -70,12 +72,6 @@ namespace front_end_kpl.view
             public string phoneNumber { get; set; }
             public string email { get; set; }
             public string password { get; set; }
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -100,16 +96,22 @@ namespace front_end_kpl.view
                     MessageBox.Show("Invalid Specialisation ID");
                 }
                 RegisterNewDoctor(specID);
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
 
+        private void label9_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin();
-            admin.Show();
+            HalamanAdmin HalamanAdmin = new HalamanAdmin(admin);
+            HalamanAdmin.Show();
 
             this.Close();
         }

@@ -1,30 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamanpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\halamandoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\medicalcheckupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\adddoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\addpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deleteadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletedoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\deletepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\editpatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editpatient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\appoimentdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\appoimentdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\bookappoimentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\bookappoimentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\myappoiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,83 +157,469 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 342,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 730,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Strings.resx",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
-              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.resx",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
-              "RelativeToolTip": "front-end-kpl\\Language\\Strings.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-18T02:27:43.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Strings.id.resx",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
-              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.id.resx",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
-              "RelativeToolTip": "front-end-kpl\\Language\\Strings.id.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-18T02:27:42.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Room.cs [Design]",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "HalamanPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanPatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanPatient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:05.434Z",
+              "WhenOpened": "2024-06-19T11:54:38.858Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Room.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwJgAAAAXAAAA",
+              "DocumentIndex": 6,
+              "Title": "HalamanPatient.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanPatient.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanPatient.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwB4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:33.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoomApp.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\RoomApp.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAgwGMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:21.949Z",
+              "WhenOpened": "2024-06-19T11:54:43.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Room.Designer.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.Designer.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "HalamanAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:09.868Z",
+              "WhenOpened": "2024-06-19T08:58:38.328Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HalamanAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanAdmin.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanAdmin.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:17:04.374Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Login.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Login.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Login.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwHYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:52:50.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\EditPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:39.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicalCheckupForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAtwEQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:25:56.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\Program.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\Program.cs",
+              "RelativeToolTip": "front-end-kpl\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T12:09:25.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditPatient.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditPatient.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAjwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:55:43.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HalamanDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T12:19:42.747Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HalamanDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\HalamanDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\HalamanDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\HalamanDoctor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAArwBkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T12:19:44.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddDoctor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAjwP0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:14:28.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Specialization.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Specialization.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Specialization.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Specialization.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Specialization.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:24:09.936Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Specialization.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Specialization.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Specialization.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Specialization.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Specialization.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAYwFkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:24:15.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicalCheckupForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\MedicalCheckupForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\MedicalCheckupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:53:26.291Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:57:53.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAjwEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:57:57.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:13:05.581Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Register.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Register.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:53:28.703Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Register.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\Register.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Register.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAnwG8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:53:37.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:14:04.537Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddPatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddPatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AddPatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:04:33.084Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddAdmin.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddAdmin.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAwFEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:14:08.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddPatient.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddPatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddPatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddPatient.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddPatient.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:04:36.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAswGwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:13:08.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteAdmin.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:56.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\DeleteAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:52.178Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\DeleteDoctor.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:21.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeleteDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeleteDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeleteDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\DeleteDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:03:19.403Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeletePatient.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeletePatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeletePatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeletePatient.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\DeletePatient.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAzwDcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:02:47.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeletePatient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeletePatient.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\DeletePatient.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\DeletePatient.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\DeletePatient.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:02:42.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EditAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditAdmin.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:00:34.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:00:31.71Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditPatient.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditPatient.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\EditPatient.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditPatient.Designer.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAAwK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:58:13.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BookAppoimentPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\BookAppoimentPage.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\BookAppoimentPage.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\BookAppoimentPage.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\BookAppoimentPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:53:33.318Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MyAppoiment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MyAppoiment.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\MyAppoiment.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\backup before merge\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MyAppoiment.cs [Design]",
+              "RelativeToolTip": "..\\..\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\backup before merge\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\MyAppoiment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:53:27.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppoimentDoctorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AppoimentDoctorForm.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AppoimentDoctorForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\backup before merge\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AppoimentDoctorForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\skool tugas\\Semester 4\\Konstruksi\\tp\\gruppen\\automata\\v2 with rins frontend folder\\kpl rin 3\\backup before merge\\vin said to work here\\front-end-kpl-main\\front-end-kpl\\view\\AppoimentDoctorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:31:40.756Z"
             }
           ]
         }
