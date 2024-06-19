@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\",
+  "WorkspaceRootPath": "D:\\Program\\GUIADIB\\GUI TRACK#5\\front-end-kpl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\utils\\roomapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.id.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\language\\strings.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\kuliah\\tugas\\matkul\\semester 4\\konstruksi perangkat lunak\\tubes\\gui track#5\\front-end-kpl\\front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|d:\\program\\guiadib\\gui track#5\\front-end-kpl\\front-end-kpl\\view\\appoimentdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\appoimentdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,83 +13,42 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 342,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 730,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Strings.resx",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
-              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.resx",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.resx",
-              "RelativeToolTip": "front-end-kpl\\Language\\Strings.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-18T02:27:43.734Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Strings.id.resx",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
-              "RelativeDocumentMoniker": "front-end-kpl\\Language\\Strings.id.resx",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\Language\\Strings.id.resx",
-              "RelativeToolTip": "front-end-kpl\\Language\\Strings.id.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-18T02:27:42.616Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Room.cs [Design]",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs [Design]",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:05.434Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Room.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwJgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:33.04Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoomApp.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\utils\\RoomApp.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\utils\\RoomApp.cs",
-              "RelativeToolTip": "front-end-kpl\\utils\\RoomApp.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAgwGMAAAAAAAAA",
+              "Title": "AppoimentDoctorForm.cs [Design]",
+              "DocumentMoniker": "D:\\Program\\GUIADIB\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\AppoimentDoctorForm.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AppoimentDoctorForm.cs",
+              "ToolTip": "D:\\Program\\GUIADIB\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\AppoimentDoctorForm.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AppoimentDoctorForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:21.949Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2024-06-18T23:31:40.756Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 61,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Room.Designer.cs",
-              "DocumentMoniker": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
-              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.Designer.cs",
-              "ToolTip": "D:\\Kuliah\\Tugas\\MATKUL\\Semester 4\\Konstruksi Perangkat Lunak\\TUBES\\GUI TRACK#5\\front-end-kpl\\front-end-kpl\\view\\Room.Designer.cs",
-              "RelativeToolTip": "front-end-kpl\\view\\Room.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:27:09.868Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
