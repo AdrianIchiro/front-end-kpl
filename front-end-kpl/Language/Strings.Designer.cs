@@ -79,7 +79,7 @@ namespace front_end_kpl.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to FLoor.
+        ///   Looks up a localized string similar to Floor.
         /// </summary>
         internal static string ColumnRoomFloor {
             get {
@@ -147,6 +147,78 @@ namespace front_end_kpl.Language {
         internal static string LableNumber {
             get {
                 return ResourceManager.GetString("LableNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        internal static string Language {
+            get {
+                return ResourceManager.GetString("Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name Empty.
+        /// </summary>
+        internal static string MNameEmpty {
+            get {
+                return ResourceManager.GetString("MNameEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room Added Successfuly.
+        /// </summary>
+        internal static string MRoomAddedSucces {
+            get {
+                return ResourceManager.GetString("MRoomAddedSucces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room Deleted Successfully.
+        /// </summary>
+        internal static string MRoomDeletedSucces {
+            get {
+                return ResourceManager.GetString("MRoomDeletedSucces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room with this floor and number already exists.
+        /// </summary>
+        internal static string MRoomExist {
+            get {
+                return ResourceManager.GetString("MRoomExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room with this id does not exists.
+        /// </summary>
+        internal static string MRoomNotExist {
+            get {
+                return ResourceManager.GetString("MRoomNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room Not Found.
+        /// </summary>
+        internal static string MRoomNotFound {
+            get {
+                return ResourceManager.GetString("MRoomNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Room Updated Successfully.
+        /// </summary>
+        internal static string MRoomUpdatedSucces {
+            get {
+                return ResourceManager.GetString("MRoomUpdatedSucces", resourceCulture);
             }
         }
         

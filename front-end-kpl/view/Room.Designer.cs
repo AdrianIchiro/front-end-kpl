@@ -58,7 +58,6 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.HighlightText;
-            panel1.Controls.Add(ButtonTranslate);
             panel1.Controls.Add(btn_back);
             panel1.Controls.Add(SpinnerId);
             panel1.Controls.Add(label4);
@@ -79,7 +78,7 @@
             // 
             // ButtonTranslate
             // 
-            ButtonTranslate.Location = new Point(456, 19);
+            ButtonTranslate.Location = new Point(568, 26);
             ButtonTranslate.Name = "ButtonTranslate";
             ButtonTranslate.Size = new Size(94, 29);
             ButtonTranslate.TabIndex = 22;
@@ -257,6 +256,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Highlight;
             ClientSize = new Size(674, 625);
+            Controls.Add(ButtonTranslate);
             Controls.Add(LableRoom);
             Controls.Add(panel1);
             Name = "RoomGUI";

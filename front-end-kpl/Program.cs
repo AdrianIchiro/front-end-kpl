@@ -22,9 +22,8 @@ namespace front_end_kpl
             //RoomGUI room = new RoomGUI();
             //Application.Run(room);
 
-            // Login login = new Login();
-            AppoimentDoctorForm appoiment = new AppoimentDoctorForm(1);
-            Application.Run(appoiment);
+            Login login = new Login();
+            Application.Run(login);
         }
     }
 }

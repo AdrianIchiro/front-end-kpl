@@ -147,6 +147,30 @@
   <data name="LableNumber" xml:space="preserve">
     <value>Nomor</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+  <data name="MNameEmpty" xml:space="preserve">
+    <value>Nama Kosong</value>
+  </data>
+  <data name="MRoomAddedSucces" xml:space="preserve">
+    <value>Ruangan Berhasil Ditambahkan</value>
+  </data>
+  <data name="MRoomDeletedSucces" xml:space="preserve">
+    <value>Ruangan Berhasil Dihapus</value>
+  </data>
+  <data name="MRoomExist" xml:space="preserve">
+    <value>Ruangan dengan lantai dan nomor sudah terdaftar</value>
+  </data>
+  <data name="MRoomNotExist" xml:space="preserve">
+    <value>Ruangan dengan id ini tidak terdaftar</value>
+  </data>
+  <data name="MRoomNotFound" xml:space="preserve">
+    <value>Ruangan Tidak Ditemukan</value>
+  </data>
+  <data name="MRoomUpdatedSucces" xml:space="preserve">
+    <value>Ruangan Berhasil Diperbarui</value>
+  </data>
   <data name="TitleRoom" xml:space="preserve">
     <value>Manajemen Ruangan</value>
   </data>

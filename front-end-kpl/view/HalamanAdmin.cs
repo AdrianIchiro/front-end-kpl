@@ -1,5 +1,4 @@
-﻿using frontEnd;
-using frontEnd.view;
+﻿using frontEnd.view;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
