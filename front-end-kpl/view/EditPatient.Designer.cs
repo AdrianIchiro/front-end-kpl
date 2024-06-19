@@ -63,7 +63,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(334, 9);
             label1.Name = "label1";
             label1.Size = new Size(266, 65);
@@ -171,7 +171,6 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(134, 23);
             textBox3.TabIndex = 13;
-            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
@@ -268,6 +267,7 @@
             Controls.Add(panel1);
             Name = "EditPatient";
             Text = "EditPatient";
+            Load += EditPatient_Load;
             ResumeLayout(false);
             PerformLayout();
         }

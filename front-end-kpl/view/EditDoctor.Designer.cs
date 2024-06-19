@@ -61,7 +61,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(344, 9);
             label1.Name = "label1";
             label1.Size = new Size(266, 65);
@@ -243,6 +243,7 @@
             Controls.Add(panel1);
             Name = "EditDoctor";
             Text = "EditDoctor";
+            Load += EditDoctor_Load;
             ResumeLayout(false);
             PerformLayout();
         }

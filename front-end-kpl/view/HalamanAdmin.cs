@@ -58,7 +58,7 @@ namespace front_end_kpl.view
 
         private void button6_Click(object sender, EventArgs e)
         {
-            DeleteDoctor DeleteDoctor = new DeleteDoctor();
+            DeleteDoctor DeleteDoctor = new DeleteDoctor(admin);
             DeleteDoctor.Show();
             this.Hide();
         }

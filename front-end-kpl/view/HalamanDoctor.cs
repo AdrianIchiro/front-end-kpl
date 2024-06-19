@@ -52,5 +52,10 @@ namespace front_end_kpl.view
             appoimentDoctor.Show();
             this.Close();
         }
+
+        private void HalamanDoctor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

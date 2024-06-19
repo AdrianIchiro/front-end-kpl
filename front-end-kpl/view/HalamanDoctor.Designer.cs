@@ -51,7 +51,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(233, 17);
             label1.Name = "label1";
             label1.Size = new Size(308, 65);
@@ -72,7 +72,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI", 15.75F);
             label2.Location = new Point(296, 163);
             label2.Name = "label2";
             label2.Size = new Size(160, 30);
@@ -101,7 +101,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Segoe UI", 15.75F);
             label3.Location = new Point(551, 163);
             label3.Name = "label3";
             label3.Size = new Size(210, 30);
@@ -121,6 +121,7 @@
             Controls.Add(button1);
             Name = "HalamanDoctor";
             Text = "HalamanDoctor";
+            Load += HalamanDoctor_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

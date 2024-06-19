@@ -94,7 +94,7 @@ namespace front_end_kpl.utils
                 // Mengecek jika ruangan dengan lantai dan nomor ruangan yang sama sudah terdaftar
                 if (rooms.Any(r => r.roomFloor == floor && r.roomNumber == number))
                 {
-                    MessageBox.Show(rm.GetString("MRoomExist", CultureInfo.CurrentCulture));
+                    MessageBox.Show(rm.GetString("MRoomExist", CultureInfo.CurrentUICulture));
                     return null;
                 }
 
@@ -147,7 +147,7 @@ namespace front_end_kpl.utils
                 // Melakukan pengecekan jika ruangan tidak ada
                 if (!rooms.Any(r => r.roomId == id))
                 {
-                    MessageBox.Show(rm.GetString("MRoomNotExist", CultureInfo.CurrentCulture));
+                    MessageBox.Show(rm.GetString("MRoomNotExist", CultureInfo.CurrentUICulture));
                     return false;
                 }
 
@@ -175,7 +175,7 @@ namespace front_end_kpl.utils
             // Mengecek jika ruangan tidak ada
             if (!rooms.Any(r => r.roomId == id))
             {
-                MessageBox.Show(rm.GetString("MRoomNotExist", CultureInfo.CurrentCulture));
+                MessageBox.Show(rm.GetString("MRoomNotExist", CultureInfo.CurrentUICulture));
                 return null; // Or throw an exception or return an error message
             }
 
@@ -229,5 +229,5 @@ namespace front_end_kpl.utils
         }
     }
 
-    
+
 }

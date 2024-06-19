@@ -171,7 +171,7 @@
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Segoe UI", 18F);
             label2.Location = new Point(530, 30);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";

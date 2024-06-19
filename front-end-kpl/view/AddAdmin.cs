@@ -85,7 +85,7 @@ namespace front_end_kpl.view
 
             private void button2_Click(object sender, EventArgs e)
             {
-            HalamanAdmin halamanAdmin = new HalamanAdmin(sadmin);
+            HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
             halamanAdmin.Show();
 
             this.Close();

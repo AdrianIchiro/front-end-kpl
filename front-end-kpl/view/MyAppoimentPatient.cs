@@ -17,7 +17,8 @@ namespace front_end_kpl.view
     {
         List<AppointmentPatient> MyAppoiment = new List<AppointmentPatient>();
         Patient patient;
-        private AppointmentService appointmentService;   
+        private AppointmentService appointmentService;  
+        private readonly AppoimetPatientsApp appoimetPatientsApp = AppoimetPatientsApp.Instance;
 
         public MyAppoimentPatient(Patient patient)
         {
@@ -25,7 +26,9 @@ namespace front_end_kpl.view
             this.patient = patient;
             AllMyAppoimentPatient();
             AppointmentService.Initialize();
+       
             appointmentService = AppointmentService.Instance;
+            
         }
 
         private void MyAppoimentPatient_Load(object sender, EventArgs e)
@@ -37,7 +40,7 @@ namespace front_end_kpl.view
         private async void AllMyAppoimentPatient()
         {
             List<Appointment> appointments = new List<Appointment>();
-            AppoimetPatientsApp appoimetPatientsApp = new AppoimetPatientsApp();
+            
             List<AppointmentPatient> appoimentPatients = await appoimetPatientsApp.FetchAppointmentsAsync();
            
             foreach (var appoimentPatient in appoimentPatients)
