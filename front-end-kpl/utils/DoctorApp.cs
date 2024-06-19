@@ -18,6 +18,10 @@ namespace front_end_kpl.utils
        public string phoneNumber { get; set; }
         public string email { get; set; }
 
+        public static implicit operator int(Doctor? v)
+        {
+            throw new NotImplementedException();
+        }
     }
     internal class DoctorApp
     {

@@ -22,7 +22,7 @@ namespace front_end_kpl.view
 
         private readonly PostMedicalCheckup _postMedicalCheckup;
 
-
+       
         public MedicalCheckupForm(Doctor doctor, int appoimentId)
         {
             this.doctorId = doctor.id;
@@ -74,11 +74,6 @@ namespace front_end_kpl.view
         }
 
         private void MedicalCheckupForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }

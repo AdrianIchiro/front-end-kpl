@@ -101,11 +101,13 @@ namespace frontEnd.view
 
         private async Task LoadRoomsAsync()
         {
-            List<Room> rooms = await RoomApp.Instance.GetAllRoomsAsync();
+            RoomApp roomApp = new RoomApp();
+            List<Room> rooms = await roomApp.GetAllRoomsAsync();
             this.rooms = rooms;
             foreach (Room room in rooms)
             {
                 comboBox6.Items.Add(room.roomName);
+
             }
         }
 

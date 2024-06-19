@@ -48,8 +48,8 @@ namespace front_end_kpl.view
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AppoimentDoctorForm appoimentDoctor = new AppoimentDoctorForm(this.doctor);
-            appoimentDoctor.Show();
+            MedicalCheckupForm medicalCheckup = new MedicalCheckupForm(this.doctor);
+            medicalCheckup.Show();
             this.Close();
         }
     }
