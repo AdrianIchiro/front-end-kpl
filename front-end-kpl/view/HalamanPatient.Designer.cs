@@ -33,12 +33,13 @@
             button3 = new Button();
             panel1 = new Panel();
             label1 = new Label();
+            button4 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(297, 298);
+            button1.Location = new Point(297, 242);
             button1.Name = "button1";
             button1.Size = new Size(166, 57);
             button1.TabIndex = 0;
@@ -48,7 +49,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(297, 211);
+            button2.Location = new Point(297, 169);
             button2.Name = "button2";
             button2.Size = new Size(166, 57);
             button2.TabIndex = 1;
@@ -78,18 +79,29 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(244, 18);
             label1.Name = "label1";
             label1.Size = new Size(308, 65);
             label1.TabIndex = 1;
             label1.Text = "Patient Menu";
             // 
+            // button4
+            // 
+            button4.Location = new Point(297, 320);
+            button4.Name = "button4";
+            button4.Size = new Size(166, 57);
+            button4.TabIndex = 4;
+            button4.Text = "My MedicalCheckup";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // HalamanPatient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 541);
+            Controls.Add(button4);
             Controls.Add(panel1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -108,5 +120,6 @@
         private Button button3;
         private Panel panel1;
         private Label label1;
+        private Button button4;
     }
 }
