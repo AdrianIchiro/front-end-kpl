@@ -48,7 +48,7 @@
             // 
             label1.AllowDrop = true;
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(257, 9);
             label1.Name = "label1";
             label1.Size = new Size(323, 65);
@@ -104,6 +104,7 @@
             Controls.Add(panel1);
             Name = "DeleteDoctor";
             Text = "DeleteDoctor";
+            Load += DeleteDoctor_Load;
             ResumeLayout(false);
             PerformLayout();
         }

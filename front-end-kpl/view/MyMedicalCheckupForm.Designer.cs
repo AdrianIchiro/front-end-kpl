@@ -132,6 +132,7 @@
             Controls.Add(panel1);
             Name = "MyMedicalCheckupForm";
             Text = "MyMedicalCheckup";
+            Load += MyMedicalCheckupForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

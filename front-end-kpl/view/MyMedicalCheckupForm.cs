@@ -23,6 +23,7 @@ namespace front_end_kpl.view
             this.patientData = patient;
 
             _myMedicalCheckupInstance = GetMedicalCheckup.Instance;
+           loadData(patient.patientId);
         }
 
         public async void loadData(int id)
@@ -31,9 +32,9 @@ namespace front_end_kpl.view
             dataGridView1.Rows.Clear();
             foreach (var mcu in medicalCheckup)
             {
-                if (this.idPatient == mcu.patienId)
+                if (id  == mcu.patientId)
                 {
-                    dataGridView1.Rows.Add(mcu.medicalCheckUpId, mcu.date, mcu.noteMedicalCheckup, mcu.result, mcu.doctor, mcu.patient, mcu.appointmentId, mcu.patienId);
+                    dataGridView1.Rows.Add(mcu.medicalChekUpId, mcu.date, mcu.noteMedicalChekup, mcu.result, mcu.doctor, mcu.patient, mcu.apoimentId, mcu.patientId);
                 }
             }
         }
@@ -48,6 +49,11 @@ namespace front_end_kpl.view
             HalamanPatient halamanPatient = new HalamanPatient(this.patientData);
             halamanPatient.Show();
             this.Close();
+        }
+
+        private void MyMedicalCheckupForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

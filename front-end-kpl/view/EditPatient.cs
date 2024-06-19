@@ -16,8 +16,10 @@ namespace front_end_kpl.view
     public partial class EditPatient : Form
     {
         Admin admin;
-        public EditPatient()
+        public EditPatient(Admin admin)
+
         {
+            this.admin = admin;
             InitializeComponent();
         }
 
@@ -117,10 +119,15 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin(admin);
-            admin.Show();
+            HalamanAdmin adminpage = new HalamanAdmin(admin);
+            adminpage.Show();
 
             this.Close();
+        }
+
+        private void EditPatient_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

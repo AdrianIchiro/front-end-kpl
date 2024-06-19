@@ -8,14 +8,14 @@ namespace front_end_kpl.utils
 {
     public class MedicalCheckUp
     {
-        public int medicalCheckUpId { get; set; }
+        public int medicalChekUpId { get; set; }
         public string date { get; set; }
-        public string noteMedicalCheckup { get; set; }
+        public string noteMedicalChekup { get; set; }
         public string result { get; set; }
         public string doctor { get; set; }
         public string patient { get; set; }
-        public int appointmentId { get; set; }
-        public int patienId { get; set; }
+        public int apoimentId { get; set; }
+        public int patientId { get; set; }
     }
 
     public class GetMedicalCheckup

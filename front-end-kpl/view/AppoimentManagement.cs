@@ -7,37 +7,45 @@ namespace frontEnd.view
 {
     public partial class AppoimentManagement : Form
     {
+        // Array for appointment status
+        string[] appoimentStatus = { "Scheduled", "Completed" };
+
+        // Lists to store data
         List<Room> rooms;
         List<Doctor> doctors;
         List<Appointment> appointments;
+        // Admin object
         Admin admin;
-        private int rows =
-            -1;
+        // Fields
+        private int rows = -1;
         private int appoimentId = -1;
 
-        
-       
+
+        // Services
         private readonly AppointmentService appointmentService;
         private readonly PostAppointment postAppointment;
-
+        // Constructor
         public AppoimentManagement(Admin admin)
         {
 
 
             InitializeComponent();
+            // Initialize services
             AppointmentService.Initialize();
             PostAppointment.Initialize();
-
             appointmentService = AppointmentService.Instance;
             postAppointment = PostAppointment.Instance;
             numericUpDown1.Maximum = 10000;
+
+            // Load initial data
             FillComboBox();
-            LoadRoomsAsync();
-            LoadDoctorssAsync();
+            _ = LoadRoomsAsync();
+            _ = LoadDoctorssAsync();
             this.admin = admin;
             _ = LoadAppointmentsAsync();
+            // Center form on startup
             this.StartPosition = FormStartPosition.CenterScreen;
-             
+            // Set up DataGridView appearance
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
             dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -65,26 +73,20 @@ namespace frontEnd.view
 
 
         }
+        // Async method to load appointments
         private async Task LoadAppointmentsAsync()
         {
             try
             {
-                
-               
-
-                // Memanggil FetchAppointmentsAsync untuk mendapatkan daftar janji temu
-                var appointments = await appointmentService.FetchAppointmentsAsync();
-
-                // Memperbarui tampilan data grid jika berhasil mendapatkan daftar janji temu
-                if (appointments != null)
-                {
+                // Fetch appointments from service
+                var appointments = await appointmentService.FetchAppointmentsAsync();              
+                if (appointments != null)               {
                     this.appointments = appointments;
-
+                    // Clear DataGridView and populate with fetched appointments
                     dataGridView1.Rows.Clear();
-
                     foreach (var appointment in appointments)
                     {
-                        dataGridView1.Rows.Add(appointment.AppoimentId, appointment.TimeStart, appointment.TimeEnd, appointment.Status, appointment.IsCompleted, appointment.sapacity, appointment.room, appointment.Doctor, appointment.date);
+                        dataGridView1.Rows.Add(appointment.AppoimentId, appointment.TimeStart, appointment.TimeEnd, appoimentStatus[appointment.Status], appointment.IsCompleted, appointment.sapacity, appointment.room, appointment.Doctor, appointment.date);
                     }
                 }
                 else
@@ -98,11 +100,13 @@ namespace frontEnd.view
             }
         }
 
-
+        // Async method to load rooms
         private async Task LoadRoomsAsync()
         {
+            // Fetch rooms from RoomApp
             List<Room> rooms = await RoomApp.Instance.GetAllRoomsAsync();
             this.rooms = rooms;
+            // Populate comboBox6 with room names
             foreach (Room room in rooms)
             {
                 comboBox6.Items.Add(room.roomName);
@@ -139,25 +143,23 @@ namespace frontEnd.view
 
 
         }
-
+        // Event handler for button update click
         private async void button1_Click_1(object sender, EventArgs e)
         {
+            // Check if all fields are filled
             if (this.rows < 0 || comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                            || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
-                           || comboBox6.SelectedItem == null || numericUpDown1.Value == null) // Pastikan event ini terjadi di dalam baris yang sebenarnya (bukan di header)
+                           || comboBox6.SelectedItem == null || numericUpDown1.Value == null) 
             {
 
                 MessageBox.Show("all fields must be filled in ");
             }
             else
             {
+                // Construct appointment data from form fields
                 string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                 string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
-
-                
                 AppomentData editAppoment = new AppomentData();
-
-                
                 editAppoment.timeStart = timeStart;
                 editAppoment.timeEnd = timeEnd;
                 string date = dateTimePicker1.Value.ToString("yyyy/MM/dd");
@@ -167,18 +169,19 @@ namespace frontEnd.view
                 editAppoment.status = 0;
                 int doctorId = doctors[comboBox1.SelectedIndex].id;
                 int roomId = rooms[comboBox6.SelectedIndex].roomId;
-
-
+                // Call service to edit appointment
                 await postAppointment.EditAppointmentAsync(editAppoment, doctorId, roomId, this.appoimentId);
+                // Clear selection and reload appointments
                 dataGridView1.ClearSelection();
-                LoadAppointmentsAsync();
+               _ =  LoadAppointmentsAsync();
             }
         }
-
+        // Event handler for table cell click
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
+                // Populate form fields with selected appointment data
                 DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
                 this.rows = e.RowIndex;
                 String tanggalString = Convert.ToString(selectedRow.Cells["Date"].Value).Substring(0, 10);
@@ -201,14 +204,14 @@ namespace frontEnd.view
 
             }
         }
-
+        // Method to fill time ComboBoxes
         private void FillComboBox()
         {
 
-
+            // Fill hours (00-23) and minutes (00-59) ComboBoxes
             for (int i = 0; i <= 23; i++)
             {
-                // Mengonversi nomor ke format dua digit dengan menggunakan metode ToString("00")
+                
                 string hour = i.ToString("00");
                 comboBox2.Items.Add(hour);
                 comboBox4.Items.Add(hour);
@@ -223,13 +226,14 @@ namespace frontEnd.view
                 comboBox5.Items.Add(hour);
             }
         }
-
+        // Async method to load doctors
         private async Task LoadDoctorssAsync()
         {
+            // Fetch doctors from DoctorApp
             DoctorApp doctorApp = new DoctorApp();
             List<Doctor> doctors = await doctorApp.GetAllDoctorsAsync();
             this.doctors = doctors;
-
+            // Populate comboBox1 with doctor names
             foreach (Doctor doctor in doctors)
             {
                 comboBox1.Items.Add(doctor.firstName);
@@ -244,7 +248,7 @@ namespace frontEnd.view
         {
             Rectangle borderRectangle = this.dataGridView1.ClientRectangle;
 
-            // Menggambar garis tepi
+           
 
         }
 
@@ -297,28 +301,25 @@ namespace frontEnd.view
         {
 
         }
-
+        // Event handler for button Add click (Add Appointment)
         private async void button3_Click(object sender, EventArgs e)
         {
+            // Check if all fields are filled
             if (comboBox1.SelectedItem == null || comboBox2.SelectedItem == null
                 || comboBox3.SelectedItem == null || comboBox4.SelectedItem == null || comboBox5.SelectedItem == null
                 || comboBox6.SelectedItem == null)
             {
-                // ComboBox tidak memiliki item yang dipilih
+              
                 MessageBox.Show("all fields must be filled in ");
             }
             else
             {
                 try
                 {
-
-
+                    // Construct appointment data from form fields
                     string timeStart = comboBox2.SelectedItem.ToString() + ":" + comboBox3.SelectedItem.ToString() + ":00";
                     string timeEnd = comboBox4.SelectedItem.ToString() + ":" + comboBox5.SelectedItem.ToString() + ":00";
-
-                    
-                    AppomentData addAppointmentData = new AppomentData();
-                   
+                    AppomentData addAppointmentData = new AppomentData(); 
                     addAppointmentData.timeStart = timeStart;
                     addAppointmentData.timeEnd = timeEnd;
                     string date = dateTimePicker1.Value.ToString("yyyy/MM/dd");
@@ -328,14 +329,12 @@ namespace frontEnd.view
                     addAppointmentData.status = 0;
                     int doctorId = doctors[comboBox1.SelectedIndex].id;
                     int roomId = rooms[comboBox6.SelectedIndex].roomId;
-
-
-
+                    // Call service to create appointment
                     await postAppointment.CreateAppointmentAsync(addAppointmentData, doctorId, roomId);
-
+                    // Clear selection and notify success
                     dataGridView1.ClearSelection();
                     MessageBox.Show("Appointment added successfully!");
-                    LoadAppointmentsAsync();
+                   _= LoadAppointmentsAsync();
 
                 }
                 catch (Exception ex)
@@ -350,22 +349,23 @@ namespace frontEnd.view
 
 
         }
-
+        // Event handler for button back click (Back to Admin Page)
         private void button4_Click(object sender, EventArgs e)
         {
             HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
             halamanAdmin.Show();
             this.Hide();
         }
-
+        // Event handler for button delete click (Delete Appointment)
         private async void button2_Click(object sender, EventArgs e)
         {
+            // Check if a row is selected
             if (this.rows >=0)
             {
-                
-               
-                await appointmentService.DeleteAppoiment(this.appoimentId);
 
+                // Delete appointment using service
+                await appointmentService.DeleteAppoiment(this.appoimentId);
+                // Clear selection and reload appointments
                 dataGridView1.ClearSelection();
                await LoadAppointmentsAsync();
             }

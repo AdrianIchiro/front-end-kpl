@@ -15,8 +15,9 @@ namespace front_end_kpl.view
         Admin admin;
         public DeleteDoctor(Admin admin)
         {
-            InitializeComponent();
             this.admin = admin;
+            InitializeComponent();
+           
         }
 
         public async Task DeleteDoctorByID(string id)
@@ -53,10 +54,15 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin(admin);
-            admin.Show();
+            HalamanAdmin adminpage = new HalamanAdmin(admin);
+            adminpage.Show();
 
             this.Close();
+        }
+
+        private void DeleteDoctor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

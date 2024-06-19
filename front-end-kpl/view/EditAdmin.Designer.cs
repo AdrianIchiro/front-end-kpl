@@ -55,7 +55,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(346, 9);
             label1.Name = "label1";
             label1.Size = new Size(260, 65);
@@ -183,6 +183,7 @@
             Controls.Add(panel1);
             Name = "EditAdmin";
             Text = "EditAdmin";
+            Load += EditAdmin_Load;
             ResumeLayout(false);
             PerformLayout();
         }

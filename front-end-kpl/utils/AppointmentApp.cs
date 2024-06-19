@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppointmentApp
 {
+    //class for Represents an appointment
     public class Appointment
     {
         public int AppoimentId { get; set; }
@@ -21,19 +22,20 @@ namespace AppointmentApp
         public int DoctorId { get; set; }
         public string specialization { get; set; }
     }
-
+    // Service to interact with appointment API
     public class AppointmentService
     {
         private readonly HttpClient _httpClient;
         private readonly string _apiUrl;
         private static Lazy<AppointmentService> _instance;
 
+        // Private constructor to enforce singleton pattern
         private AppointmentService()
         {
             _httpClient = new HttpClient();
             _apiUrl = "https://localhost:7264/api/Appoiment";
         }
-
+        // Initializes the singleton instance of the service
         public static void Initialize()
         {
             if (_instance == null)
@@ -41,7 +43,7 @@ namespace AppointmentApp
                 _instance = new Lazy<AppointmentService>(() => new AppointmentService());
             }
         }
-
+        // Gets the singleton instance of the service
         public static AppointmentService Instance
         {
             get
@@ -53,7 +55,7 @@ namespace AppointmentApp
                 return _instance.Value;
             }
         }
-
+        // Fetches all appointments asynchronously
         public async Task<List<Appointment>> FetchAppointmentsAsync()
         {
             List<Appointment> appointments = null;
@@ -79,7 +81,7 @@ namespace AppointmentApp
 
             return appointments;
         }
-
+        // Fetches a specific appointment by ID asynchronously
         public async Task<Appointment> GetAppointmentAsyncInternal(int appointmentId)
         {
             var requestUrl = $"{_apiUrl}/{appointmentId}";
@@ -89,7 +91,7 @@ namespace AppointmentApp
             var appointment = JsonConvert.DeserializeObject<Appointment>(content);
             return appointment;
         }
-
+        // Deletes an appointment by ID asynchronously
         public async Task DeleteAppoiment(int id)
         {
             var requestUrl = $"{_apiUrl}/{id}";

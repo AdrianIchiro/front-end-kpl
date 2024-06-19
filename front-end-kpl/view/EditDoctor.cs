@@ -9,26 +9,28 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations;
+using System.Net;
 
 namespace front_end_kpl.view
 {
     public partial class EditDoctor : Form
     {
         Admin admin;
-        public EditDoctor()
+        public EditDoctor(Admin admin)
         {
+            this.admin = admin;
             InitializeComponent();
         }
 
         //class untuk store data dokter untuk diedit
         public class UploadData
         {
-            public string firstName { get; set; }
-            public string lastName { get; set; }
-            public string address { get; set; }
-            public string birthDate { get; set; }
-            public string phoneNumber { get; set; }
-            public string email { get; set; }
+            public string ?firstName { get; set; }
+            public string ?lastName { get; set; }
+            public string ?address { get; set; }
+            public string ?birthDate { get; set; }
+            public string ?phoneNumber { get; set; }
+            public string ?email { get; set; }
         }
 
         public async Task EditDoctorData(int id, int specID)
@@ -62,7 +64,12 @@ namespace front_end_kpl.view
             }
             else
             {
+                if (response.StatusCode == HttpStatusCode.BadRequest) {
+                    MessageBox.Show("email or phone number already used by another doctor");
+                    return;
+                }
                 MessageBox.Show("Failed to edit doctor. Please check the ID and try again.");
+                return;
             }
         }
 
@@ -84,17 +91,7 @@ namespace front_end_kpl.view
 
             try
             {
-                //validasi semua textfield
-                if (
-                    string.IsNullOrWhiteSpace(textBox2.Text) ||
-                    string.IsNullOrWhiteSpace(textBox3.Text) ||
-                    string.IsNullOrWhiteSpace(textBox4.Text) ||
-                    string.IsNullOrWhiteSpace(textBox5.Text) ||
-                    string.IsNullOrWhiteSpace(textBox6.Text))
-                {
-                    MessageBox.Show("None of the fields may be empty");
-                    return;
-                }
+                
 
                 EditDoctorData(id, specID);
             }
@@ -106,10 +103,15 @@ namespace front_end_kpl.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin admin = new HalamanAdmin(admin);
-            admin.Show();
+            HalamanAdmin adminpage = new HalamanAdmin(admin);
+            adminpage.Show();
 
             this.Close();
+        }
+
+        private void EditDoctor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
