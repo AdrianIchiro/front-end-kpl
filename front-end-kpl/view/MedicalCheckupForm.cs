@@ -19,19 +19,22 @@ namespace front_end_kpl.view
         private int appoimentId;
         private int patientId;
         private int doctorId;
+        private Doctor doctor;
 
         private readonly PostMedicalCheckup _postMedicalCheckup;
 
-
+        // catch doctor model and appoimentId in constructor
         public MedicalCheckupForm(Doctor doctor, int appoimentId)
         {
+            this.doctor = doctor;
             this.doctorId = doctor.id;
             this.appoimentId = appoimentId;
             InitializeComponent();
             _postMedicalCheckup = PostMedicalCheckup.Instance;
+
             loadData(appoimentId);
         }
-
+        // looping data patient by id
         private async void loadData(int id)
         {
             List<GetAppoimentPatients> appoimentPatient = await new GetAppoimentPatient().GetAppoimentPatients(id);
@@ -53,17 +56,17 @@ namespace front_end_kpl.view
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            if (textBox3.Text == null || textBox2 == null)
+            // check if the text field is empty
+            if (textBox3.Text == "" || textBox2.Text == "" || this.patientId == null)
             {
-                MessageBox.Show("isi field terlebih dahulu");
+                MessageBox.Show("fill in the fields first");
             }
             else
             {
+                // try to get error if request post failed
                 try
                 {
                     DateTime date = dateTimePicker1.Value;
-                    MessageBox.Show(date.ToString("yyyy-mm-dd"));
-                    MessageBox.Show(this.patientId.ToString());
                     await _postMedicalCheckup.PostMedicalCheckUp(date.ToString("yyyy-MM-dd"), textBox3.Text, textBox2.Text, this.doctorId, this.patientId, this.appoimentId);
                 }
                 catch (Exception ex)
@@ -76,6 +79,13 @@ namespace front_end_kpl.view
         private void MedicalCheckupForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AppoimentDoctorForm appoimentDoctor = new AppoimentDoctorForm(this.doctor);
+            appoimentDoctor.Show();
+            this.Close();
         }
     }
 }

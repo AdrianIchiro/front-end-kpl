@@ -41,6 +41,7 @@
             PatientId = new DataGridViewTextBoxColumn();
             dateTimePicker1 = new DateTimePicker();
             panel1 = new Panel();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -101,7 +102,6 @@
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { AppoimentId, Time, Patient, PatientId });
             dataGridView1.Location = new Point(172, 107);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(330, 191);
             dataGridView1.TabIndex = 8;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
@@ -141,11 +141,22 @@
             panel1.Size = new Size(166, 458);
             panel1.TabIndex = 10;
             // 
+            // button2
+            // 
+            button2.Location = new Point(187, 23);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 11;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // MedicalCheckupForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(panel1);
             Controls.Add(dateTimePicker1);
             Controls.Add(dataGridView1);
@@ -177,5 +188,6 @@
         private DataGridViewTextBoxColumn PatientId;
         private DateTimePicker dateTimePicker1;
         private Panel panel1;
+        private Button button2;
     }
 }
