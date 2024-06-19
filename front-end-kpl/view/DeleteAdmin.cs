@@ -21,17 +21,15 @@ namespace front_end_kpl.view
             this.admin = admin;
         }
 
-        public async Task Delete(string id)
+        public async Task DeleteAdminByID(string id)
         {
-
+            //buat client baru yang connect ke api localhost
             var client = new HttpClient();
             string api = $"https://localhost:7264/api/Admin/{id}";
 
             HttpResponseMessage response = await client.DeleteAsync(api);
 
-
-
-
+            //cek jika response sukses atau tidak, display pesan yang sesuai
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Admin deleted successfully!");
@@ -46,21 +44,18 @@ namespace front_end_kpl.view
         {
             string id = textBox1.Text;
 
+            //cek jika admin ID valid
             if (string.IsNullOrEmpty(id))
             {
                 MessageBox.Show("Please enter a valid Admin ID");
                 return;
             }
-
-
-
-            Delete(id);
+            DeleteAdminByID(id);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             HalamanAdmin halamanAdmin = new HalamanAdmin(admin);
-
             halamanAdmin.Show();
 
             this.Close();

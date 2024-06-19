@@ -23,9 +23,17 @@ namespace front_end_kpl
                 string name = tB_Name.Text;
                 string description = tB_Description.Text;
 
+                if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(description))
+                {
+                    MessageBox.Show("Name and description cannot be empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 await service.PostSpecialization(name, description);
                 dataGridView1.DataSource = await service.SpecializationsAsyncGet(spcUrl);
                 ClearTextBoxes();
+
+                MessageBox.Show("Specialization added successfully.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (Exception ex)
@@ -59,11 +67,18 @@ namespace front_end_kpl
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(tB_SpecializationId.Text))
+                {
+                    MessageBox.Show("Specialization ID cannot be empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 int specializationId = Convert.ToInt32(tB_SpecializationId.Text);
                 await service.DeleteSpecialization(specializationId);
                 dataGridView1.DataSource = await service.SpecializationsAsyncGet(spcUrl);
                 ClearTextBoxes();
+
+                MessageBox.Show("Specialization Deleted successfully.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             catch (Exception ex)

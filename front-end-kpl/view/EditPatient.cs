@@ -16,13 +16,12 @@ namespace front_end_kpl.view
     public partial class EditPatient : Form
     {
         Admin admin;
-        public EditPatient(Admin admin)
+        public EditPatient()
         {
             InitializeComponent();
-            this.admin = admin; 
         }
 
-
+        //class untuk mengstore data pasien untuk di edit
         public class UploadData
         {
             public string firstName { get; set; }
@@ -34,14 +33,14 @@ namespace front_end_kpl.view
 
         }
 
-        public async Task Edit(int id, string gender, string bloodtype)
+        //method untuk edit data pasien
+        public async Task EditPatientData(int id, string gender, string bloodtype)
         {
-            // Get the DateTime value from the DateTimePicker
             DateTime birthDate = dateTimePicker1.Value;
+            // Merubah value datetime ke string dengan format yang ditentukan
+            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd");
 
-            // Convert the DateTime to a string with a specific format
-            string formattedBirthDate = birthDate.ToString("yyyy-MM-dd"); // Change the format as needed
-
+            //membuat instance UploadData dengan user input
             var checkdata = new UploadData
             {
                 firstName = textBox2.Text,
@@ -52,11 +51,13 @@ namespace front_end_kpl.view
                 email = textBox7.Text,
             };
 
+            //serialise data pasien ke JSON
             var jsonContent = JsonSerializer.Serialize(checkdata);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = await new HttpClient().PutAsync($"https://localhost:7264/api/Patients/{id}?gender={gender}&bloodtype={bloodtype}", content);
 
+            //menghandal response
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Patient updated successfully!");
@@ -65,16 +66,6 @@ namespace front_end_kpl.view
             {
                 MessageBox.Show("Failed to edit patient. Please check the ID and try again");
             }
-
-
-
-        }
-
-
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,12 +73,14 @@ namespace front_end_kpl.view
             string gender = comboBox1.Text;
             string bloodtype = comboBox2.Text;
 
+            //validasi id pasien aar berupa integer
             if (!int.TryParse(textBox1.Text, out int id))
             {
                 MessageBox.Show("Please enter a valid Patient ID");
                 return;
             }
 
+            //validasi gender dan bloodtye agar tidak null
             if (string.IsNullOrEmpty(gender))
             {
                 MessageBox.Show("Invalid Gender");
@@ -102,6 +95,7 @@ namespace front_end_kpl.view
 
             try
             {
+                //validasi semua text field agar tidak null
                 if (
                     string.IsNullOrWhiteSpace(textBox2.Text) ||
                     string.IsNullOrWhiteSpace(textBox3.Text) ||
@@ -113,22 +107,18 @@ namespace front_end_kpl.view
                     return;
                 }
 
-                Edit(id, gender, bloodtype);
+                EditPatientData(id, gender, bloodtype);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
-            
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HalamanAdmin HalamanAdmin = new HalamanAdmin(admin);
-
-            HalamanAdmin.Show();
+            HalamanAdmin admin = new HalamanAdmin(admin);
+            admin.Show();
 
             this.Close();
         }
