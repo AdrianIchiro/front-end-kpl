@@ -61,7 +61,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI", 36F);
             label1.Location = new Point(333, 0);
             label1.Name = "label1";
             label1.Size = new Size(273, 65);
@@ -208,6 +208,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(200, 23);
             comboBox1.TabIndex = 18;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // button2
             // 
@@ -246,6 +247,7 @@
             Controls.Add(panel1);
             Name = "AddDoctor";
             Text = "AddDoctor";
+            Load += AddDoctor_Load;
             ResumeLayout(false);
             PerformLayout();
         }

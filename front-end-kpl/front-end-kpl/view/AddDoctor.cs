@@ -14,6 +14,8 @@ using System.Windows.Forms;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
+using front_end_kpl.utils;
+using front_end_kpl.Model;
 namespace front_end_kpl.view
 
 
@@ -22,9 +24,12 @@ namespace front_end_kpl.view
     public partial class AddDoctor : Form
     {
         Admin admin;
+        int selectedIndexSpecializations = -1;
+        List<SpecializationModel> specializations;
         public AddDoctor(Admin admin)
         {
             InitializeComponent();
+            fillSpecializationComboBox();
             this.admin = admin;
         }
 
@@ -66,7 +71,7 @@ namespace front_end_kpl.view
                     MessageBox.Show("email or phone number already used by another doctor");
                     return;
                 }
-                MessageBox.Show("Failed to add doctor. Please check the ID and try again. "+ responseContent);
+                MessageBox.Show("Failed to add doctor. Please check the ID and try again. email or phone number already used by another doctor");
                 return;
             }
         }
@@ -106,11 +111,14 @@ namespace front_end_kpl.view
                 }
 
                 //cek jika specialisastion id yang dipilih valid
-                if (!int.TryParse(comboBox1.Text, out int specID))
+                if(selectedIndexSpecializations == -1)
                 {
-                    MessageBox.Show("Invalid Specialisation ID");
+                    MessageBox.Show("Please select a specialization");
+                    return;
                 }
-                RegisterNewDoctor(specID);
+                string idstring = specializations[selectedIndexSpecializations].specializationId.ToString();
+                MessageBox.Show(idstring);
+                RegisterNewDoctor(specializations[selectedIndexSpecializations].specializationId);
             }
             catch (Exception ex)
             {
@@ -124,6 +132,45 @@ namespace front_end_kpl.view
             HalamanAdmin.Show();
 
             this.Close();
+        }
+
+        private void AddDoctor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex != -1) {
+                selectedIndexSpecializations = comboBox1.SelectedIndex;
+                
+            }
+            
+        }
+
+        private async void fillSpecializationComboBox() {
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => { return true; };
+
+            HttpClient client = new HttpClient(handler);
+            HttpResponseMessage response = await client.GetAsync($"https://localhost:7264/api/Specialization");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                specializations = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SpecializationModel>>(content);
+                comboBox1.Items.Clear();
+                foreach (var specialization in specializations)
+                {
+                    comboBox1.Items.Add(specialization.name);
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("Error: " + response.StatusCode);
+                return;
+            }
         }
     }
 }
