@@ -71,7 +71,7 @@ namespace front_end_kpl.view
                     MessageBox.Show("email or phone number already used by another doctor");
                     return;
                 }
-                MessageBox.Show("Failed to add doctor. Please check the ID and try again. email or phone number already used by another doctor");
+                MessageBox.Show("Failed to add doctor. Please check the ID and try again. email or phone number already used by another doctor" + responseContent);
                 return;
             }
         }
@@ -86,11 +86,6 @@ namespace front_end_kpl.view
             public string phoneNumber { get; set; }
             public string email { get; set; }
             public string password { get; set; }
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -134,27 +129,24 @@ namespace front_end_kpl.view
             this.Close();
         }
 
-        private void AddDoctor_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        //digunakan untuk mengambil index specialisasi 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex != -1) {
                 selectedIndexSpecializations = comboBox1.SelectedIndex;
-                
             }
-            
         }
 
+
         private async void fillSpecializationComboBox() {
+            //membuat httpclient yang mengirim GET request ke specialisation
             HttpClientHandler handler = new HttpClientHandler();
             handler.ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => { return true; };
 
             HttpClient client = new HttpClient(handler);
             HttpResponseMessage response = await client.GetAsync($"https://localhost:7264/api/Specialization");
 
+            //handling response, berikan error message jika faiil, deserealize dan masukkan ke combobox jika berhasil
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -164,7 +156,6 @@ namespace front_end_kpl.view
                 {
                     comboBox1.Items.Add(specialization.name);
                 }
-                
             }
             else
             {

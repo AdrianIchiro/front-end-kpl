@@ -45,9 +45,9 @@
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
-            textBox8 = new TextBox();
             button1 = new Button();
             button2 = new Button();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // panel1
@@ -143,9 +143,9 @@
             label10.AutoSize = true;
             label10.Location = new Point(554, 220);
             label10.Name = "label10";
-            label10.Size = new Size(93, 15);
+            label10.Size = new Size(82, 15);
             label10.TabIndex = 11;
-            label10.Text = "Specialisation ID";
+            label10.Text = "Specialisation ";
             // 
             // textBox1
             // 
@@ -189,13 +189,6 @@
             textBox6.Size = new Size(141, 23);
             textBox6.TabIndex = 17;
             // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(554, 245);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(140, 23);
-            textBox8.TabIndex = 19;
-            // 
             // button1
             // 
             button1.Location = new Point(409, 374);
@@ -216,14 +209,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(555, 247);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 22;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
             // EditDoctor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox8);
             Controls.Add(textBox6);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
@@ -243,7 +245,6 @@
             Controls.Add(panel1);
             Name = "EditDoctor";
             Text = "EditDoctor";
-            Load += EditDoctor_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -267,8 +268,8 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private TextBox textBox6;
-        private TextBox textBox8;
         private Button button1;
         private Button button2;
+        private ComboBox comboBox1;
     }
 }

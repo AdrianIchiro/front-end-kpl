@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\adddoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\adddoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|c:\\users\\lenovo\\downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\editdoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DCF86B-827F-46D3-AAE5-721308E25A09}|front-end-kpl\\front-end-kpl.csproj|solutionrelative:front-end-kpl\\view\\editdoctor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Login.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Login.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAQwIgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:26:22.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\Register.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAswHsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:26:03.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Register.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Register.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Register.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:26:01.148Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Room.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\Room.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\Room.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\Room.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:26:00.23Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddDoctor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.Designer.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAYwIwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:20:45.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditAdmin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditAdmin.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\EditAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:20:02.599Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAkwIQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:54:07.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:54:05.326Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddDoctor.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAQwEMAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:53:06.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\AddDoctor.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\AddDoctor.cs [Design]",
+              "RelativeToolTip": "front-end-kpl\\view\\AddDoctor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:52:55.216Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditDoctor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.Designer.cs",
+              "RelativeDocumentMoniker": "front-end-kpl\\view\\EditDoctor.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\view\\EditDoctor.Designer.cs",
+              "RelativeToolTip": "front-end-kpl\\view\\EditDoctor.Designer.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAYwPYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T03:19:25.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

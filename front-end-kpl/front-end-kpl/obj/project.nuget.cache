@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Nk6D8yyLea0=",
+  "dgSpecHash": "vWfWxUhTQiTdDSPyfsM34Cv7yEjHZ0bYI/2eBRYuNhAryoXWDsoA+ZQejb7L3XMhBnvsBckkEYk3r8AeboEd3A==",
   "success": true,
-  "projectFilePath": "D:\\tugas besar kpl\\ver 9\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Downloads\\latest main\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl\\front-end-kpl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kevin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

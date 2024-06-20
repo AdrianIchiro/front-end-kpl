@@ -139,7 +139,6 @@
             label9.Size = new Size(79, 15);
             label9.TabIndex = 9;
             label9.Text = "Specialisation";
-            label9.Click += label9_Click;
             // 
             // button1
             // 
@@ -247,7 +246,6 @@
             Controls.Add(panel1);
             Name = "AddDoctor";
             Text = "AddDoctor";
-            Load += AddDoctor_Load;
             ResumeLayout(false);
             PerformLayout();
         }
