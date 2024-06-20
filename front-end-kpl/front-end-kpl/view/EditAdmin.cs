@@ -58,14 +58,21 @@ namespace front_end_kpl.view
             }
             else
             {
+
                 if (response.StatusCode == HttpStatusCode.BadRequest)
                 {
                     MessageBox.Show("email or phone number already used by another admin");
-                    return;
-                } 
 
-                MessageBox.Show("Failed to edit admin. Please check the ID and try again");
-                return;
+
+                    if (response.StatusCode == HttpStatusCode.BadRequest)
+                    {
+                        MessageBox.Show("email or phone number already used by another doctor");
+                        return;
+                    }
+
+                    MessageBox.Show("Failed to edit admin. Please check the ID and try again");
+                    return;
+                }
             }
         }
 
@@ -79,8 +86,9 @@ namespace front_end_kpl.view
             }
 
             try
-            {   
-                EditAdminData(id);
+
+            {
+                EditAdminData(id); 
             }
             catch (Exception ex)
             {

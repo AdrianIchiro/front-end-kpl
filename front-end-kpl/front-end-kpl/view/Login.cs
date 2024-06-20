@@ -64,19 +64,19 @@ namespace front_end_kpl.view
         {
             public string email { get; set; }
             public string password { get; set; }
+
         }
 
+        //logika password hider
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
             {
                 textBox2.PasswordChar = '\0';
-                // Implement your logic here for when the checkbox is checked
             }
             else
             {
                 textBox2.PasswordChar = '*';
-                // Implement your logic here for when the checkbox is unchecked
             }
         }
 

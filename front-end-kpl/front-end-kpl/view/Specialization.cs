@@ -46,6 +46,12 @@ namespace front_end_kpl
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(tB_SpecializationId.Text))
+                {
+                    MessageBox.Show("Specialization ID cannot be empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 int specializationId = Convert.ToInt32(tB_SpecializationId.Text);
                 var updatedSpecialization = new SpecializationModel
                 {
@@ -56,10 +62,13 @@ namespace front_end_kpl
                 await service.UpdateSpecialization(specializationId, updatedSpecialization);
                 dataGridView1.DataSource = await service.SpecializationsAsyncGet(spcUrl);
                 ClearTextBoxes();
+
+                MessageBox.Show("Specialization Updated successfully.", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"An error Specialization occurred: {ex.Message}");
+                MessageBox.Show("Data tidak ditemukan, silakan klik data yang ingin diupdate");
             }
         }
 
