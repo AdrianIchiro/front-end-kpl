@@ -1,0 +1,141 @@
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.exe
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.deps.json
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.runtimeconfig.json
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.pdb
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\Newtonsoft.Json.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Properties.Resources.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddAdmin.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddDoctor.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddPatient.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AppoimentDoctorForm.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\frontEnd.view.AppoimentManagement.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteAdmin.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteDoctor.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeletePatient.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditAdmin.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditDoctor.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditPatient.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanAdmin.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanDoctor.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanPatient.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Admin.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoiment.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyMedicalCheckupForm.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Register.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.RoomGUI.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Specialization.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.id.resources
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.GenerateResource.cache
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfo.cs
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.sourcelink.json
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-en.39784A27.Up2Date
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\refint\front-end-kpl.dll
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.pdb
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.genruntimeconfig.cache
+D:\Program\GUIADIB\GUI TRACK#5\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\ref\front-end-kpl.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.AssemblyReference.cache
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Properties.Resources.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddAdmin.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddDoctor.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddPatient.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AppoimentDoctorForm.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\frontEnd.view.AppoimentManagement.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.BookAppoimentPage.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteAdmin.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteDoctor.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeletePatient.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditAdmin.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditDoctor.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditPatient.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanAdmin.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanDoctor.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanPatient.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Admin.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MedicalCheckupForm.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoiment.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoimentPatient.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyMedicalCheckupForm.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Register.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.RoomGUI.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Specialization.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.id.resources
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.GenerateResource.cache
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfoInputs.cache
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfo.cs
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.CoreCompileInputs.cache
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.sourcelink.json
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\refint\front-end-kpl.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.exe
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.deps.json
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.runtimeconfig.json
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.pdb
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\Newtonsoft.Json.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-en.39784A27.Up2Date
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.genruntimeconfig.cache
+D:\tugas besar kpl\ver 8\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\ref\front-end-kpl.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.exe
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.deps.json
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.runtimeconfig.json
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\front-end-kpl.pdb
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\bin\Debug\net8.0-windows8.0\Newtonsoft.Json.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddAdmin.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddDoctor.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AddPatient.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.AppoimentDoctorForm.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\frontEnd.view.AppoimentManagement.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.BookAppoimentPage.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteAdmin.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeleteDoctor.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.DeletePatient.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditAdmin.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditDoctor.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.EditPatient.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanAdmin.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanDoctor.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.HalamanPatient.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Admin.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MedicalCheckupForm.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoiment.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyAppoimentPatient.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.MyMedicalCheckupForm.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.Register.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.view.RoomGUI.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Specialization.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front_end_kpl.Language.Strings.id.resources
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.AssemblyInfo.cs
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.sourcelink.json
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\id\front-end-kpl.resources.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-en.39784A27.Up2Date
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\refint\front-end-kpl.dll
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.pdb
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\front-end-kpl.genruntimeconfig.cache
+C:\Users\LENOVO\Downloads\skool tugas\Semester 4\Konstruksi\tp\gruppen\automata\v2 with rins frontend folder\kpl rin 3\front-end-kpl\latest main\front-end-kpl\front-end-kpl\front-end-kpl\obj\Debug\net8.0-windows8.0\ref\front-end-kpl.dll
